@@ -1,4 +1,4 @@
-uuid: 38222bac-2bc7-4715-bd53-fbf0aefc38f3
+uuid: 546fd4e4-83d3-4318-8ea0-43e0d4355926
 langcode: en
 status: true
 dependencies:
@@ -7,12 +7,12 @@ dependencies:
   module:
     - system
   theme:
-    - bartik
+    - magazine
 _core:
   default_config_hash: kkISXE1LT2FJEoYnqCrCpeFB-2pmGmMxMklVk7rQcfg
-id: bartik_footer
-theme: bartik
-region: footer_fifth
+id: magazine_footer
+theme: magazine
+region: header
 weight: 0
 provider: null
 plugin: 'system_menu_block:footer'

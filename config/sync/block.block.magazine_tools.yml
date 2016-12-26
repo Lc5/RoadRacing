@@ -1,4 +1,4 @@
-uuid: c8443fea-955e-47f8-b846-6d1f38d59bb5
+uuid: ec972f13-6dfc-40e8-b902-38a8b121d8ee
 langcode: en
 status: true
 dependencies:
@@ -7,11 +7,11 @@ dependencies:
   module:
     - system
   theme:
-    - bartik
+    - magazine
 _core:
   default_config_hash: NeHSoqm4XFqA7_0bDmR429ZZQt3LRbZMNRJTMsFyOfI
-id: bartik_tools
-theme: bartik
+id: magazine_tools
+theme: magazine
 region: sidebar_first
 weight: 0
 provider: null

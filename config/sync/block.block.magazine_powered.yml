@@ -1,16 +1,16 @@
-uuid: f335db6a-94c6-4b67-90ec-18976b1ca4a6
+uuid: 1b0fe11f-9cda-4f48-a28b-d24b286a7f24
 langcode: en
 status: true
 dependencies:
   module:
     - system
   theme:
-    - bartik
+    - magazine
 _core:
   default_config_hash: jQQUUWN2Uxr5qZtc9zcJKBCxpKY8orN1u2HPqYYRQDI
-id: bartik_powered
-theme: bartik
-region: footer_fifth
+id: magazine_powered
+theme: magazine
+region: header
 weight: 10
 provider: null
 plugin: system_powered_by_block

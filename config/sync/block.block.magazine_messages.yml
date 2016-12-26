@@ -1,16 +1,16 @@
-uuid: 73ddc000-b41f-4657-a8c4-e930a97888cb
+uuid: 0a5b611f-1ad8-4838-a9bf-615e81e100be
 langcode: en
 status: true
 dependencies:
   module:
     - system
   theme:
-    - bartik
+    - magazine
 _core:
   default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
-id: bartik_messages
-theme: bartik
-region: highlighted
+id: magazine_messages
+theme: magazine
+region: header
 weight: 0
 provider: null
 plugin: system_messages_block
