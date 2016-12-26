@@ -11,7 +11,3 @@ parameters:
 services:
     cache.backend.null:
         class: Drupal\Core\Cache\NullBackendFactory
-    http_client:
-        class: GuzzleHttp\Client
-        factory: http_client_factory:fromOptions
-        arguments: ['%http_client.config%']
