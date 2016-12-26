@@ -1,6 +1,6 @@
 FROM php:7.1-apache
 
-MAINTAINER Łukasz Krzyszczak <lukasz.krzyszczak@thefoundry.co.uk>
+MAINTAINER Łukasz Krzyszczak <lukasz.krzyszczak@gmail.com>
 
 ARG guid
 ARG hostname
