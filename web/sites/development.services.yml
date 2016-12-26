@@ -3,7 +3,15 @@
 # To activate this feature, follow the instructions at the top of the
 # 'example.settings.local.php' file, which sits next to this file.
 parameters:
-  http.response.debug_cacheability_headers: true
+    twig.config:
+        auto_reload: true
+        cache: false
+        debug: true
+
 services:
-  cache.backend.null:
-    class: Drupal\Core\Cache\NullBackendFactory
+    cache.backend.null:
+        class: Drupal\Core\Cache\NullBackendFactory
+    http_client:
+        class: GuzzleHttp\Client
+        factory: http_client_factory:fromOptions
+        arguments: ['%http_client.config%']

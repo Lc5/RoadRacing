@@ -86,7 +86,7 @@
  * );
  * @endcode
  */
- $databases = array();
+ $databases = [];
 
 /**
  * Customizing database settings.
@@ -244,7 +244,10 @@
  *   );
  * @endcode
  */
-$config_directories = array();
+$config_directories = [
+    CONFIG_ACTIVE_DIRECTORY => '../config/active/',
+    CONFIG_SYNC_DIRECTORY   => '../config/sync/'
+];
 
 /**
  * Settings:
@@ -609,7 +612,7 @@ if ($settings['hash_salt']) {
  *   override in a services.yml file in the same directory as settings.php
  *   (definitions in this file will override service definition defaults).
  */
-# $settings['bootstrap_config_storage'] = array('Drupal\Core\Config\BootstrapConfigStorageFactory', 'getFileStorage');
+$settings['bootstrap_config_storage'] = ['Drupal\Core\Config\BootstrapConfigStorageFactory', 'getFileStorage'];
 
 /**
  * Configuration overrides.
@@ -667,7 +670,7 @@ if ($settings['hash_salt']) {
 /**
  * Load services definition file.
  */
-$settings['container_yamls'][] = $app_root . '/' . $site_path . '/services.yml';
+$settings['container_yamls'][] = __DIR__ . '/services.yml';
 
 /**
  * Override the default service container class.
@@ -749,7 +752,6 @@ $settings['file_scan_ignore_directories'] = [
  *
  * Keep this code block at the end of this file to take full effect.
  */
-#
-# if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
-#   include $app_root . '/' . $site_path . '/settings.local.php';
-# }
+if (file_exists(__DIR__ . '/settings.local.php')) {
+    include __DIR__ . '/settings.local.php';
+}
