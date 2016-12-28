@@ -1,22 +1,22 @@
-uuid: 0a5b611f-1ad8-4838-a9bf-615e81e100be
-langcode: en
+uuid: c11f9279-ab03-4fd0-9d2e-360c8d34e17a
+langcode: pl
 status: true
 dependencies:
   module:
     - system
   theme:
-    - magazine
+    - bartik
 _core:
   default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
-id: magazine_messages
-theme: magazine
-region: header
+id: bartik_messages
+theme: bartik
+region: highlighted
 weight: 0
 provider: null
 plugin: system_messages_block
 settings:
   id: system_messages_block
-  label: 'Status messages'
+  label: 'Wiadomości statusu'
   provider: system
   label_display: '0'
 visibility: {  }

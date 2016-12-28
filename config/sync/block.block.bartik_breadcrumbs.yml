@@ -1,22 +1,22 @@
-uuid: ef3e2ec2-fe9d-43fe-876d-a3d49eb37111
-langcode: en
+uuid: ca8e5f49-93c4-4f65-955b-ca06fd606f4b
+langcode: pl
 status: true
 dependencies:
   module:
     - system
   theme:
-    - magazine
+    - bartik
 _core:
   default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
-id: magazine_breadcrumbs
-theme: magazine
+id: bartik_breadcrumbs
+theme: bartik
 region: breadcrumb
 weight: 0
 provider: null
 plugin: system_breadcrumb_block
 settings:
   id: system_breadcrumb_block
-  label: Breadcrumbs
+  label: Breadcrumby
   provider: system
   label_display: '0'
 visibility: {  }

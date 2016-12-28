@@ -1,11 +1,11 @@
-uuid: 92d50534-ab62-4754-bbe6-4933007c0622
-langcode: en
+uuid: dd04bf51-c5bd-406a-aaff-21e72ace4279
+langcode: pl
 status: true
 dependencies: {  }
 _core:
   default_config_hash: dJ0L2DNSj5q6XVZAGsuVDpJTh5UeYkIPwKrUOOpr8YI
 id: authenticated
-label: 'Authenticated user'
+label: 'Użytkownik uwierzytelniony'
 weight: 1
 is_admin: false
 permissions:

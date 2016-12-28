@@ -1,5 +1,5 @@
-uuid: bce06dab-ba01-4e12-a9b3-bc30ebfb4c83
-langcode: en
+uuid: 07a6d757-078d-4676-aee3-651db8252cf7
+langcode: pl
 status: true
 dependencies:
   config:
@@ -30,4 +30,5 @@ content:
       preview_image_style: thumbnail
     third_party_settings: {  }
     weight: -1
-hidden: {  }
+hidden:
+  langcode: true

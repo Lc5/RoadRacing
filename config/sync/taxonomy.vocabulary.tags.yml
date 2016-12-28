@@ -1,11 +1,11 @@
-uuid: d81639a2-f7e2-4e34-85d1-4bc289d99cf9
-langcode: en
+uuid: a21d64a4-96bc-47bb-b463-d8241fcb0752
+langcode: pl
 status: true
 dependencies: {  }
 _core:
   default_config_hash: lO5ziR5dVI1PpEeHZsSOfQ-Y7NWihSDKW8-MMf6uoms
-name: Tags
+name: Tagi
 vid: tags
-description: 'Use tags to group articles on similar topics into categories.'
+description: 'Używaj tagów do grupowania artykułów podobnych tematycznie w kategorie.'
 hierarchy: 0
 weight: 0

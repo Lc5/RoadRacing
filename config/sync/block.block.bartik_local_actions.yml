@@ -1,13 +1,13 @@
-uuid: 209a1036-f0a1-4bde-8ca9-1c8dc3d09293
-langcode: en
+uuid: d806d5c5-e579-4db7-abbd-67f128eb17e8
+langcode: pl
 status: true
 dependencies:
   theme:
-    - magazine
+    - bartik
 _core:
   default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
-id: magazine_local_actions
-theme: magazine
+id: bartik_local_actions
+theme: bartik
 region: content
 weight: -20
 provider: null

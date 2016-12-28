@@ -1,6 +1,6 @@
 uuid: 5c77c158-1e2f-421b-9223-0f363ec50534
-name: Road-racing.pl
-mail: admin@example.com
+name: Drupal
+mail: lukasz.krzyszczak@gmail.com
 slogan: ''
 page:
   403: ''
@@ -8,7 +8,7 @@ page:
   front: /node
 admin_compact_mode: false
 weight_select_max: 100
-langcode: en
-default_langcode: en
+langcode: pl
+default_langcode: pl
 _core:
   default_config_hash: AyT9s8OUcclfALRE_imByOMgtZ19eOlqdF6zI3p7yqo

@@ -1,5 +1,5 @@
-uuid: b2cdfd61-88be-412f-8b36-48cbbb97889d
-langcode: en
+uuid: bbec0680-c5cb-435b-b2fd-4cc4a41c63fb
+langcode: pl
 status: true
 dependencies:
   config:
@@ -13,7 +13,7 @@ id: node.article.field_image
 field_name: field_image
 entity_type: node
 bundle: article
-label: Image
+label: Obraz
 description: ''
 required: false
 translatable: true

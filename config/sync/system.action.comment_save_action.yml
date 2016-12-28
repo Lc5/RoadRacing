@@ -1,5 +1,5 @@
-uuid: b48174ce-e7de-49f3-89a8-a66fa537afef
-langcode: en
+uuid: 5a02b52d-a0bb-4714-93b1-15d06b9505c0
+langcode: pl
 status: true
 dependencies:
   module:
@@ -7,7 +7,7 @@ dependencies:
 _core:
   default_config_hash: TSkg_gUZvk-39yXFrIFnKjsxuEzO0qBH82TdDxOMMr4
 id: comment_save_action
-label: 'Save comment'
+label: 'Zapisz komentarz'
 type: comment
 plugin: comment_save_action
 configuration: {  }

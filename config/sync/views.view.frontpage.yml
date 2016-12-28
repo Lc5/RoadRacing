@@ -1,5 +1,5 @@
-uuid: 64840df2-f9c9-43bb-b56a-6305f305ae10
-langcode: en
+uuid: dc645fd2-1d34-41ab-8ccb-8c8a5fc9b2e4
+langcode: pl
 status: true
 dependencies:
   config:
@@ -11,9 +11,9 @@ dependencies:
 _core:
   default_config_hash: GNfx9kN8-0_KgQ-xf3fjdXCCzZwXCI8T0IPFW8SIe7g
 id: frontpage
-label: Frontpage
+label: 'Strona główna'
 module: node
-description: 'All content promoted to the front page.'
+description: 'Wszystkie treści promowane na stronie głównej.'
 tag: default
 base_table: node_field_data
 base_field: nid
@@ -31,7 +31,7 @@ display:
       empty:
         area_text_custom:
           admin_label: ''
-          content: 'No front page content has been created yet.'
+          content: 'Nie opublikowano jeszcze żadnej treści na stronie głównej.'
           empty: true
           field: area_text_custom
           group_type: group
@@ -61,18 +61,18 @@ display:
           admin_label: ''
           label: ''
           empty: true
-          title: 'Welcome to [site:name]'
+          title: 'Witaj na [site:name]'
           plugin_id: title
       exposed_form:
         type: basic
         options:
-          submit_button: Apply
+          submit_button: Zastosuj
           reset_button: false
-          reset_button_label: Reset
-          exposed_sorts_label: 'Sort by'
+          reset_button_label: Resetuj
+          exposed_sorts_label: 'Sortuj po'
           expose_sort_order: true
-          sort_asc_label: Asc
-          sort_desc_label: Desc
+          sort_asc_label: Rosnąco
+          sort_desc_label: Malejąco
       filters:
         promote:
           admin_label: ''
@@ -172,12 +172,12 @@ display:
           total_pages: 0
           expose:
             items_per_page: false
-            items_per_page_label: 'Items per page'
+            items_per_page_label: 'Elementów na stronę'
             items_per_page_options: '5, 10, 25, 50'
             items_per_page_options_all: false
-            items_per_page_options_all_label: '- All -'
+            items_per_page_options_all_label: '- Wszystko -'
             offset: false
-            offset_label: Offset
+            offset_label: Przesunięcie
           tags:
             previous: '‹ Previous'
             next: 'Next ›'
@@ -241,7 +241,7 @@ display:
       arguments: {  }
       display_extenders: {  }
     display_plugin: default
-    display_title: Master
+    display_title: Główny
     id: default
     position: 0
     cache_metadata:
@@ -255,7 +255,7 @@ display:
   feed_1:
     display_plugin: feed
     id: feed_1
-    display_title: Feed
+    display_title: Zasób
     position: 2
     display_options:
       sitename_title: true
@@ -292,7 +292,7 @@ display:
       path: node
       display_extenders: {  }
     display_plugin: page
-    display_title: Page
+    display_title: Strona
     id: page_1
     position: 1
     cache_metadata:

@@ -1,5 +1,5 @@
-uuid: 409d369a-4946-4ccd-9254-1068fb3debf2
-langcode: en
+uuid: a6e74a7a-6396-485d-9095-5e5437f747e5
+langcode: pl
 status: true
 dependencies:
   config:
@@ -7,18 +7,18 @@ dependencies:
   module:
     - system
   theme:
-    - magazine
+    - bartik
 _core:
   default_config_hash: DweBpscQZdG0-fHkSpUzdYucrNH45G_KF7Z82V-oyQM
-id: magazine_account_menu
-theme: magazine
-region: header
+id: bartik_account_menu
+theme: bartik
+region: secondary_menu
 weight: 0
 provider: null
 plugin: 'system_menu_block:account'
 settings:
   id: 'system_menu_block:account'
-  label: 'User account menu'
+  label: 'Menu konta użytkownika'
   provider: system
   label_display: '0'
   level: 1

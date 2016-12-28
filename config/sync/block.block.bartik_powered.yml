@@ -1,22 +1,22 @@
-uuid: 1b0fe11f-9cda-4f48-a28b-d24b286a7f24
-langcode: en
+uuid: 340e1782-14c3-4fdb-bb12-8646f7942dde
+langcode: pl
 status: true
 dependencies:
   module:
     - system
   theme:
-    - magazine
+    - bartik
 _core:
   default_config_hash: jQQUUWN2Uxr5qZtc9zcJKBCxpKY8orN1u2HPqYYRQDI
-id: magazine_powered
-theme: magazine
-region: header
+id: bartik_powered
+theme: bartik
+region: footer_fifth
 weight: 10
 provider: null
 plugin: system_powered_by_block
 settings:
   id: system_powered_by_block
-  label: 'Powered by Drupal'
+  label: 'Witrynę napędza Drupal'
   provider: system
   label_display: '0'
 visibility: {  }

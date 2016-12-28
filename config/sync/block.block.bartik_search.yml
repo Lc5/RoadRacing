@@ -1,22 +1,22 @@
-uuid: 201a8b32-2689-4c7d-92cf-0f1751b9cf4f
-langcode: en
+uuid: 42f07230-10fd-492b-81bc-a839837dbc42
+langcode: pl
 status: true
 dependencies:
   module:
     - search
   theme:
-    - magazine
+    - bartik
 _core:
   default_config_hash: za-39d5WDUg6XvbyqSnuVYEeq6QM4qKJxW8MnoAha5A
-id: magazine_search
-theme: magazine
+id: bartik_search
+theme: bartik
 region: sidebar_first
 weight: -1
 provider: null
 plugin: search_form_block
 settings:
   id: search_form_block
-  label: Search
+  label: Szukaj
   provider: search
   label_display: visible
 visibility: {  }

@@ -1,0 +1,11 @@
+uuid: 85ffadf1-a55a-43c8-89a9-b7dc2e421fdf
+langcode: pl
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: eNX6lLCKDaY83nCMh20My---y03KbiFlv802DKCCpvg
+id: und
+label: Nieokreślone
+direction: ltr
+weight: 2
+locked: true

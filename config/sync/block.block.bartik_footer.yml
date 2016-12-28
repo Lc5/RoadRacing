@@ -1,5 +1,5 @@
-uuid: 546fd4e4-83d3-4318-8ea0-43e0d4355926
-langcode: en
+uuid: 512dcb8d-7f2c-4bb2-ba00-9b3f1804ab84
+langcode: pl
 status: true
 dependencies:
   config:
@@ -7,18 +7,18 @@ dependencies:
   module:
     - system
   theme:
-    - magazine
+    - bartik
 _core:
   default_config_hash: kkISXE1LT2FJEoYnqCrCpeFB-2pmGmMxMklVk7rQcfg
-id: magazine_footer
-theme: magazine
-region: header
+id: bartik_footer
+theme: bartik
+region: footer_fifth
 weight: 0
 provider: null
 plugin: 'system_menu_block:footer'
 settings:
   id: 'system_menu_block:footer'
-  label: 'Footer menu'
+  label: 'Menu stopki'
   provider: system
   label_display: '0'
   level: 1

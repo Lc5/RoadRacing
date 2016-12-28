@@ -1,5 +1,5 @@
-uuid: 42779f88-59d2-409d-a4d0-04cdd6dd9303
-langcode: en
+uuid: 85139d65-643d-47d3-bc34-4a3e8a165606
+langcode: pl
 status: true
 dependencies:
   module:
@@ -7,7 +7,7 @@ dependencies:
 _core:
   default_config_hash: sOb26JSy3fGpWkvR0WYN6_hMqj_6d1rvbvrkzp1yya0
 id: node_make_sticky_action
-label: 'Make content sticky'
+label: 'Przyklej wpis'
 type: node
 plugin: node_make_sticky_action
 configuration: {  }

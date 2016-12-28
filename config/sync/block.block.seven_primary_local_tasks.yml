@@ -1,5 +1,5 @@
-uuid: 060b2fa2-50cf-4c5e-a5f1-8fb470baa860
-langcode: en
+uuid: c4e7d20b-b6df-4b68-8c55-99e3da44cff9
+langcode: pl
 status: true
 dependencies:
   theme:
@@ -14,7 +14,7 @@ provider: null
 plugin: local_tasks_block
 settings:
   id: local_tasks_block
-  label: 'Primary tabs'
+  label: 'Karty podstawowe'
   provider: core
   label_display: '0'
   primary: true

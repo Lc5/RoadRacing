@@ -1,5 +1,5 @@
-uuid: df9cadd8-749c-4747-a981-6907a5be88d6
-langcode: en
+uuid: 98a411cc-c308-4ba6-969a-3ab429367209
+langcode: pl
 status: true
 dependencies:
   config:
@@ -26,6 +26,11 @@ content:
   created:
     type: datetime_timestamp
     weight: 10
+    settings: {  }
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
     settings: {  }
     third_party_settings: {  }
   path:
