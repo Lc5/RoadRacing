@@ -1,0 +1,49 @@
+skins-menu:
+  version: 1.x
+
+  js:
+    assets/includes/skins-menu/skins_menu.js: {}
+
+  dependencies:
+    - core/jquery
+    - core/drupal
+    - core/drupalSettings
+
+
+global-styling:
+  version: 8.0.0-rc1
+  css:
+    theme:
+      assets/includes/slick/slick/slick.css: {}
+      assets/includes/slick/css/style.css: {}
+      assets/includes/monokai/monokai.min.css: {}
+      assets/includes/flexslider/flexslider.css: {}
+      assets/includes/jssor/css/slider.css: {}
+      assets/css/style.css: {}
+      assets/css/style-rtl.css: {}
+
+  js:
+    assets/includes/respond/respond.min.js: {}
+    assets/includes/respond/html5shiv.min.js: {}
+    assets/includes/js/jquery.smooth-scroll.js: {}
+    assets/includes/jssor/js/jssor.slider.mini.js: {}
+    assets/includes/slick/slick/slick.js: {}
+    assets/includes/bootstrap/js/bootstrap.js: {}
+    assets/includes/flexslider/jquery.flexslider.js: {}
+    assets/includes/flexslider/jquery.flexslider-min.js: {}
+    assets/js/mobile_menu.js: {}
+    assets/js/slideshow.js: {}
+    assets/js/carousel.js: {}
+    assets/js/magazine.js: {}
+    assets/js/fix_script.js: {}
+    assets/js/thumbnailslider.js: {}
+    assets/js/jquery.cookie.js: {}
+    assets/js/jquery.matchHeight.js: {}
+
+  dependencies:
+    - core/jquery
+    - core/drupal.ajax
+    - core/drupal
+    - core/drupalSettings
+    - core/jquery.once
+

@@ -1,0 +1,377 @@
+.header {
+	> .container {
+		background: #050505;
+	}
+}
+
+.region-header {
+	float: left;
+}
+
+.wp-icon-user {
+    color: #fff;
+    display: block;
+    line-height: 30px;
+    text-align: center;
+}
+
+.region-header2, .wp-special-button {
+    float: right;
+	margin-top: 30px;
+}
+
+.wp-special-button {
+	list-style: none;
+    margin: {
+		left: 5px;
+		right: 15px;
+	}
+	padding-left: 0;
+    position: relative;
+	> li {
+		background-color: $brand-secondary;
+		cursor: pointer;
+		display: block;
+		float: left;
+		height: 30px;
+		line-height: 30px;
+		margin: 0 5px;
+		position: relative;
+		width: 30px;
+		&:hover, &:focus {
+			background-color: $brand-primary;
+			a, a:hover, a:focus {
+				color: #fff;
+			}
+		}
+	}
+}
+
+#wp-user-wrapper {
+	background-color: #050505;
+	border-top: 5px solid #ec6a14;
+	@include font-size(13);
+	min-width: 20em;
+	position: absolute;
+	right: 0;
+	top: 100%;
+	z-index: 600;
+	> .region {
+		padding: 0 20px 10px;
+	}
+}
+
+.site-logo {
+	display: block;
+	margin: 25px 15px 28px;
+	width: 180px;
+	img{
+		height:100%;
+		max-width:100%;
+		display:block;
+	}
+}
+
+#sports-menu {
+    position: absolute;
+    width: 100%;
+    right: 0;
+}
+
+.menu-item:hover, .menu-item--expanded {
+	background-color: transparent;
+}
+.menu-item--expanded .menu {
+	background-color: transparent;
+}
+@media (min-width: 992px) {
+	.primary-menu {
+		float: right;
+		margin: 36px 30px 0 0;
+		ul.menu {
+			margin: 0;
+			@include clearfix;
+			text-transform: uppercase;
+			li {
+				list-style: none;
+				float: left;
+				padding: 0;
+				&:first-child {
+					a {
+						margin-left: 0;
+					}
+				}
+				&:hover, &:focus {
+					background: none;
+				}
+				&.menu-item--active-trail {
+					a {
+						color: $brand-secondary;
+					}
+				}
+				a {
+					color: #fff;
+					font-family: "oregon_ldoregular", sans-serif;
+					font-weight: 400;
+					margin-left: 30px;
+					&:hover, &:focus, &.is-active {
+						color: $brand-secondary;
+					}
+				}
+			}
+		}
+	}
+	.menu--sports-menu {
+		font-family: "oregon_ldoregular", sans-serif;
+		font-weight: 400;
+		padding: 0 15px;
+		position: relative;
+		z-index: 50;
+		width: 100%;
+		ul.menu {
+			margin: 0;
+			li {
+				a {
+					color: #fff;
+					white-space: nowrap;
+				}
+			}
+		}
+		> ul.menu {
+			@include clearfix;
+			background-color: $brand-primary;
+			> li {
+				list-style: none;
+				float: left;
+				line-height: 2;
+				padding: 0;
+				position: relative;
+				> a {
+					border-right: 1px solid rgba(white, .2);
+					display: inline-block;
+					padding: 7px 20px;
+					&:hover, &:focus, &.is-active {
+						background-color: #050505;
+					}
+				}
+				&:last-child {
+					a {
+						border-right: none;
+					}
+				}
+			}
+			.menu-item--expanded {
+				background-color: transparent;
+				ul.menu {
+					background-color: #050505;
+					display: none;
+					left: 0;
+					min-width: 14em;
+					position: absolute;
+					top: 100%;
+				}
+				li {
+					padding: 0 20px;
+					a {
+						display: block;
+						padding: 7px 0;
+						&:hover, &:focus, &.is-active {
+							color: $brand-secondary;
+						}
+					}
+					+ li {
+						a {
+							border-top: 1px solid #373737;
+						}
+					}
+				}
+				&:hover, &:focus {
+					ul.menu {
+						display: block;
+					}
+				}
+				> a:after {
+					content: '\ea68';
+					font-size: 12px;
+					@include nucleo_glyph;
+					margin-right: -5px;
+					padding-left: 15px;
+				}
+			}
+			.menu-item--active-trail > a {
+				background-color: #050505;
+				color: #fff;
+			}
+		}
+	}
+}
+
+//991px
+@media (max-width: $screen-sm-max) {
+	 /* nav */
+	.wp-special-button {
+		margin-right: 5px;
+	}
+	.btn-close {
+		transition: all 0.3s ease-in-out;
+		-webkit-transition: all 0.3s ease-in-out;
+		-moz-transition: all 0.3s ease-in-out;
+		-o-transition: all 0.3s ease-in-out;
+		display: block;
+		color: white;
+		cursor: pointer;
+		position: absolute;
+		padding: 0 10px;
+		right: 0;
+		top: 5px;
+		font-size: 20px;
+	}
+	.btn-close:hover, .btn-close:focus {
+		color: $brand-secondary;
+	}
+	.overlay {
+		position: fixed;
+		left: 0;
+		top: 0;
+		z-index: 999;
+		background-color: rgba(0, 0, 0, 0.5);
+		width: 100%;
+		height: 100%;
+	}
+
+	a.navbar-toggle {
+		border: none;
+		border-radius: 0;
+		color: #fff;
+		margin: 4px 0;
+		padding: 0;
+		width: 30px;
+		height: 30px;
+		line-height: 2;
+		text-align: center;
+		display: block;
+		&:hover, &:focus {
+			color: $gray-base;
+		}
+		#header & {
+			background-color: $brand-secondary;
+			margin: 30px 10px 0 0;
+			&:hover, &:focus {
+				background-color: $brand-primary;
+				color: #fff;
+			}
+		}
+		.nc-icon-outline:before{
+			@include nucleo_mini;
+			content: "\ea97";
+		}
+	}
+	#sports-menu-wrapper {
+		background-color: $brand-primary;
+	}
+	/* end nav */
+	/* main-menu */
+	#primary-menu.mobile-main-menu,
+	#sports-menu.mobile-main-menu {
+		position: fixed;
+		top: 0;
+		bottom: 0;
+		right: -240px;
+		width: 240px;
+		height: 100%;
+		z-index: 1000;
+		overflow-y: auto;
+		background: #333;
+		@include transition(all 0.5s ease-in-out);
+		display: block;
+		max-height: none;
+		padding-top: 40px;
+		.container {
+			padding: {
+				left: 0;
+				right: 0;
+			}
+			width: auto;
+		}
+		.navigation > ul.menu {
+			margin-left: 0;
+			> li > a {
+				border-top: 1px solid rgba(#000, 0.3);
+				box-shadow: 0 1px 0 rgba(#fff, 0.05) inset;
+			}
+		}
+		ul.menu {
+			li {
+				margin-left: 0;
+				margin-bottom: 0;
+				padding-top: 0;
+				padding-right: 0;
+				list-style: none;
+				float: none;
+				display: block;
+				a {
+					color: #fff;
+					display: block;
+					padding: 10px 20px;
+					&:hover, &:focus, &.is-active {
+						color: $brand-secondary;
+					}
+					&:hover, &:focus {
+						&:before {
+							border-top-color: #fff;
+						}
+					}
+				}
+				.is-active {
+					background-color: #1a1a1a;
+				}
+			}
+			.menu-item--expanded {
+				ul.menu {
+					@include font-size(13);
+					margin-bottom: 10px;
+					display: none;
+					ul.menu {
+						display: block;
+					}
+				}
+				a {
+					padding: {
+						bottom: 5px;
+						top: 5px;
+					}
+				}
+				> a:after {
+					content: '\ea68';
+					float: right;
+					font-size: 12px;
+					@include nucleo_glyph;
+					margin-top: 1px;
+					padding-left: 15px;
+				}
+			}
+        }
+        .btn-close {
+			display: block;
+        }
+	}
+	#page {
+		padding-left: 0;
+		right: 0;
+		@include transition(all 0.5s ease-in-out);
+		position: relative;
+		margin-right: 0;
+		&.toggled, &.second-toggled {
+			display: block;
+			right: 240px;
+		}
+		&.toggled #primary-menu.mobile-main-menu {
+			right: 0;
+			display: block;
+		}
+		&.second-toggled #sports-menu.mobile-main-menu {
+			right: 0;
+			display: block;
+		}
+	}
+}

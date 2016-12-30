@@ -1,0 +1,38 @@
+
+{% if title %}
+  <h3>{{ title }}</h3>
+{% endif %}
+
+<div id="thumbslider_container" style="position: relative; margin: 0 auto; top: 0px; left: 0px; width: 1110px; height: 450px; overflow: hidden; visibility: hidden; background-color: #24262e;">
+    
+    <div class="thumbslider-content" data-u="slides" style="cursor: default; position: relative; top: 0px; left: 0px; width: 1110px; height: 450px; overflow: hidden;">
+        {% for row in rows %}
+        <div{{ row.attributes }}>
+            {{ row.content }}
+        </div>
+        {% endfor %}    
+    </div>
+
+    <!-- Thumbnail Navigator -->
+    <div data-u="thumbnavigator" id="thumbnavigator" class="jssort01-99-66" data-autocenter="2">
+        <!-- Thumbnail Item Skin Begin -->
+        <div data-u="slides">
+            <div data-u="prototype" class="p">
+                <div class="w">
+                    <div data-u="thumbnailtemplate" class="t"></div>
+                </div>
+                <div class="c"></div>
+            </div>
+        </div>
+        <!-- Thumbnail Item Skin End -->
+    </div>
+    <!-- Arrow Navigator -->
+    <span data-u="arrowleft" class="jssora05l btn-pre" data-autocenter="2"></span>
+    <span data-u="arrowright" class="jssora05r btn-next" data-autocenter="2"></span>
+
+</div>
+ <!-- #endregion Jssor Slider End -->
+
+
+
+

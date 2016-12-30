@@ -1,0 +1,39 @@
+.footer {
+	background-color: $gray-darker;
+	@include font-size(13);
+	> .container {
+	   	border-top: 1px solid #222;
+		padding: 30px 0;
+	}
+	a {
+		color: #999;
+		&:hover, &:focus, &.is-active {
+			background: none;
+			color: $brand-secondary;
+		}
+	}
+	ul.menu {
+		@include clearfix;
+		margin: 0;
+		li {
+			background: none;
+			display: inline-block;
+			list-style: none;
+			padding: 0;
+			margin-left: 20px;
+		}
+		a.is-active {
+			color: $brand-secondary;
+		}
+	}
+	.block-system-powered-by-block {
+		.content {
+			a {
+				color: $brand-secondary;
+				&:hover, &:focus {
+					color: #fff;
+				}
+			}
+		}
+	}
+}

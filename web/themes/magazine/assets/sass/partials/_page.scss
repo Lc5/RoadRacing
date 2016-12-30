@@ -1,0 +1,165 @@
+
+.slideshow {
+	> .container {
+		padding: {
+			left: 0;
+			right: 0;
+		}
+		position: relative;
+	}
+	ul.slides {
+		li {
+			position: relative;
+			img {
+				//max-width: none;
+				height: auto;
+			}
+		}	
+	}
+	#slideshow_container {
+		height: 100% !important;
+		width: 100% !important;
+	}
+	.flex-caption {
+		font: {
+			size: 34px;
+			weight: 400;
+		}
+	    left: 155px;
+		line-height: 1.1;
+	    position: absolute;
+	    top: 50%;
+	    transform: translate(0px, -50%);
+	    width: 37%;
+	    a {
+	    	background-color: #fff;
+		    color: $gray-darker;
+		    padding: 0 10px;
+		    box-decoration-break: clone;
+			-webkit-box-decoration-break: clone;
+	    }
+	}
+	.flex-direction-nav a {
+		background-color: rgba(0, 0, 0, 0.8);
+		border-radius: 50%;
+		display: block;
+		@include font-size(0);
+		height: 70px;
+		left: 30px;
+		@include opacity(1);
+		position: absolute;
+		text-indent: -999em;
+		top: 50%;
+		margin-top: -20px;
+		width: 70px;
+		text-shadow: none;
+		@include transition(none);
+		&:before {
+			color: #fff;
+			content: '\ea69';
+			@include nucleo_glyph;
+		    left: 0;
+		    line-height: 70px;
+		    position: absolute;
+		    text-align: center;
+		    text-indent: 0;
+		    top: 0;
+		    width: 100%;
+		}
+		&:hover, &:focus {
+			background: rgba($brand-primary, 0.95);
+		}
+		&.flex-next {
+			right: 30px;
+			left: auto;
+			&:before {
+				content: '\ea6a';
+				left: 2px;
+			}
+		}
+	}
+}
+/******/
+.main, .wrapper {
+	> .container {
+		background-color: #fff;
+		padding: {
+			bottom: 30px;
+			top: 30px;
+		}
+		@media (min-width: 481px) {
+			padding: {
+				left: 30px;
+				right: 30px;
+			}
+		}
+	}
+}
+
+#banner > .container {
+	padding: {
+		left: 0;
+		right: 0;
+	}
+}
+
+.sidebar-first {
+	.block {
+		margin-top: 30px;
+		&:first-child {
+			margin-top: 0;
+		}
+	}
+}
+
+/* panel_third */
+.panel_third .container {
+	padding: {
+		bottom: 0;
+		top: 0;
+	}
+}
+
+/* Panel fourth */
+.panel_fourth, #main {
+	position: relative;
+	z-index: 2;
+}
+
+.panel_fifth {
+	background-color: $gray-darker;
+	border-top: 10px solid $brand-primary;
+	@include font-size(13);
+	margin-top: -80px;
+	padding-top: 120px;
+	position: relative;
+	z-index: 0;
+	> .container {
+		padding: 0 0 40px;
+	}
+	h2 {
+		color: #f5f5f5;
+		font-weight: 300;
+		@include font-size(20);
+		margin-bottom: 10px;
+	}
+	.item-list {
+		ul, & {
+			margin: 0 0 30px;
+			padding-left: 0;
+		}
+		li {
+			list-style: none;
+			margin: 0 0 5px;
+			+ li {
+				margin-top: 2px;
+			}
+			a {
+				color: #999;
+				&:hover, &:focus {
+					color: $brand-secondary;
+				}
+			}
+		}
+	}
+}

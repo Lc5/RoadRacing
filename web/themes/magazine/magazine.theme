@@ -1,0 +1,51 @@
+<?php
+
+use Drupal\Component\Utility\Xss;
+use Drupal\Core\Template\Attribute;
+
+$active_theme = \Drupal::theme()->getActiveTheme()->getName();
+include_once(drupal_get_path('theme', $active_theme) . '/assets/includes/skins-menu/skins_menu.inc');
+
+function magazine_preprocess_html(&$variables) {
+  skmn_preprocess_html($variables);
+}
+
+function magazine_preprocess_page(&$variables) {
+  if (!empty($variables['page']['sidebar_first']) && !empty($variables['page']['sidebar_second'])) {
+    $variables['attributes']['class'][] = 'layout-two-sidebars';
+    $variables['page']['main_content_width'] = 6;    
+  }
+  elseif (!empty($variables['page']['sidebar_first'])) {
+    $variables['attributes']['class'][] = 'layout-one-sidebar';
+    $variables['attributes']['class'][] = 'layout-sidebar-first';
+    $variables['page']['main_content_width'] = 9;    
+  }
+  elseif (!empty($variables['page']['sidebar_second'])) {
+    $variables['attributes']['class'][] = 'layout-one-sidebar';
+    $variables['attributes']['class'][] = 'layout-sidebar-second';
+    $variables['page']['main_content_width'] = 9;    
+  }
+  else {
+    $variables['attributes']['class'][] = 'layout-no-sidebars';
+    $variables['page']['main_content_width'] = 12;    
+  }
+
+  skmn_preprocess_page($variables);
+
+  //var_dump($variables);
+  
+  //$variables['logo'] = str_replace('.svg', '.png', $variables['logo']);
+  //print_r($variables);
+  //exit;
+}
+
+function magazine_form_system_theme_settings_alter(&$form, $form_state) {
+  
+  skmn_form_system_theme_settings_alter($form, $form_state);
+}
+
+
+function magazine_form_system_theme_settings_submit($form, &$form_state) {
+  
+  skmn_form_system_theme_settings_submit($form, $form_state);
+}

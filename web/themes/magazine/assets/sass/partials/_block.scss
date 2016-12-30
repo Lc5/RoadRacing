@@ -1,0 +1,778 @@
+#block-userlogin {
+	.item-list {
+		li {
+			line-height: 2;
+			margin-bottom: 0;
+		}
+		a {
+			color: #fff;
+			&:hover, &:focus {
+				color: $brand-primary;
+			}
+		}
+	}
+}
+.sidebar-first, .panel_first, .panel_third, .panel_fourth {
+	.block {
+		h2 {
+			border-color: $gray-lighter $gray-lighter $brand-primary transparent;
+			border-style: solid;
+			border-width: 1px 1px 3px 0;
+			font-family: "oregon_ldoregular", sans-serif;
+			@include font-size(16);
+			font-weight: normal;
+			line-height: 1;
+			position: relative;
+			span {
+				background: $brand-primary;
+				color: #fff;
+				display: inline-block;
+				margin-top: -1px;
+				padding: 11px 20px;
+			}
+		}
+		&.wp-no-style-block h2 {
+			border: none;
+			@include font-size(18);
+			span {
+				background: none;
+				color: $brand-primary;
+				padding: 0;
+				margin-top: 0;
+			}
+		}
+	}
+}
+.sidebar {
+	ul.menu {
+		margin-left: 0;
+		li {
+			border-bottom: 1px solid $gray-lighter;
+			margin: 0;
+			padding: 0;
+			a {
+				display: block;
+				padding: 15px 10px 15px 20px;
+				position: relative;
+				&:before,
+				&:after {
+					border-bottom: 5px solid rgba(0, 0, 0, 0);
+					border-right: 5px solid #7c7c7c;
+					border-top: 5px solid rgba(0, 0, 0, 0);
+					content: "";
+					left: 0;
+					position: absolute;
+					top: 20px;
+				}
+				&:after {
+					border-right-color: #fff;
+					left: 2px;
+				}
+				&:hover, &:focus {
+					&:before {
+						border-right-color: $brand-primary;
+					}
+				}
+			}
+		}
+	}
+}
+
+/******/
+.block-views-blockpremier-league-block-1 {
+	.views-table {
+		background: $brand-secondary;
+		color: #fff;
+		width: 100%;
+		th {
+			border-bottom: medium none;
+			font-weight: 500;
+			padding: 15px 5px;
+			text-align: right;
+			font-weight: 500;
+			&.views-field-title {
+				font-family: "oregon_ldoregular", sans-serif;
+				@include font-size(16);
+			}
+		}
+		tbody tr {
+			&:nth-child(odd) {
+				background: #56bbb8;
+			}
+		}
+		td {
+			padding: 6px 5px;
+			text-align: right;
+			&.views-field-title {
+				a {
+					color: #fff;
+					&:hover, &:focus {
+						color: $gray-darker;
+					}
+				}
+			}
+		}
+		tr {
+			td:first-child, th:first-child {
+				padding-left: 10px;
+				text-align: left;
+			}
+			td:last-child, th:last-child {
+				padding-right: 10px;
+				text-align: left;
+			}
+		}
+	}
+}
+/******
+.block-views-blocktop-headlines-block-1 {
+	.views-row {
+		@include clearfix;
+		+ .views-row {
+			margin-top: 20px;
+		}
+	}
+	.views-field-field-image {
+		float: left;
+		margin-right: 20px;
+	}
+	.views-field-title {
+		font-family: "oregon_ldoregular", sans-serif;
+		font-weight: 400;
+		@include font-size(15);
+		margin-bottom: 5px;
+		a {
+			color: $gray-darker;
+			&:hover, &:focus {
+				color: $brand-primary;
+			}
+		}
+	}
+	.views-field-created {
+		color: $brand-primary;
+		@include font-size(12);
+	}
+}*/
+/******/
+.block-views-blockother-lastest-news-block-1 {
+	.item-list a {
+		color: $gray-darker;
+		font-family: "oregon_ldoregular", sans-serif;
+		&:hover, &:focus {
+			color: $brand-primary;
+		}
+	}
+}
+
+.sidebar-second {
+	h2 {
+		border: none;
+		border-left: 5px solid $brand-primary;
+		color: $gray-darker;
+		@include font-size(24);
+		line-height: 1;
+		padding-left: 10px;
+		&:after {
+			background: none;
+		}
+		span {
+			background: none;
+			color: #111;
+			padding: 0;
+		}
+	}
+	.block + .block {
+		border-top: 1px solid $gray-lighter;
+		margin-top: 30px;
+		padding-top: 30px;
+	}
+}
+
+.content .block h2 {
+	color: $gray-darker;
+	@include font-size(24);
+	line-height: 1;
+}
+
+/* Trending View */
+.block-views-blocktrending-now-block-1, .block-views-blockbet-odds-block-1 {
+	border: 5px solid $brand-primary;
+	margin-top: 10px;
+	padding: 0 30px 30px;
+	h2 {
+		background-color: $brand-primary;
+		border: none;
+		color: #fff;
+		font-family: $font-family-sans-serif;
+		@include font-size(24);
+		line-height: 1;
+		margin-bottom: 70px;
+		margin-top: -15px;
+		padding-left: 0;
+		position: relative;
+		text-align: center;
+		text-transform: uppercase;
+		font-weight: 700;
+		border: none;
+		span {
+			color: #fff;
+			display: block;
+		}
+		&:before {
+			border-color: $brand-primary rgba(0, 0, 0, 0);
+			border-style: solid solid none;
+			border-width: 30px 92px 0;
+			bottom: -30px;
+			content: "";
+			display: inline-block;
+			height: 0;
+			left: 50%;
+			margin-left: -90px;
+			position: absolute;
+			width: 0;
+		}
+		span {
+			color: #fff;
+		    margin-top: 0;
+		    padding: 20px 29px 0;
+		}
+	}
+	text-align: center;
+}
+
+.quote-custom-block {
+	.block-inner {
+		margin-bottom: 15px;
+		position: relative;
+		.title {
+			background-color: $gray-base;
+			bottom: 0;
+			color: #fff;
+			left: 0;
+			display: inline-block;
+			@include font-size(24);
+			padding: 15px 20px;
+			position: absolute;
+		}
+	}
+	blockquote {
+		color: #111;
+		border-left: none;
+		line-height: 1.2;
+		margin: 0;
+		font-weight: 500;
+		@include font-size(40);
+		position: relative;
+		padding: 40px 0 0;
+		&:before, &:after {
+			color: $brand-primary;
+			@include font-size(26);
+			position: absolute;
+			font-family: Tunga, sans-serif;
+		}
+		&:before {
+			content: open-quote;
+			top: 0;
+			left: 0;
+		}
+
+		&:after {
+			content: close-quote;
+			bottom: -30px;
+			right: 0;
+		}
+	}
+}
+
+/* Bet odds page */
+.wp-bet-odds {
+	.views-field-title {
+		@include font-size(18);
+		text-align: center;
+		padding: 10px 0;
+	}
+	.field-group-wrapper {
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	.field-group-wrapper span {
+		color: $gray-darker;
+		display: block;
+		margin-bottom: 3px;
+		text-transform: uppercase;
+	}
+	.field-group-wrapper .views-field {
+		display: inline-block;
+		padding: 0 10px;
+	}
+	.field-group-wrapper .field-content {
+		background-color: $brand-primary;
+		color: #fff;
+		@include font-size(16);
+		font-weight: 700;
+		padding: 5px 10px;
+	}
+	.views-row + .views-row {
+		border-top: 1px solid $gray-lighter;
+		margin-top: 40px;
+	}
+	.views-field-changed {
+		color: $gray-light;
+		font-weight: 700;
+		display: block;
+		padding: 10px 0;
+		text-align: center;
+	}
+}
+
+.wp-bet-odds-main {
+	.views-field-title {
+		@include font-size(30);
+	}
+	.views-field-field-category {
+		border-bottom: 1px solid $gray-lighter;
+		display: block;
+		padding: 10px 0;
+	}
+	.views-field-field-category a {
+		color: $brand-primary;
+		@include font-size(14);
+		font-weight: 700;
+		&:hover, &:focus {
+			color: $brand-secondary;
+		}
+	}
+	@media (min-width: 320px) {
+		.views-field-changed {
+			float: right;
+			margin-top: -39px;
+			overflow: hidden;
+		}
+	}
+}
+
+.wp-bet-odds-side {
+	.views-field-changed {
+		border-bottom: 1px solid $gray-lighter;
+		border-top: 1px solid $gray-lighter;
+		margin-bottom: 15px;
+		span {
+			display: inline-block;
+			max-width: 50px;
+		}
+	}
+}
+
+/* Page Blogs */
+.wp-blog {
+	.views-field-field-image {
+		margin-bottom: 15px;
+	}
+	.views-field-title {
+		@include font-size(24);
+		line-height: 1.1;
+		margin-bottom: 10px;
+	}
+	.views-row {
+		&:last-child {
+			margin-bottom: 20px;
+		}
+		+ .views-row {
+			border-top: 1px solid $gray-lighter;
+			margin-top: 30px;
+			padding-top: 30px;
+		}
+	}
+}
+
+.wp-recent-comments {
+	ul {
+		list-style: none;
+		padding-left: 0;
+	}
+	.item-list li {
+		margin: 0 0 10px;
+	}
+	.views-field-changed {
+		color: $gray-light;
+	}
+}
+
+#user-login-form {
+	label {
+		display: block;
+	}
+	.form-text {
+		width: 100%;
+	}
+}
+
+#search-block-form {
+	position: relative;
+	max-width:250px;
+	.js-form-item{
+		position:absolute;
+		top:0;
+		right:0;
+		margin:0;
+	}
+	input.form-search {
+		background: $brand-secondary;
+		border: 1px solid $brand-secondary;
+		color: #fff;
+		height: 30px;
+		padding: 0;
+		@include transition(width 0.3s ease-out);
+		width: 29px;
+		position: absolute;
+		top: 0;
+		right: 0;
+		z-index: 1;
+	}
+	.form-submit {
+		background-color: $brand-secondary;
+		border: none;
+		height: 30px;
+		margin: 0;
+		padding: 0;
+		position: relative;
+		text-indent: -999em;
+		width: 30px;
+		z-index: 2;
+	}
+	.form-actions {
+		position: relative;
+		&:before{
+			content: '\ed8c';
+			position: absolute;
+			left: 0;
+			top: 0;
+			color: #fff;
+			width: 100%;
+    		text-align: center;
+			z-index: 3;
+			@include nucleo_glyph;
+		}
+	}
+	&:hover, &:focus {
+		input.form-submit {
+			z-index: 7;
+			background: none !important;
+		}
+		input.form-search {
+			background-color: $brand-primary;
+			border-color: $brand-primary;
+			padding-left: 6px;
+			text-indent: 5px;
+			padding-right: 30px;
+			width: 250px;
+		}
+	}
+}
+
+#contact-message-feedback-form, #user-register-form {
+	.form-item:not(.form-type-checkbox) {
+		label {
+			display: block;
+		}
+	}
+	.form-text, .form-email {
+		width: 100%;
+	}
+}
+
+///////////////
+.collapse-processed > summary {
+	padding: {
+		bottom: 15px;
+		top: 15px;
+	}
+	&:before {
+		background: none;
+	}
+}
+
+.search-form {
+	margin-bottom: 20px;
+	#edit-basic {
+		border: 1px solid $gray-lighter;
+		margin-bottom: 15px;
+		padding: 15px 20px;
+	}
+	#edit-help-link {
+		border-bottom: 1px solid $gray-lighter;
+	}
+	.details-title {
+		font-family: titilliumregular, sans-serif;
+		@include font-size(21);
+		text-transform: uppercase;
+	}
+	#edit-advanced {
+		border-color: $gray-lighter;
+		margin: {
+			bottom: 30px;
+			top: 15px;
+		}
+		> .details-wrapper {
+			padding: {
+				bottom: 30px;
+				top: 0;
+			}
+		}
+		fieldset.form-item {
+			margin-top: 0;
+		}
+	}
+	#edit-keywords-fieldset {
+		.form-item {
+			@include clearfix;
+			label {
+				float: left;
+				width: 20%;
+			}
+		}
+	}
+}
+/* search-results */
+.search-results {
+	padding-left: 0;
+	li {
+		margin-left: 0;
+		&:not(:first-child) {
+			border-top: 1px solid $gray-lighter;
+			margin-bottom: 0;
+			margin-top: 25px;
+			padding-top: 10px;
+		}
+	}
+	.search-snippet-info {
+		padding-left: 0;
+	}
+	h3 {
+		@include font-size(18);
+	}
+}
+/* user-register-form */
+#user-register-form {
+	.collapse-processed > summary {
+		border-bottom: 1px solid #ccc;
+	}
+	.tips {
+		padding-left: 20px;
+	}
+}
+
+.slick-slide {
+	width: 25%;
+}
+
+#thumbslider_container {
+	margin: 0 !important;
+	//min-height: 450px;
+	> div {
+		height: 100%;
+		position: absolute !important;
+		width: 100%;
+		> div {
+			height: 100%;
+			position: absolute !important;
+			width: 100%;
+		}
+	}
+}
+
+#thumbnavigator {
+	background-color: $gray-base;
+	height: 100%;
+	padding: 50px 10px;
+	position: absolute;
+	right: 0;
+	width: 112px !important;
+	> div {
+		width: 112px !important;
+	}
+}
+
+.jssort01-99-66 {
+	position: absolute !important;
+}
+
+.thumbslider_container {
+	width: 100%;
+}
+
+.thumbslider-content {
+	/*left: 0 !important;
+	height: 100%;
+	width: 100% !important;*/
+	.image-group {
+		> .field-group-wrapper {
+			background-color: rgba($gray-base, .95);
+			bottom: 0;
+			color: $gray-light;
+			left: 0;
+			padding: 30px;
+			position: absolute;
+			top: 0;
+			width: 30%;
+			z-index: 5;
+		}
+	}
+	.views-field-title {
+		font-weight: 400;
+		@include font-size(24);
+		line-height: 1.1;
+		margin-bottom: 10px;
+		a {
+			color: #fff;
+			&:hover, &:focus {
+				color: $brand-primary;
+			}
+		}
+	}
+	.views-field-body {
+		@include font-size(13);
+	}
+}
+
+.jssora05l, .jssora05r {
+	background: #444;
+	border-radius: 50%;
+	height: 30px;
+	right: 36px;
+	top: 10px !important;
+	width: 30px;
+	&:before {
+		color: #fff;
+		@include nucleo_glyph;
+		@include font-size(20);
+		font-weight: 700;
+		position: absolute;
+		text-align: center;
+		width: 100%;
+	}
+	&:hover, &:focus {
+		background: $brand-primary;
+	}
+}
+
+.jssora05l:before {
+	content: "\eb38";
+	line-height: 25px;
+}
+
+.jssora05r {
+	bottom: 10px;
+	top: auto !important;
+	&:before {
+		content: "\eb37";
+		line-height: 30px;
+	}
+}
+.slick-slide {
+	width: 25%;
+}
+
+#thumbslider_container {
+	margin: 0 !important;
+	//min-height: 450px;
+	> div {
+		height: 100%;
+		position: absolute !important;
+		width: 100%;
+		> div {
+			height: 100%;
+			position: absolute !important;
+			width: 100%;
+		}
+	}
+}
+
+#thumbnavigator {
+	background-color: $gray-base;
+	height: 100%;
+	padding: 50px 10px;
+	position: absolute;
+	right: 0;
+	width: 112px !important;
+	> div {
+		width: 112px !important;
+	}
+}
+
+.jssort01-99-66 {
+	position: absolute !important;
+}
+
+.thumbslider_container {
+	width: 100%;
+}
+
+.thumbslider-content {
+	/*left: 0 !important;
+	height: 100%;
+	width: 100% !important;*/
+	.image-group {
+		> .field-group-wrapper {
+			background-color: rgba($gray-base, .95);
+			bottom: 0;
+			color: $gray-light;
+			left: 0;
+			padding: 30px;
+			position: absolute;
+			top: 0;
+			width: 30%;
+			z-index: 5;
+		}
+	}
+	.views-field-title {
+		font-weight: 400;
+		@include font-size(24);
+		line-height: 1.1;
+		margin-bottom: 10px;
+		a {
+			color: #fff;
+			&:hover, &:focus {
+				color: $brand-primary;
+			}
+		}
+	}
+	.views-field-body {
+		@include font-size(13);
+	}
+}
+
+.jssora05l, .jssora05r {
+	background: #444;
+	border-radius: 50%;
+	height: 30px;
+	right: 36px;
+	top: 10px !important;
+	width: 30px;
+	&:before {
+		color: #fff;
+		@include nucleo_glyph;
+		@include font-size(20);
+		font-weight: 700;
+		position: absolute;
+		text-align: center;
+		width: 100%;
+	}
+	&:hover, &:focus {
+		background: $brand-primary;
+	}
+}
+
+.jssora05l:before {
+	content: "\eb38";
+	line-height: 25px;
+}
+
+.jssora05r {
+	bottom: 10px;
+	top: auto !important;
+	&:before {
+		content: "\eb37";
+		line-height: 30px;
+	}
+}

@@ -1,0 +1,525 @@
+//1024px and 992px
+@media (max-width: 1024px) and (min-width: $screen-md-min) {
+	.region-header, .header .pull-right {
+		float: none !important;
+		text-align: center;
+	}
+	.region-header {
+		.site-logo {
+			margin: {
+				left: auto;
+				right: auto;
+			}
+		}
+	}
+	.header .pull-right {
+		.primary-menu {
+			float: left;
+			margin-left: 20px;
+		}
+		.primary-menu, .region-header2, .wp-special-button {
+			margin: {
+				bottom: 30px;
+				top: 0;
+			}
+		}
+	}
+}
+
+// 1200px
+@media (min-width: $screen-lg-min) {
+	.footer {
+		.region-footer {
+			@include clearfix;
+		}
+		.block {
+			float: left;
+		}
+		.block-menu {
+			float: right;
+		}
+	}
+}
+
+//1199px
+@media (max-width: $screen-md-max) {
+	.panel_second .container {
+		padding-top: 0;
+	}
+	.slideshow .flex-caption {
+		width: 45%;
+	}
+	.block-views-blocktrending-now-block-1, .block-views-blockbet-odds-block-1 {
+		padding: 0 15px 15px;
+		h2 {
+			@include font-size(20);
+			margin-bottom: 50px;
+			&:before {
+				border-width: 30px 82px 0;
+				margin-left: -82px;
+			}
+			span {
+				padding: 15px 15px 0;
+			}
+		}
+	}
+	/*.more-link {
+		margin-top: 15px;
+		padding-top: 15px;
+	}
+	.wp-style-trending, .wp-blog {
+		.views-row + .views-row {
+			margin-top: 15px;
+			padding-top: 15px;
+		}
+	}
+	.pager {
+		margin: 15px 0;
+		padding-top: 15px;
+	}*/
+	.quote-custom-block blockquote {
+		@include font-size(30);
+	}
+	.thumbslider-content .image-group > .field-group-wrapper {
+		width: 40%;
+	}
+	.footer {
+		text-align: center;
+		ul.menu {
+			margin: {
+				left: 10px;
+				right: 10px;
+			}
+			text-align: center;
+		}
+	}
+}
+
+//992px
+@media (max-width: $screen-md-min) {
+}
+
+//991px
+@media (max-width: $screen-sm-max) {
+	.slideshow .flex-caption {
+		width: 65%;
+	}
+	.wp-vertical-grid-view {
+		margin-bottom: 30px;
+	}
+	.block-views-blocktrending-now-block-1, .block-views-blockbet-odds-block-1 {
+		h2 {
+			&:before {
+				border-width: 30px 146px 0;
+				margin-left: -146px;
+			}
+			span {
+				padding-bottom: 15px;
+			}
+		}
+	}
+	.panel_fifth h2 {
+		@include font-size(18);
+	}
+	#thumbslider_container {
+		//min-height: 280px;
+	}
+	.thumbslider-content {
+		.image-group img {
+			height: auto;
+		}
+		.views-field-title {
+			@include font-size(24);
+		}
+		.views-field-changed {
+			@include font-size(14);
+			margin-bottom: 15px;
+		}
+		.views-field-body {
+			display: none;
+		}
+	}
+	#thumbnavigator {
+		overflow: hidden;
+	}
+	.views-field-field-video a {
+		&:after {
+			border-radius: 6px;
+			@include font-size(14);
+			height: 25px;
+			line-height: 1.6;
+			margin-left: -20px;
+			margin-top: -15px;
+			width: 40px;
+		}
+	}
+	.wp-videos-listing-view .views-field-title {
+		display: none;
+	}
+	.slick-dots {
+		display: none !important;
+		position: static;
+	}
+	article.node {
+		margin-bottom: 30px;
+	}
+}
+
+//767px
+@media (max-width: $screen-xs-max) {
+	.sidebar + .sidebar {
+		margin-top: 30px;
+	}
+	.panel_fifth > .container {
+		padding: {
+			left: 15px;
+			right: 15px;
+		}
+	}
+	.slideshow {
+		.flex-caption {
+			@include font-size(24);
+			width: 55%;
+			a {
+				line-height: 1;
+			}
+		}
+		.flex-direction-nav a {
+			height: 40px;
+			width: 40px;
+			&:before {
+				font-size: 20px;
+				line-height: 40px;
+			}
+		}
+	}
+	#user-pass {
+		.form-item:not(.form-type-checkbox) {
+			label {
+				display: block;
+			}
+		}
+		.form-text, .form-email {
+			width: 100%;
+		}
+	}
+}
+
+@media (max-width: 750px) {
+	.block-views-blocktrending-now-block-1 h2::before, .block-views-blockbet-odds-block-1 h2::before {
+		border-width: 30px 118px 0;
+		margin-left: -118px;
+	}
+}
+
+@media (max-width: 640px) {
+	#thumbslider_container {
+		//min-height: 230px;
+	}
+	.comment-form {
+		.form-item label {
+			display: block;
+		}
+		.form-text {
+			width: 100%;
+		}
+	}
+	.wp-gallery-view .view-header {
+		@include font-size(16);
+	}
+}
+
+@media (max-width: 568px) {
+	.block-views-blocktrending-now-block-1 h2::before, .block-views-blockbet-odds-block-1 h2::before {
+		border-width: 30px 100px 0;
+		margin-left: -100px;
+	}
+	#thumbslider_container {
+		//min-height: 200px;
+	}
+	.thumbslider-content .views-field-title {
+		@include font-size(16);
+	}
+	.slideshow .flex-caption {
+		left: 105px;
+	}
+}
+
+//480px
+@media (max-width: $screen-phone) {
+	h1.page-title {
+		@include font-size(26);
+	}
+	.slideshow .flex-caption {
+		@include font-size(18);
+	}
+	.views-view-grid {
+		.views-row {
+			margin: {
+				left: -8px;
+				right: -7px;
+			}
+		}
+		.views-col {
+			padding: {
+				left: 8px;
+				right: 7px;
+			}
+		}
+	}
+	#header {
+		text-align: center;
+		.pull-right {
+			float: none !important;
+			margin-bottom: 15px;
+		}
+		a.navbar-toggle {
+			margin-right: 0;
+		}
+	}
+	.region-header {
+		float: none;
+		width: 100%;
+	}
+	.site-logo {
+		margin: 15px auto;
+	}
+	#header a.navbar-toggle, .wp-special-button {
+		display: inline-block;
+		float: none;
+		margin-bottom: 0;
+		margin-top: 0;
+	}
+	.wp-special-button > li {
+		display: inline-block;
+		float: none;
+	}
+	.sidebar {
+		float: none;
+		width: 100%;
+	}
+	.region-header2 {
+		display: inline-block;
+    	float: none;
+		margin-top: 0;
+	}
+	.block-views-blocktrending-now-block-1 h2::before, .block-views-blockbet-odds-block-1 h2::before {
+		border-width: 30px 200px 0;
+		margin-left: -200px;
+	}
+	.wp-videos-listing-view .views-row + .views-row {
+		margin-top: 15px;
+	}
+	.wp-gallery-view .views-field-title {
+		@include font-size(14);
+	}
+	.wp-listing-team-view {
+		padding: {
+			left: 30px;
+			right: 30px;
+		}
+		a {
+			padding: 10px;
+		}
+		.views-col {
+			padding: {
+				left: 0;
+				right: 0;
+			}
+		}
+	}
+	#thumbslider_container {
+		//min-height: 180px;
+	}
+	.thumbslider-content .image-group > .field-group-wrapper {
+		padding: 15px;
+	}
+	.header .pull-right{
+		position: relative;
+		.wp-user{
+			position: initial;
+		}
+		.wp-special-button{
+			position: initial;
+		}
+		#wp-user-wrapper{
+			left:50%;
+			right: auto;
+			-webkit-transform: translate(-50%,0);
+			-moz-transform: translate(-50%,0);
+			-ms-transform: translate(-50%,0);
+			-o-transform: translate(-50%,0);
+			transform: translate(-50%,0);
+		}
+	}
+}
+
+@media (max-width: 375px) {
+	.slideshow .flex-caption {
+		display: none;
+	}
+	.wp-videos-listing-view, .wp-gallery-view {
+		.views-view-grid.cols-4 .views-col {
+			margin-bottom: 15px;
+			width: 50% !important;
+		}
+	}
+	.wp-videos-listing-view {
+		.views-row + .views-row {
+			margin-top: 0;
+		}
+	}
+	.block-views-blocktrending-now-block-1 h2::before, .block-views-blockbet-odds-block-1 h2::before {
+		border-width: 30px 150px 0;
+		margin-left: -150px;
+	}
+	.wp-gallery-view .views-field-title {
+		height: 36px;
+		margin-bottom: 0;
+		overflow: hidden;
+	}
+	#thumbslider_container {
+		//min-height: 130px;
+	}
+	#thumbnavigator, .thumbslider-content .image-group > .field-group-wrapper, .jssora05l, .jssora05r {
+		display: none;
+	}
+	.wp-vertical-grid-view .views-view-grid.cols-3 .views-col {
+		float: none;
+		margin-bottom: 20px;
+		width: 100% !important;
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+	#frontpage-content {
+		.field-group-wrapper {
+			margin-right: 20px;
+		}
+		.views-field-title {
+			@include font-size(18);
+		}
+	}
+}
+
+@media (max-width: 360px) {
+	h1.page-title {
+		@include font-size(20);
+	}
+	.block-views-blocktrending-now-block-1 h2::before, .block-views-blockbet-odds-block-1 h2::before {
+		border-width: 30px 140px 0;
+		margin-left: -140px;
+	}
+	#frontpage-content .field-group-wrapper {
+	    margin: -45px 10px 20px 0;
+	    padding: 10px;
+	}
+}
+
+@media (max-width: 350px) {
+	.block-views-blocktrending-now-block-1 h2::before, .block-views-blockbet-odds-block-1 h2::before {
+		border-width: 30px 120px 0;
+		margin-left: -120px;
+	}
+}
+@media (max-width: 320px) {
+	.wp-listing-team-view {
+		.views-col {
+			width: 33.333% !important;
+		}
+	}
+	.wp-content-slideshow {
+		overflow: hidden;
+	}
+	#thumbslider_container {
+		//min-height: 100px;
+		width: 100% !important;
+		> div {
+			width: 100% !important;
+		}
+	}
+}
+@media (max-width: 319px) {
+	.wp-bet-odds-main .views-field-changed {
+		text-align: left;
+	}
+}
+
+@media (max-width: 310px) {
+	.block-views-blocktrending-now-block-1 h2::before, .block-views-blockbet-odds-block-1 h2::before {
+		border-width: 30px 100px 0;
+		margin-left: -100px;
+	}
+}
+
+@media (max-width: 270px) {
+	.block-views-blocktrending-now-block-1 h2::before, .block-views-blockbet-odds-block-1 h2::before {
+		border-width: 30px 85px 0;
+		margin-left: -85px;
+	}
+	.wp-bet-odds-main {
+		.views-field-title {
+			@include font-size(24);
+		}
+		.field-group-wrapper {
+			span {
+				@include font-size(13);
+			}
+			.field-content {
+				@include font-size(13);
+			}
+		}
+	}
+	.contact-content {
+		h3 {
+			@include font-size(20);
+		}
+		ul {
+			padding-left: 15px;
+		}
+	}
+	.form-actions {
+		.form-submit {
+			display: block;
+			width: 100%;
+			+ .form-submit {
+				margin: 10px 0 0;
+			}
+		}
+	}
+}
+@media (max-width: 240px) {
+	#header .pull-right {
+		margin-bottom: 0;
+	}
+	.region-header2 {
+		display: block;
+		overflow: hidden;
+	}
+	#search-block-form {
+		input.form-search {
+			padding: 0 10px;
+			position: static;
+			width: 100%;
+		}
+		&:hover, &:focus {
+			input.form-search {
+				padding-left: 10px;
+				text-indent: 0;
+				padding-right: 10px;
+				width: 100%;
+			}
+		}
+		.form-item {
+			display: block;
+		}
+		.form-actions {
+			position: absolute;
+			right: 0;
+			top: 0;
+			&:before {
+				line-height: 1.6;
+			}
+		}
+	}
+}

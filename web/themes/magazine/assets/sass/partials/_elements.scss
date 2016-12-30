@@ -1,0 +1,373 @@
+.m-b {
+    margin-bottom: 30px;
+}
+
+.m-t {
+    margin-top: 30px;
+}
+
+.form-email, .form-text, .form-textarea, select, .form-search {
+    border: 1px solid $gray-lighter;
+
+    @include font-size(13);
+
+    padding: 6px;
+}
+
+.form-email, .form-text, select, .form-search {
+    height: 30px;
+}
+
+.form-submit {
+    background-color: $gray-light;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+
+    @include font-size(14);
+
+    line-height: 1;
+    padding: 7px 15px;
+    text-transform: uppercase;
+
+    &:hover {
+        background-color: rgba($gray-light, 0.5);
+    }
+
+    + .form-submit {
+        margin: 0 0 0 10px;
+    }
+}
+
+.button--primary {
+    background-color: $brand-secondary;
+
+    &:hover {
+        background-color: rgba($brand-secondary, 0.5);
+    }
+}
+
+.views-field-view-node, .more-link {
+    text-transform: uppercase;
+
+    @include font-size(12);
+
+    a {
+        background: $brand-secondary;
+        color: #fff;
+        display: inline-block;
+        font-weight: 400;
+        padding: 2px 8px 2px;
+
+        &:hover, &:focus {
+            background: $brand-primary;
+        }
+    }
+}
+
+.views-field-nothing {
+    a {
+        background: $brand-secondary;
+        color: #fff;
+        display: inline-block;
+        font-weight: 400;
+        padding: 2px 8px 2px;
+
+        &:hover, &:focus {
+            background: $brand-primary;
+        }
+    }
+}
+
+.views-field-changed, .views-field-created, .node__meta, .comment__meta, .search-result__info {
+    color: $brand-primary;
+    display: block;
+
+    @include font-size(12);
+
+    margin-bottom: 5px;
+}
+
+.node__meta {
+    margin-bottom: 20px;
+}
+
+.views-field-title, .views-field-title, .slideshow .flex-caption a, .quote-custom-block blockquote, .views-field-name, .wp-gallery-view .view-header {
+    font-family: "oregon_ldoregular", sans-serif;
+}
+
+.views-field-field-category {
+    font-family: titilliumregular, sans-serif;
+}
+
+.views-field-field-video,
+.views-field-field-image {
+    position: relative;
+
+    img {
+        height: auto;
+    }
+}
+
+.wp-listing-team-view, .wp-videos-listing-view, .wp-listing-view, .wp-listing-categories-view, .wp-listing-post-view, .wp-vertical-grid-view, .wp-gallery-view, #taxonomy-content, #latest_news-content, .wp-horizonal-list-thumb, #frontpage-content, .slick-slider .views-field-field-image, .wp-blog, .node__content, .banner {
+    img {
+        height: auto;
+    }
+}
+
+/* Social list */
+.social-list {
+    list-style: none;
+    margin: 0 -5px;
+    padding: 0;
+
+    li {
+        display: inline-block;
+        padding: 0 5px;
+    }
+
+    a {
+        color: #fff;
+        display: inline-block;
+
+        @include font-size(24);
+
+        border: 4px solid #fff;
+        border-radius: 50%;
+        height: 50px;
+        line-height: 40px;
+        text-align: center;
+        width: 50px;
+
+        span {
+            display: none;
+        }
+
+        &:hover,
+        &:focus {
+            background-color: $brand-secondary;
+            color: #fff;
+        }
+
+        .icons:before {
+            @include font-size(24);
+        }
+    }
+}
+
+.more-link {
+    border-top: 1px solid $gray-lighter;
+    margin-top: 30px;
+    padding-top: 30px;
+}
+
+/* Back to top */
+a.btn-btt {
+    background: #ccc;
+    border-radius: 50%;
+    bottom: 55px;
+    height: 50px;
+    position: fixed;
+    text-indent: -9999px;
+    right: 20px;
+    width: 50px;
+    z-index: 9999;
+
+    &:after {
+        color: #fff;
+        content: "\eb4e";
+
+        @include nucleo_glyph;
+
+        @include font-size(20);
+
+        left: 0;
+        line-height: 50px;
+        position: absolute;
+        top: 0;
+        text-indent: 0;
+        text-align: center;
+        width: 100%;
+    }
+
+    &:hover,
+    &:active,
+    &:focus {
+        background-color: $brand-secondary;
+    }
+}
+
+//////////
+.node__content {
+    .field--type-image, .field--name-field-category, .field--name-field-video, .field--name-field-tags {
+        margin-bottom: 20px;
+    }
+
+    .field--name-field-images .field__item + .field__item {
+        margin-top: 20px;
+    }
+
+    .field--name-field-tags {
+        @include clearfix;
+    }
+
+    .field--name-comment {
+        .title {
+            border: none;
+            border-top: 1px solid $gray-lighter;
+            color: $gray-darker;
+
+            @include font-size(24);
+
+            line-height: 1;
+            margin-top: 30px;
+            padding-top: 30px;
+        }
+    }
+
+    .field--type-integer, .field--type-float {
+        padding: 5px 0;
+
+        > div {
+            display: inline-block;
+        }
+    }
+}
+
+///////
+.region-content > .block + .block {
+    margin-top: 30px;
+}
+
+#edit-comment-body-wrapper {
+    margin-bottom: 30px;
+}
+
+.search-result__snippet strong {
+    color: $brand-primary;
+}
+
+/* Pager */
+.pager {
+    border-top: 1px solid $gray-lighter;
+
+    @include font-size(13);
+
+    margin: 15px 0 10px 0;
+    padding-top: 20px;
+    text-align: right;
+
+    li {
+        float: none;
+        margin: {
+            bottom: 10px;
+            left: 0;
+        };
+        padding: 0;
+        display: inline-block;
+        text-align: center;
+
+        > a, > span {
+            background-color: #fff;
+            border-color: #e4dfdf;
+            border-radius: 0;
+            color: $gray-dark;
+            padding: 3px 10px;
+        }
+
+        > a:hover,
+        > a:focus {
+            background-color: #fff;
+            border: 1px solid $brand-secondary;
+            color: $brand-secondary;
+        }
+
+        &.is-active {
+            a, span {
+                border: 1px solid $brand-secondary;
+                color: $brand-secondary;
+            }
+        }
+    }
+}
+
+.pager__items {
+    padding-left: 0;
+    text-align: right;
+}
+
+/* Table View */
+.wp-table-view {
+    background: none;
+    color: #fff;
+
+    > .view-content {
+        display: block;
+        overflow-x: auto;
+        margin-bottom: 30px;
+        padding-bottom: 30px;
+        width: 100%;
+    }
+
+    table {
+        width: 100%;
+        background-color: $brand-secondary;
+    }
+
+    th {
+        border-bottom: none;
+        padding: 15px 5px;
+        text-align: right;
+    }
+
+    td {
+        padding: 6px 5px;
+        text-align: right;
+    }
+
+    tr:nth-child(odd) {
+        background-color: #56bbb8;
+    }
+
+    .views-field-field-category a {
+        color: #fff;
+
+        &:hover,
+        &:focus {
+            color: $gray-darker;
+        }
+    }
+
+    th.views-field-title {
+        font-family: 'oregon_ldoregular', sans-serif;
+
+        @include font-size(18);
+    }
+
+    tr td:first-child,
+    tr th:first-child {
+        padding-left: 15px;
+        text-align: left;
+    }
+
+    tr td:last-child,
+    tr th:last-child {
+        padding-right: 15px;
+        text-align: right;
+    }
+
+    .views-field-field-teama,
+    .views-field-field-teamb {
+        font-family: 'oregon_ldoregular',sans-serif;
+
+        @include font-size(18);
+    }
+
+    .views-field-field-category a {
+        color: #fff;
+    }
+}
+
+.tabs {
+    margin: 30px 0;
+}

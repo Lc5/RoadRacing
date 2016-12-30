@@ -1,0 +1,229 @@
+<div class="page" id="page" {{ page_css |raw }}>
+  {% if page.show_skins_menu %}
+    {{ page.show_skins_menu |raw }}
+  {% endif %}
+<a name="Top" id="Top"></a>
+<header id="header" class="header" role="header">
+  <div class="container">
+    {% if logo %}
+      <a id="logo" href="{{ front_page }}" title="{{ 'Home'|t }}" rel="home">
+        <img src="{{ logo }}" alt="{{ 'Home'|t }}"/>
+      </a>
+    {% endif %}
+
+    {% if site_name or site_slogan %}
+      <div class="name-and-slogan">
+
+        {# Use h1 when the content title is empty #}
+        {% if title %}
+          <strong class="site-name">
+            <a href="{{ front_page }}" title="{{ 'Home'|t }}" rel="home">{{ site_name }}</a>
+          </strong>
+        {% else %}
+          <h1 class="site-name">
+            <a href="{{ front_page }}" title="{{ 'Home'|t }}" rel="home">{{ site_name }}</a>
+          </h1>
+        {% endif %}
+
+        {% if site_slogan %}
+          <div class="site-slogan">{{ site_slogan }}</div>
+        {% endif %}
+      </div>
+   {% endif %}
+
+    {{ page.header }}
+	<div class="pull-right">
+      {% if page.primary_menu %}
+       <a id="menu-toggle" class="navbar-toggle collapsed" href="#menu-toggle">
+            <i class="nc-icon-glyph ui-2_menu-34"></i>
+      </a>
+      {% endif %}
+
+    <ul class="wp-special-button">
+          {% if logged_in %}
+            <li class="wp-user-profile">
+              <a href="user" class="wp-icon-user nc-icon-glyph users_single-03"></a>
+            </li>
+          {% endif %}
+          <li class="wp-user">
+            {% if logged_in %}
+            <a href="user/logout" class="wp-icon-user wp-icon-user-login nc-icon-mini arrows-1_log-out"></a>
+            {% else %}
+              <i class="wp-icon-user wp-icon-user-login nc-icon-mini arrows-1_log-in"></i>
+            {% endif %}
+
+            {% if page.user_button %}
+              <div id="wp-user-wrapper" class="wp-special-button-content" style="display: none">
+                {{ page.user_button }}
+              </div>
+            {% endif %}
+          </li>
+        </ul>
+    {{ page.header2 }}     
+	
+	{% if page.primary_menu %}
+		<div id="primary-menu" class="primary-menu">
+			{{ page.primary_menu }}
+		</div>
+	{% endif %}
+    </div>
+  </div>
+</header>
+	<div id="sports-menu-wrapper" class="container">
+		<a id="main-menu-toggle" class="navbar-toggle collapsed" href="#main-menu-toggle">
+			<i class="nc-icon-outline text_align-justify"></i>
+		</a>
+	</div>
+	{% if page.sports_menu %}
+		<section id="sports-menu" class="sports-menu">
+		  <div class="container">
+			{{ page.sports_menu }}
+		  </div>
+		</section>
+	{% endif %}
+
+  {% if page.slideshow %}
+    <section id="slideshow" class="slideshow">
+      <div class="container">
+        {{ page.slideshow }}
+      </div>
+    </section>
+  {% endif %}
+
+  {% if page.banner %}
+    <section id="banner" class="banner">
+      <div class="container">
+        {{ page.banner }}
+      </div>
+    </section>
+  {% endif %}
+
+  {% if messages %}
+    <section id="messages" class="messages">
+      <div class="container">
+        {{ messages }}
+      </div>
+    </section>
+  {% endif %}
+
+  {% if page.help %}
+    <section id="help" class="help">
+      <div class="container">
+        {{ page.help }}
+      </div>
+    </section>
+  {% endif %}    
+
+  <section id="main" class="main" role="main">
+    <a id="main-content"></a>
+    <div class="container">
+      <div class="row">
+        
+		<div class="content col-lg-{{ page.main_content_width }} col-md-{{ page.main_content_width }}">
+          {{ page.highlighted }}
+          {{ title_prefix }}
+          {% if title %}
+            <h1>{{ title }}</h1>
+          {% endif %}
+          {{ title_suffix }}
+
+          {{ tabs }}
+
+          {% if action_links %}
+            <nav class="action-links">{{ action_links }}</nav>
+          {% endif %}
+          {{ page.content }}
+
+          {# {{ feed_icons }} #}
+        </div>
+		
+        {% if page.sidebar_first %}
+          <aside class="sidebar-first sidebar col-xs-6 col-md-3" role="complementary">
+            {{ page.sidebar_first }}
+          </aside>
+        {% endif %}
+
+        {% if page.sidebar_second %}
+          <aside class="sidebar-second sidebar col-xs-6 col-md-3" role="complementary">
+            {{ page.sidebar_second }}
+          </aside>
+        {% endif %}
+      </div>
+    </div>
+  </section>
+
+  {% if page.panel_first %}
+    <section id="panel_first" class="wrapper panel_first">
+      <div class="container">
+        {{ page.panel_first }}
+      </div>
+    </section>
+  {% endif %}
+
+  {% if page.panel_second %}
+    <section id="panel_second" class="wrapper panel_second">
+      <div class="container">
+        {{ page.panel_second }}
+      </div>
+    </section>
+  {% endif %}
+
+  {% if page.panel_third %}
+    <section id="panel_third" class="wrapper panel_third">
+      <div class="container">
+        {{ page.panel_third }}
+      </div>
+    </section>
+  {% endif %}
+
+  {% if page.panel_fourth %}
+    <section id="panel_fourth" class="wrapper panel_fourth">
+      <div class="container">
+        {{ page.panel_fourth }}
+      </div>
+    </section>
+  {% endif %}
+    
+  {% if page.panel_fifth_1 or page.panel_fifth_2 or page.panel_fifth_3 or page.panel_fifth_4 or page.panel_fifth_5 %}
+    <section id="panel_fifth" class="panel_fifth">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-2 col-md-2">
+            {{ page.panel_fifth_1 }}
+          </div>
+          <div class="col-sm-2 col-md-2">
+            {{ page.panel_fifth_2 }}
+          </div>
+          <div class="col-sm-2 col-md-2">
+            {{ page.panel_fifth_3 }}
+          </div>
+          <div class="col-sm-2 col-md-2">
+            {{ page.panel_fifth_4 }}
+          </div>
+           <div class="col-sm-4 col-md-4">
+            {{ page.panel_fifth_5 }}
+          </div>
+        </div>
+      </div>
+    </section>
+  {% endif %}
+  
+  {% if breadcrumb %}
+    <section id="breadcrumb" class="breadcrumb">
+      <div class="container">
+        {{ breadcrumb }}
+      </div>
+    </section>
+  {% endif %}          
+
+  {% if page.footer %}
+    <footer id="footer" class="footer" role="contentinfo">
+      <div class="container">
+        {{ page.footer }}
+      </div>
+    </footer>
+  {% endif %}
+
+  <a href="#Top" class="btn-btt" title="Back to Top" style="display: block;"></a>
+
+</div>
