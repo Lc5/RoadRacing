@@ -1,0 +1,22 @@
+uuid: e6afecf7-4cc5-421d-9147-bdf6c058748a
+langcode: pl
+status: true
+dependencies:
+  theme:
+    - magazine
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: magazine_local_tasks
+theme: magazine
+region: content
+weight: -40
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Karty
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

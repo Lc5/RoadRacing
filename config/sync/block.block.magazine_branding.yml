@@ -1,0 +1,25 @@
+uuid: 558230b5-a4ee-47d4-9f29-f681bea07544
+langcode: pl
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - magazine
+_core:
+  default_config_hash: NDwadleLD3YVSbDUaakxyYZyINYtkFtOVGShfq4kWy8
+id: magazine_branding
+theme: magazine
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

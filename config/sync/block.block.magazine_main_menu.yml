@@ -1,0 +1,26 @@
+uuid: 2f31b916-b2ed-4e00-a7ff-4c329e9f4797
+langcode: pl
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - magazine
+_core:
+  default_config_hash: rx9IrdDv7Ldc4kpalZAxdhIPZfYIeOMh1N-qKoQZwHo
+id: magazine_main_menu
+theme: magazine
+region: primary_menu
+weight: 0
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Główna nawigacja'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 1
+visibility: {  }

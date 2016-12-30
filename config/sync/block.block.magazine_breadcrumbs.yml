@@ -1,0 +1,22 @@
+uuid: c7e0ab8b-e6bf-4c61-8b26-de0df26afb82
+langcode: pl
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - magazine
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: magazine_breadcrumbs
+theme: magazine
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumby
+  provider: system
+  label_display: '0'
+visibility: {  }

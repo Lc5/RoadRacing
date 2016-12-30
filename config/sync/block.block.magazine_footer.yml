@@ -1,0 +1,26 @@
+uuid: e4b43d4e-2007-412a-9a60-3c03fa222742
+langcode: pl
+status: true
+dependencies:
+  config:
+    - system.menu.footer
+  module:
+    - system
+  theme:
+    - magazine
+_core:
+  default_config_hash: kkISXE1LT2FJEoYnqCrCpeFB-2pmGmMxMklVk7rQcfg
+id: magazine_footer
+theme: magazine
+region: header
+weight: 0
+provider: null
+plugin: 'system_menu_block:footer'
+settings:
+  id: 'system_menu_block:footer'
+  label: 'Menu stopki'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+visibility: {  }

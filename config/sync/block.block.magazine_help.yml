@@ -1,0 +1,22 @@
+uuid: 582d11e6-424a-406f-8bec-bc68cb4c6e9b
+langcode: pl
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - magazine
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: magazine_help
+theme: magazine
+region: content
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Pomoc
+  provider: help
+  label_display: '0'
+visibility: {  }
