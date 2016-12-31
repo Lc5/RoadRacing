@@ -1,4 +1,3 @@
-
 <?php
 
 use Drupal\Core\Language\Language;
@@ -62,7 +61,7 @@ function skmn_render_skins_menu(){
         if ($dir && $direction[$dir]['name'] == '') {
             $direction[$dir]['name'] = $name;
             $direction[$dir]['prefix'] = $name;
-        }        
+        }
         if ($direction['rtl']['name'] != '' && $direction['ltr']['name'] != '') {
             break;
         }
@@ -267,7 +266,7 @@ function skmn_settings_layout_group(&$form) {
     $current_background = theme_get_setting('background');
     if (isset($_COOKIE['weebpal_background'])) {
         $current_background = $_COOKIE['weebpal_background'];
-    }    
+    }
     $form[$theme_key]['settings']['configs']['background'] = array(
         '#type' => 'select',
         '#title' => t('Background'),
@@ -286,7 +285,7 @@ function skmn_settings_layout_group(&$form) {
     $form['theme_settings']['toggle_comment_user_picture']['#default_value'] = $features['comment_user_picture'];
     $form['theme_settings']['toggle_comment_user_verification']['#default_value'] = $features['comment_user_verification'];
     $form['theme_settings']['toggle_favicon']['#default_value'] = $features['favicon'];
-    
+
     //$form['theme_settings']['toggle_secondary_menu']['#default_value'] = theme_get_setting('toggle_secondary_menu');
 
     $form['theme_settings']['show_skins_menu'] = array(
@@ -316,8 +315,8 @@ function skmn_settings_layout_group(&$form) {
 
     $form['theme_settings']['#collapsible'] = TRUE;
     $form['theme_settings']['#collapsed'] = FALSE;
-    
-    
+
+
     $form[$theme_key]['settings']['theme_settings'] = $form['theme_settings'];
     $form[$theme_key]['settings']['logo'] = $form['logo'];
     $form[$theme_key]['settings']['favicon'] = $form['favicon'];
@@ -366,7 +365,7 @@ function skmn_reset_settings() {
         'layout' => 'layout-default',
         'layout_width' => '1200',
         'background' => 'bg-default',
-        'features' => 
+        'features' =>
         array (
             'node_user_picture' => true,
             'comment_user_picture' => true,
@@ -375,12 +374,12 @@ function skmn_reset_settings() {
         ),
         'show_skins_menu' => 1,
         'loading_page' => 0,
-        'logo' => 
+        'logo' =>
         array (
             'use_default' => true,
             'path' => '',
         ),
-        'favicon' => 
+        'favicon' =>
         array (
             'use_default' => true,
             'path' => '',
@@ -434,7 +433,7 @@ function skmn_preprocess_html(&$variables){
 
 
 function skmn_preprocess_page(&$variables){
-    
+
     global $theme_key;
 
     $current_skin = theme_get_setting('skin');
@@ -442,9 +441,9 @@ function skmn_preprocess_page(&$variables){
         $current_skin = $_COOKIE['weebpal_skin'];
     }
     $variables['page']['weebpal_skin_classes'] = (!empty($current_skin) ? ($current_skin . "-skin") : "");
-    if (!empty($current_skin) && 
-        $current_skin != 'default' && 
-        theme_get_setting("default_logo") && 
+    if (!empty($current_skin) &&
+        $current_skin != 'default' &&
+        theme_get_setting("default_logo") &&
         theme_get_setting("toggle_logo")) {
 
         $variables['logo'] = file_create_url(drupal_get_path('theme', $theme_key)) . "/css/colors/" . $current_skin . "/images/logo.png";
@@ -452,7 +451,7 @@ function skmn_preprocess_page(&$variables){
     if (!empty($current_skin)) {
 
         /*$pathfile = drupal_get_path('theme', $theme_key) . "/css/colors/" . $current_skin . "/style.css";
-      
+
         if (file_exists($pathfile)) {
 
             drupal_add_css($pathfile, array(
@@ -469,8 +468,8 @@ function skmn_preprocess_page(&$variables){
     } elseif (!$layout_width){
 
         $layout_width = skmn_get_default_layout_width();
-    }    
-    
+    }
+
     $show_skins_menu = theme_get_setting('show_skins_menu');
     if($show_skins_menu) {
 
