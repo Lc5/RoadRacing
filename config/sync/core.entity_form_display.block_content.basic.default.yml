@@ -1,5 +1,5 @@
-uuid: 4ead7f4d-3bea-4736-9772-42358bb1f039
-langcode: pl
+uuid: dd94a05c-7c04-43ed-bb32-d42e8b5227d6
+langcode: en
 status: true
 dependencies:
   config:
@@ -7,8 +7,6 @@ dependencies:
     - field.field.block_content.basic.body
   module:
     - text
-_core:
-  default_config_hash: kv6gwb6PJ8DcMSj5kgsd52qCIHl1xkxBDL5_AMm-g8k
 id: block_content.basic.default
 targetEntityType: block_content
 bundle: basic

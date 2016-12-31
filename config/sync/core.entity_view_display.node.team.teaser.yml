@@ -1,0 +1,39 @@
+uuid: e5d7b8e9-bd19-4283-9c66-64fe1c7931e4
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.team.body
+    - field.field.node.team.field_image
+    - field.field.node.team.field_leagues
+    - field.field.node.team.field_team_draw
+    - field.field.node.team.field_team_lose
+    - field.field.node.team.field_team_points
+    - field.field.node.team.field_team_win
+    - node.type.team
+  module:
+    - text
+    - user
+id: node.team.teaser
+targetEntityType: node
+bundle: team
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+  links:
+    weight: 100
+hidden:
+  field_image: true
+  field_leagues: true
+  field_team_draw: true
+  field_team_lose: true
+  field_team_points: true
+  field_team_win: true
+  langcode: true

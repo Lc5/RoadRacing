@@ -1,0 +1,22 @@
+uuid: 81ef0453-2e57-4e19-81dc-2d8606d4992c
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.bbc_tweets
+id: node.bbc_tweets.promote
+field_name: promote
+entity_type: node
+bundle: bbc_tweets
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

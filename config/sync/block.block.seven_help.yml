@@ -1,13 +1,11 @@
-uuid: 75e2bb39-bc02-4eb3-9637-b8d03c1214b4
-langcode: pl
+uuid: 7998cb2c-1134-4f62-8b3f-6fac0a06ddc5
+langcode: en
 status: true
 dependencies:
   module:
     - help
   theme:
     - seven
-_core:
-  default_config_hash: NU5A_49mwLHfs5xFzMFrZ850w9pgUolxMS9NNF3vv4c
 id: seven_help
 theme: seven
 region: help
@@ -16,7 +14,7 @@ provider: null
 plugin: help_block
 settings:
   id: help_block
-  label: Pomoc
+  label: Help
   provider: help
   label_display: '0'
 visibility: {  }

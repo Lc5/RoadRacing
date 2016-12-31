@@ -1,0 +1,20 @@
+uuid: cfbfda96-92ff-487f-aa73-0710457c60d5
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.leagues
+  module:
+    - path
+id: taxonomy_term.leagues.path
+field_name: path
+entity_type: taxonomy_term
+bundle: leagues
+label: 'URL alias'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

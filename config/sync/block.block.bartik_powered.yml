@@ -1,13 +1,11 @@
-uuid: 340e1782-14c3-4fdb-bb12-8646f7942dde
-langcode: pl
+uuid: cfcf61c8-2e43-4519-ae03-e19e86f1a4e2
+langcode: en
 status: true
 dependencies:
   module:
     - system
   theme:
     - bartik
-_core:
-  default_config_hash: jQQUUWN2Uxr5qZtc9zcJKBCxpKY8orN1u2HPqYYRQDI
 id: bartik_powered
 theme: bartik
 region: footer_fifth
@@ -16,7 +14,7 @@ provider: null
 plugin: system_powered_by_block
 settings:
   id: system_powered_by_block
-  label: 'Witrynę napędza Drupal'
+  label: 'Powered by Drupal'
   provider: system
   label_display: '0'
 visibility: {  }

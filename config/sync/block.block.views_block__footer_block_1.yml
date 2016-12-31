@@ -1,0 +1,24 @@
+uuid: 70001f8f-b2c5-42da-b472-ee3ccae06353
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.footer
+  module:
+    - views
+  theme:
+    - magazine
+id: views_block__footer_block_1
+theme: magazine
+region: panel_fifth_1
+weight: -14
+provider: null
+plugin: 'views_block:footer-block_1'
+settings:
+  id: 'views_block:footer-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

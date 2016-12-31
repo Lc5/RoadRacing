@@ -1,0 +1,20 @@
+uuid: a8280d1c-2079-4a14-979f-d5b48834f9f7
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.gallery
+id: node.gallery.uid
+field_name: uid
+entity_type: node
+bundle: gallery
+label: 'Authored by'
+description: 'The username of the content author.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: 'Drupal\node\Entity\Node::getCurrentUserId'
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

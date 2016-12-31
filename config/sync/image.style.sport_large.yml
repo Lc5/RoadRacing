@@ -1,0 +1,14 @@
+uuid: a1a3ace2-0c0d-45a4-bbf0-f607049925a6
+langcode: en
+status: true
+dependencies: {  }
+name: sport_large
+label: 'Sport Large (480x299)'
+effects:
+  e38bb389-b12f-49b6-85c7-5dc59542e836:
+    uuid: e38bb389-b12f-49b6-85c7-5dc59542e836
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 480
+      height: 299

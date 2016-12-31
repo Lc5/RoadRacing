@@ -1,6 +1,6 @@
-uuid: ff719bf1-fd60-4a06-9719-ee9d4e32f81e
-langcode: pl
-status: true
+uuid: 6f4e280c-f887-4ef1-90d4-3dc8ee8718e2
+langcode: en
+status: false
 dependencies:
   config:
     - system.menu.account
@@ -8,17 +8,15 @@ dependencies:
     - system
   theme:
     - magazine
-_core:
-  default_config_hash: DweBpscQZdG0-fHkSpUzdYucrNH45G_KF7Z82V-oyQM
 id: magazine_account_menu
 theme: magazine
-region: header
-weight: 0
+region: '-1'
+weight: -9
 provider: null
 plugin: 'system_menu_block:account'
 settings:
   id: 'system_menu_block:account'
-  label: 'Menu konta użytkownika'
+  label: 'User account menu'
   provider: system
   label_display: '0'
   level: 1

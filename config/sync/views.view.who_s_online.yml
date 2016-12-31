@@ -1,15 +1,13 @@
-uuid: aebdd238-9bd5-48d1-a13b-2f332a5de666
-langcode: pl
+uuid: 29a3c699-c01b-4319-a98f-b08616dbfb35
+langcode: en
 status: true
 dependencies:
   module:
     - user
-_core:
-  default_config_hash: m0vmYmhrzMR6S_IC0UlK0Cl-q5lEvL8-EbxbbcDtk34
 id: who_s_online
-label: 'Blok <em>Kto jest online</em>'
+label: 'Who''s online block'
 module: user
-description: 'Prezentuje nazwy użytkowników którzy byli ostatnio aktywni, jak również liczbę wszystkich aktywnych użytkowników.'
+description: 'Shows the user names of the most recently active users, and the total number of active users.'
 tag: default
 base_table: users_field_data
 base_field: uid
@@ -18,7 +16,7 @@ display:
   default:
     display_plugin: default
     id: default
-    display_title: Główny
+    display_title: Master
     position: 0
     display_options:
       access:
@@ -39,13 +37,13 @@ display:
       exposed_form:
         type: basic
         options:
-          submit_button: Zastosuj
+          submit_button: Apply
           reset_button: false
-          reset_button_label: Resetuj
-          exposed_sorts_label: 'Sortuj po'
+          reset_button_label: Reset
+          exposed_sorts_label: 'Sort by'
           expose_sort_order: true
-          sort_asc_label: Rosnąco
-          sort_desc_label: Malejąco
+          sort_asc_label: Asc
+          sort_desc_label: Desc
       pager:
         type: some
         options:
@@ -126,8 +124,8 @@ display:
           exposed: false
           expose:
             operator_id: access_op
-            label: 'Ostatni dostęp'
-            description: 'Tak długo od ostatniego odświeżenia strony użytkownik jest uważany za będącego online.'
+            label: 'Last access'
+            description: 'A user is considered online for this long after they have last viewed a page.'
             use_operator: false
             operator: access_op
             identifier: access
@@ -169,7 +167,7 @@ display:
           plugin_id: date
           entity_type: user
           entity_field: access
-      title: 'Kto przegląda'
+      title: 'Who''s online'
       header:
         result:
           id: result
@@ -179,7 +177,7 @@ display:
           group_type: group
           admin_label: ''
           empty: false
-          content: '@total użytkowników jest aktywnych w tej chwili.'
+          content: 'There are currently @total users online.'
           plugin_id: result
       footer: {  }
       empty:
@@ -192,7 +190,7 @@ display:
           admin_label: ''
           empty: true
           tokenize: false
-          content: 'Żaden z użytkowników nie jest w tym momencie zalogowany.'
+          content: 'There are currently 0 users online.'
           plugin_id: text_custom
       relationships: {  }
       arguments: {  }
@@ -207,11 +205,11 @@ display:
   who_s_online_block:
     display_plugin: block
     id: who_s_online_block
-    display_title: 'Kto przegląda'
+    display_title: 'Who''s online'
     position: 1
     display_options:
-      block_description: 'Kto przegląda'
-      display_description: 'Lista użytkowników, którzy są aktualnie zalogowani.'
+      block_description: 'Who''s online'
+      display_description: 'A list of users that are currently logged in.'
       display_extenders: {  }
     cache_metadata:
       contexts:

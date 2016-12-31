@@ -1,0 +1,14 @@
+uuid: bd997a86-a1a3-43ad-aa20-32abe34c89cf
+langcode: en
+status: true
+dependencies: {  }
+name: blog_teaser
+label: 'Blog Teaser (700x307)'
+effects:
+  063be168-1ed6-4893-9a9a-e91331641c7a:
+    uuid: 063be168-1ed6-4893-9a9a-e91331641c7a
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 700
+      height: 307

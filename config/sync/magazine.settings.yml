@@ -1,0 +1,20 @@
+_version: ''
+skin: default
+layout: layout-default
+layout_width: '1200'
+background: bg-default
+features:
+  node_user_picture: true
+  comment_user_picture: true
+  comment_user_verification: true
+  favicon: true
+show_skins_menu: 1
+loading_page: 0
+logo:
+  use_default: true
+  path: ''
+favicon:
+  use_default: true
+  path: ''
+skmn_use_default_settings: 0
+magazine_version: '1.0'

@@ -1,13 +1,11 @@
-uuid: db60f814-c17b-4e24-9e36-9b07f595b461
-langcode: pl
+uuid: e316f978-4325-4abf-bd19-d61f7fdf5f6e
+langcode: en
 status: true
 dependencies:
   module:
     - node
-_core:
-  default_config_hash: lsQkbo4njZ-Q_oGKCPGXGWFjWF1I7QpgA6m-t9rcRoA
 id: node_publish_action
-label: 'Publikuj zawartość'
+label: 'Publish content'
 type: node
 plugin: node_publish_action
 configuration: {  }

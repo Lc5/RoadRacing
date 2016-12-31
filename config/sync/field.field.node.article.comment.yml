@@ -1,5 +1,5 @@
-uuid: ef31f163-fe53-4eef-b0cb-1db68d5dfd09
-langcode: pl
+uuid: db1fbc4f-87a3-4d2d-bbd9-2aae8b15df9c
+langcode: en
 status: true
 dependencies:
   config:
@@ -7,13 +7,11 @@ dependencies:
     - node.type.article
   module:
     - comment
-_core:
-  default_config_hash: szSOp-8eNsMcuh8usDre1x76RhDKaPhNUuwzRX5cgv4
 id: node.article.comment
 field_name: comment
 entity_type: node
 bundle: article
-label: Komentarze
+label: Comments
 description: ''
 required: true
 translatable: true

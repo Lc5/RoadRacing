@@ -7,8 +7,5 @@ fetch:
   timeout: 30
 notification:
   emails:
-    - lukasz.krzyszczak@gmail.com
+    - you@yourdomain.com
   threshold: all
-_core:
-  default_config_hash: 2QzULf0zovJQx3J06Y9rufzzfi-CY2CTTlEfJJh2Qyw
-langcode: pl

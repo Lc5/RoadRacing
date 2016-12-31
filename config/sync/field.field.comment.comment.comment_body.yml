@@ -1,5 +1,5 @@
-uuid: b9af71d6-0376-41bc-a2d6-4693fa980c64
-langcode: pl
+uuid: fce69332-d959-4913-a4e6-c644177e5432
+langcode: en
 status: true
 dependencies:
   config:
@@ -7,16 +7,14 @@ dependencies:
     - field.storage.comment.comment_body
   module:
     - text
-_core:
-  default_config_hash: TmAKjNrJ7RR60YpqvJq_QqEewYe_S8Kd23n8VRCqiWs
 id: comment.comment.comment_body
 field_name: comment_body
 entity_type: comment
 bundle: comment
-label: Komentarz
+label: Comment
 description: ''
 required: true
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }

@@ -1,0 +1,25 @@
+uuid: 5ff76837-d9cd-40d8-a0d8-56b9c85bea4d
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:f5c139ff-8675-4688-b3ef-ddc0d567fc27'
+  module:
+    - block_content
+  theme:
+    - magazine
+id: moresports
+theme: magazine
+region: panel_fifth_4
+weight: -16
+provider: null
+plugin: 'block_content:f5c139ff-8675-4688-b3ef-ddc0d567fc27'
+settings:
+  id: 'block_content:f5c139ff-8675-4688-b3ef-ddc0d567fc27'
+  label: 'More Sports'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

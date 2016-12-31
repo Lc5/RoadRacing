@@ -1,0 +1,31 @@
+uuid: d4b9b469-f962-4428-85e4-ddd9714d9f4f
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:ded580ae-7e75-4701-994f-6eafb8fe49c7'
+  module:
+    - block_content
+    - system
+  theme:
+    - magazine
+id: contact
+theme: magazine
+region: content
+weight: -26
+provider: null
+plugin: 'block_content:ded580ae-7e75-4701-994f-6eafb8fe49c7'
+settings:
+  id: 'block_content:ded580ae-7e75-4701-994f-6eafb8fe49c7'
+  label: Contact
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /contact
+    negate: false
+    context_mapping: {  }

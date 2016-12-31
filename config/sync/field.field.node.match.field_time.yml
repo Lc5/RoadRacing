@@ -1,0 +1,21 @@
+uuid: 26c58e73-7c5c-46c9-85a2-1bbe3c3d04f1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_time
+    - node.type.match
+  module:
+    - datetime
+id: node.match.field_time
+field_name: field_time
+entity_type: node
+bundle: match
+label: Time
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

@@ -1,0 +1,30 @@
+uuid: 6095dece-b456-4b5e-84eb-532a4c26c5d2
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.carousel
+  module:
+    - system
+    - views
+  theme:
+    - magazine
+id: views_block__carousel_block_1
+theme: magazine
+region: panel_first
+weight: -21
+provider: null
+plugin: 'views_block:carousel-block_1'
+settings:
+  id: 'views_block:carousel-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

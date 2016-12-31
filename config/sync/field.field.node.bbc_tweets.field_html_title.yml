@@ -1,0 +1,21 @@
+uuid: 81307803-32dc-4096-8296-b3a81842f574
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_html_title
+    - node.type.bbc_tweets
+  module:
+    - text
+id: node.bbc_tweets.field_html_title
+field_name: field_html_title
+entity_type: node
+bundle: bbc_tweets
+label: 'Html Title'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

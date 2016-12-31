@@ -1,0 +1,14 @@
+uuid: e9963fc9-fecf-4ae1-ab6c-e1e3369d3b29
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.specialist
+  module:
+    - user
+id: user_add_role_action.specialist
+label: 'Add the specialist role to the selected users'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: specialist

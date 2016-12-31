@@ -1,0 +1,25 @@
+uuid: e086e3cc-bb18-486d-8f9c-564a4a897957
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:e50db1b7-3678-4137-8ad1-a5ca58c27411'
+  module:
+    - block_content
+  theme:
+    - magazine
+id: connectwithus
+theme: magazine
+region: panel_fifth_5
+weight: -14
+provider: null
+plugin: 'block_content:e50db1b7-3678-4137-8ad1-a5ca58c27411'
+settings:
+  id: 'block_content:e50db1b7-3678-4137-8ad1-a5ca58c27411'
+  label: 'Connect with us'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

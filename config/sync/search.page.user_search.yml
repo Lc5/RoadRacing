@@ -1,13 +1,11 @@
-uuid: bed385ab-3109-43a8-9167-b8d38e203735
-langcode: pl
+uuid: 5b425769-aa72-45d3-b7cd-89d4d0ea1bcd
+langcode: en
 status: true
 dependencies:
   module:
     - user
-_core:
-  default_config_hash: k3aUaZXGDuhkek2TZIee0PApOPTvYZLadziekdyHA5A
 id: user_search
-label: Użytkownicy
+label: Users
 path: user
 weight: 0
 plugin: user_search

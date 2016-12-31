@@ -1,0 +1,14 @@
+uuid: 1d97cb5c-a203-4fc0-a4f2-2fa37955b1bd
+langcode: en
+status: true
+dependencies: {  }
+name: football_teaser
+label: 'Football Teaser (400x260)'
+effects:
+  7ff2da77-0bbb-474b-aa30-83e67a2d0289:
+    uuid: 7ff2da77-0bbb-474b-aa30-83e67a2d0289
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 400
+      height: 260

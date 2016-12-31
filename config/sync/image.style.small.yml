@@ -1,0 +1,14 @@
+uuid: ea2bb4bd-3fe1-45e8-9911-cd359d38f3ae
+langcode: en
+status: true
+dependencies: {  }
+name: small
+label: 'Small (240x240)'
+effects:
+  6509b5fc-b38d-442b-bb6e-56771659d08f:
+    uuid: 6509b5fc-b38d-442b-bb6e-56771659d08f
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 240
+      height: 240

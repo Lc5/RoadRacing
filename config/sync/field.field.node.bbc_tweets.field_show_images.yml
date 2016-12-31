@@ -1,0 +1,23 @@
+uuid: 3fa99cd8-dc89-4534-891c-9fa78fbd3763
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_show_images
+    - node.type.bbc_tweets
+  module:
+    - link
+id: node.bbc_tweets.field_show_images
+field_name: field_show_images
+entity_type: node
+bundle: bbc_tweets
+label: 'Show Images'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

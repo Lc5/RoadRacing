@@ -1,0 +1,16 @@
+uuid: 218b12f6-b167-480f-a8b1-f0b6fd76aa80
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.bbc_tweets
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+id: node.bbc_tweets
+target_entity_type_id: node
+target_bundle: bbc_tweets
+default_langcode: site_default
+language_alterable: true

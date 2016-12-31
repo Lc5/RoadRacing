@@ -1,0 +1,34 @@
+uuid: 8adc908a-3220-4c8c-832e-9dce3a2602cc
+langcode: en
+status: true
+dependencies:
+  module:
+    - language
+    - node
+id: bbc_tweets
+label: 'BBC Tweets'
+type: 'canonical_entities:node'
+pattern: 'BBCTweets/[node:title]'
+selection_criteria:
+  7c5c315a-02ec-4074-8cbf-e2d83dce5027:
+    id: node_type
+    bundles:
+      bbc_tweets: bbc_tweets
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 7c5c315a-02ec-4074-8cbf-e2d83dce5027
+  b474bb12-048f-41ff-b89b-ce0b69730c8d:
+    id: language
+    langcodes:
+      en: en
+      ar: ar
+    negate: false
+    context_mapping:
+      language: 'node:langcode:language'
+    uuid: b474bb12-048f-41ff-b89b-ce0b69730c8d
+selection_logic: and
+weight: -10
+relationships:
+  'node:langcode:language':
+    label: Language

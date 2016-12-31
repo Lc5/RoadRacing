@@ -1,0 +1,29 @@
+uuid: 01c2bea2-6843-4e3e-a18f-ef189a710492
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.bet-odds
+  module:
+    - system
+  theme:
+    - magazine
+id: betodds
+theme: magazine
+region: sidebar_first
+weight: -28
+provider: null
+plugin: 'system_menu_block:bet-odds'
+settings:
+  id: 'system_menu_block:bet-odds'
+  label: Bet/Odds
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+visibility:
+  request_path:
+    id: request_path
+    pages: "/bet-odds\r\n/bet-odds/*"
+    negate: false
+    context_mapping: {  }

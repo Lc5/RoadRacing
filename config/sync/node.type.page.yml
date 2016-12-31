@@ -1,13 +1,19 @@
-uuid: aa0f5fe6-cf72-434a-ad8d-0404ca7a0cd8
-langcode: pl
+uuid: ea85df7f-b3ed-4448-a782-be4b88c63607
+langcode: en
 status: true
-dependencies: {  }
-_core:
-  default_config_hash: KuyA4NHPXcmKAjRtwa0vQc2ZcyrUJy6IlS2TAyMNRbc
-name: 'Prosta strona'
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - footer
+      - main
+    parent: 'main:'
+name: 'Basic page'
 type: page
-description: 'Użyj <em>prostych stron</em> dla Twoich statycznych treści, takich jak strona ''O nas''.'
+description: 'Use <em>basic pages</em> for your static content, such as an ''About us'' page.'
 help: ''
-new_revision: true
+new_revision: false
 preview_mode: 1
 display_submitted: false

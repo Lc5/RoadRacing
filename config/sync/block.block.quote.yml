@@ -1,0 +1,31 @@
+uuid: e74d6de2-2427-4cec-b11f-f0c2e4241454
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:ca622ed2-b2db-4150-8594-2ee4c2d81c74'
+  module:
+    - block_content
+    - system
+  theme:
+    - magazine
+id: quote
+theme: magazine
+region: sidebar_second
+weight: -20
+provider: null
+plugin: 'block_content:ca622ed2-b2db-4150-8594-2ee4c2d81c74'
+settings:
+  id: 'block_content:ca622ed2-b2db-4150-8594-2ee4c2d81c74'
+  label: Quote
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /blogs
+    negate: false
+    context_mapping: {  }

@@ -1,22 +1,20 @@
-uuid: 281688c4-4f84-4001-a8c9-90952b21e777
-langcode: pl
+uuid: 9798b3e4-3c9d-4dd4-ac90-2e58a1023c90
+langcode: en
 status: true
 dependencies:
   module:
     - system
   theme:
     - magazine
-_core:
-  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
 id: magazine_messages
 theme: magazine
 region: header
-weight: 0
+weight: -15
 provider: null
 plugin: system_messages_block
 settings:
   id: system_messages_block
-  label: 'Wiadomości statusu'
+  label: 'Status messages'
   provider: system
   label_display: '0'
 visibility: {  }

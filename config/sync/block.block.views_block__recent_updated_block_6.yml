@@ -1,0 +1,30 @@
+uuid: 61b05706-1d8d-49f7-bab0-53eccdca1085
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.recent_updated
+  module:
+    - system
+    - views
+  theme:
+    - magazine
+id: views_block__recent_updated_block_6
+theme: magazine
+region: content
+weight: -25
+provider: null
+plugin: 'views_block:recent_updated-block_6'
+settings:
+  id: 'views_block:recent_updated-block_6'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: "/category/golf\r\n/golf"
+    negate: false
+    context_mapping: {  }

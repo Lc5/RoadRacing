@@ -1,5 +1,5 @@
-uuid: e4b43d4e-2007-412a-9a60-3c03fa222742
-langcode: pl
+uuid: 3254fe13-70cf-4853-b86c-da2e6782e4f7
+langcode: en
 status: true
 dependencies:
   config:
@@ -8,17 +8,15 @@ dependencies:
     - system
   theme:
     - magazine
-_core:
-  default_config_hash: kkISXE1LT2FJEoYnqCrCpeFB-2pmGmMxMklVk7rQcfg
 id: magazine_footer
 theme: magazine
-region: header
-weight: 0
+region: footer
+weight: -14
 provider: null
 plugin: 'system_menu_block:footer'
 settings:
   id: 'system_menu_block:footer'
-  label: 'Menu stopki'
+  label: 'Footer menu'
   provider: system
   label_display: '0'
   level: 1

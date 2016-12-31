@@ -1,0 +1,30 @@
+uuid: 0bbb20b0-d080-4e4a-8dad-6ce7bab132ae
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.recent_posts
+  module:
+    - system
+    - views
+  theme:
+    - magazine
+id: views_block__recent_posts_block_2
+theme: magazine
+region: sidebar_first
+weight: -26
+provider: null
+plugin: 'views_block:recent_posts-block_2'
+settings:
+  id: 'views_block:recent_posts-block_2'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: "/blogs\r\n/blog/*\r\n/content/*\r\n/node/*"
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,61 @@
+uuid: bb9f5d2e-6370-4ae7-914e-8c4cde0d3129
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.video.body
+    - field.field.node.video.comment
+    - field.field.node.video.field_category
+    - field.field.node.video.field_tags
+    - field.field.node.video.field_video
+    - node.type.video
+  module:
+    - comment
+    - text
+    - user
+    - video_embed_field
+id: node.video.default
+targetEntityType: node
+bundle: video
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 3
+    settings: {  }
+    third_party_settings: {  }
+  comment:
+    weight: 4
+    label: above
+    settings:
+      pager_id: 0
+      view_mode: default
+    third_party_settings: {  }
+    type: comment_default
+  field_category:
+    weight: 1
+    label: inline
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+  field_tags:
+    weight: 2
+    label: inline
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+  field_video:
+    weight: 0
+    label: hidden
+    settings:
+      autoplay: false
+      width: 854
+      height: 480
+    third_party_settings: {  }
+    type: video_embed_field_video
+hidden:
+  langcode: true
+  links: true

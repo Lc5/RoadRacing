@@ -1,16 +1,15 @@
-uuid: 279b6b6e-c638-4cd5-b373-dd8d92aa1d3c
-langcode: pl
+uuid: fe408d75-0d64-4d39-badb-4d6c6817d6a1
+langcode: en
 status: true
 dependencies:
   config:
     - core.entity_view_mode.user.compact
+    - field.field.user.user.field_description
     - field.field.user.user.user_picture
     - image.style.thumbnail
   module:
     - image
     - user
-_core:
-  default_config_hash: C3k_McOy8bL8rTnIjspy5OfFdgqV1z6OdGZaI-tO5eM
 id: user.user.compact
 targetEntityType: user
 bundle: user
@@ -25,5 +24,5 @@ content:
     third_party_settings: {  }
     label: hidden
 hidden:
-  langcode: true
+  field_description: true
   member_for: true

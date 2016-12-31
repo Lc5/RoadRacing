@@ -1,0 +1,14 @@
+uuid: d353a2e3-1229-49be-872b-bd4477d38a61
+langcode: en
+status: true
+dependencies: {  }
+name: sport_thumbnail
+label: 'Sport Thumbnail (480x294)'
+effects:
+  8bfcc334-defe-4dfd-9237-0c7c25b671ca:
+    uuid: 8bfcc334-defe-4dfd-9237-0c7c25b671ca
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 480
+      height: 294

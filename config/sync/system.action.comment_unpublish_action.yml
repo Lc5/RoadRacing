@@ -1,13 +1,11 @@
-uuid: 5bc05cd8-3285-4e9c-8ea6-336b8ac1f37a
-langcode: pl
+uuid: f21c3ab5-4694-41e0-a351-f914133e497e
+langcode: en
 status: true
 dependencies:
   module:
     - comment
-_core:
-  default_config_hash: MLin6S_PsJ7Oo480DxS46D46IM8tqFkkWOLyH7TGByI
 id: comment_unpublish_action
-label: 'Wstrzymaj publikację komentarzy'
+label: 'Unpublish comment'
 type: comment
 plugin: comment_unpublish_action
 configuration: {  }

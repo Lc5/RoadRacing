@@ -1,22 +1,20 @@
-uuid: a4d44808-80ee-492d-82e1-f97a00f16e12
-langcode: pl
+uuid: 48157d41-4b09-440f-a867-5e53874d5e1f
+langcode: en
 status: true
 dependencies:
   module:
     - search
   theme:
     - magazine
-_core:
-  default_config_hash: za-39d5WDUg6XvbyqSnuVYEeq6QM4qKJxW8MnoAha5A
 id: magazine_search
 theme: magazine
-region: sidebar_first
-weight: -1
+region: header2
+weight: -14
 provider: null
 plugin: search_form_block
 settings:
   id: search_form_block
-  label: Szukaj
+  label: Search
   provider: search
-  label_display: visible
+  label_display: '0'
 visibility: {  }

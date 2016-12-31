@@ -1,0 +1,30 @@
+uuid: f8e0ed01-b0f4-437f-a737-42c1d08ab13c
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.other_latest_news
+  module:
+    - system
+    - views
+  theme:
+    - magazine
+id: views_block__other_latest_news_block_1
+theme: magazine
+region: sidebar_first
+weight: -22
+provider: null
+plugin: 'views_block:other_latest_news-block_1'
+settings:
+  id: 'views_block:other_latest_news-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: "<front>\r\n/category/swimming\r\n/swimming"
+    negate: false
+    context_mapping: {  }

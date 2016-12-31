@@ -1,11 +1,9 @@
-uuid: 6b7cbaa9-b5ea-4bd7-8e7c-84e418be23ee
-langcode: pl
+uuid: d9d3cf45-42ce-49c1-a4bd-920553209482
+langcode: en
 status: true
 dependencies:
   theme:
     - bartik
-_core:
-  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
 id: bartik_local_tasks
 theme: bartik
 region: content
@@ -14,7 +12,7 @@ provider: null
 plugin: local_tasks_block
 settings:
   id: local_tasks_block
-  label: Karty
+  label: Tabs
   provider: core
   label_display: '0'
   primary: true

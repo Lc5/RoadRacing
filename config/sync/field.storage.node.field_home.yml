@@ -1,0 +1,18 @@
+uuid: 1508b14b-9c59-4dbe-9f0c-67dfea36ac3d
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_home
+field_name: field_home
+entity_type: node
+type: float
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

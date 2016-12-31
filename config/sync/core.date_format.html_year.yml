@@ -1,10 +1,8 @@
-uuid: b38d5add-489b-4114-ad98-5f1e8845ae5b
-langcode: pl
+uuid: 27e60d6e-f1c5-4570-a79d-9b0b1c4bffd8
+langcode: en
 status: true
 dependencies: {  }
-_core:
-  default_config_hash: OjekiQuX9RbVQ2_8jOHBL94RgYLePqX7wpfNGgcQzrk
 id: html_year
-label: 'Rok HTML'
+label: 'HTML Year'
 locked: true
 pattern: 'Y'

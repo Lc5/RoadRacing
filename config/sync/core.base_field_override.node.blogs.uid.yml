@@ -1,0 +1,20 @@
+uuid: 94379d3c-b0ec-4146-8e35-9b6c15cddc8c
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.blogs
+id: node.blogs.uid
+field_name: uid
+entity_type: node
+bundle: blogs
+label: 'Authored by'
+description: 'The username of the content author.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: 'Drupal\node\Entity\Node::getCurrentUserId'
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

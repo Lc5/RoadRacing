@@ -1,0 +1,18 @@
+uuid: ddab7003-7504-4a2f-a80a-37d6af0f8043
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.gallery
+id: node.gallery.created
+field_name: created
+entity_type: node
+bundle: gallery
+label: 'Authored on'
+description: 'The time that the node was created.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

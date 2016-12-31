@@ -1,0 +1,20 @@
+uuid: ecfcdbca-5f75-40e1-b1f3-189ec0aca630
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.match
+id: node.match.uid
+field_name: uid
+entity_type: node
+bundle: match
+label: 'Authored by'
+description: 'The username of the content author.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: 'Drupal\node\Entity\Node::getCurrentUserId'
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

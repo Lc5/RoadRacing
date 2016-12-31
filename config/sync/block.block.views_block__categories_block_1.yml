@@ -1,0 +1,30 @@
+uuid: 4f94dba1-3f59-4e60-ab63-8fcb0319112a
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.categories
+  module:
+    - system
+    - views
+  theme:
+    - magazine
+id: views_block__categories_block_1
+theme: magazine
+region: sidebar_first
+weight: -27
+provider: null
+plugin: 'views_block:categories-block_1'
+settings:
+  id: 'views_block:categories-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: "/blogs\r\n/blog/*\r\n/content/*\r\n/node/*"
+    negate: false
+    context_mapping: {  }

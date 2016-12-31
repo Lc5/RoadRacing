@@ -1,22 +1,20 @@
-uuid: fe7b626f-c53b-4ceb-909b-3d1009d1e778
-langcode: pl
+uuid: c45f3791-5642-43c4-9f16-15a75513eb96
+langcode: en
 status: true
 dependencies:
   module:
     - system
   theme:
     - magazine
-_core:
-  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
 id: magazine_content
 theme: magazine
 region: content
-weight: 0
+weight: -24
 provider: null
 plugin: system_main_block
 settings:
   id: system_main_block
-  label: 'Zawartość główna'
+  label: 'Main page content'
   provider: system
   label_display: '0'
 visibility: {  }

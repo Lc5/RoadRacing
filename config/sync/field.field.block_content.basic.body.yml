@@ -1,5 +1,5 @@
-uuid: 5c5f03cb-8c55-4802-9755-f60e56205fca
-langcode: pl
+uuid: d720534d-baf6-4bce-a8fb-64637dae1f4d
+langcode: en
 status: true
 dependencies:
   config:
@@ -7,16 +7,14 @@ dependencies:
     - field.storage.block_content.body
   module:
     - text
-_core:
-  default_config_hash: R__6wc-rMfFMO8d7jcgqnqiA92j8spKhcc5MiqecrMc
 id: block_content.basic.body
 field_name: body
 entity_type: block_content
 bundle: basic
-label: Treść
+label: Body
 description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:

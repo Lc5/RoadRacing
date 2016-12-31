@@ -1,11 +1,9 @@
-uuid: 26811e85-9faa-4b8f-91fb-b21da6353857
-langcode: pl
+uuid: 5bca09fc-07a3-4984-9b8e-2c72b67c55e0
+langcode: en
 status: true
 dependencies:
   theme:
     - seven
-_core:
-  default_config_hash: ZSpc3IoSaLd0PkB02nxjVPBMztIdsTdHek9SiGaqZ_c
 id: seven_page_title
 theme: seven
 region: header
@@ -14,7 +12,7 @@ provider: null
 plugin: page_title_block
 settings:
   id: page_title_block
-  label: 'Tytuł strony'
+  label: 'Page title'
   provider: core
   label_display: '0'
 visibility: {  }

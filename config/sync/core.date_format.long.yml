@@ -1,10 +1,8 @@
-uuid: e8980933-0b69-4ad0-af90-c044084d1459
-langcode: pl
+uuid: 6455b31f-3eb1-408b-b216-8c48853c77e4
+langcode: en
 status: true
 dependencies: {  }
-_core:
-  default_config_hash: og8sWXhBuHbLMw3CoiBEZjgqSyhFBFmcbUW_wLcfNbo
 id: long
-label: 'Domyślna data długa'
+label: 'Default long date'
 locked: false
 pattern: 'l, F j, Y - H:i'

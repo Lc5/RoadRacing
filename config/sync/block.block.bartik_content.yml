@@ -1,13 +1,11 @@
-uuid: a140997a-62ae-4d7d-a122-2d1c48b5f857
-langcode: pl
+uuid: f8320e1a-d2c8-42aa-8d25-3cfaeb597302
+langcode: en
 status: true
 dependencies:
   module:
     - system
   theme:
     - bartik
-_core:
-  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
 id: bartik_content
 theme: bartik
 region: content
@@ -16,7 +14,7 @@ provider: null
 plugin: system_main_block
 settings:
   id: system_main_block
-  label: 'Zawartość główna'
+  label: 'Main page content'
   provider: system
   label_display: '0'
 visibility: {  }

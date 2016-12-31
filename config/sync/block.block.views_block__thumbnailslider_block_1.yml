@@ -1,0 +1,30 @@
+uuid: 4a09c6ae-95ee-46d8-9df6-4668f0e7a1d2
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.thumbnailslider
+  module:
+    - system
+    - views
+  theme:
+    - magazine
+id: views_block__thumbnailslider_block_1
+theme: magazine
+region: panel_third
+weight: -17
+provider: null
+plugin: 'views_block:thumbnailslider-block_1'
+settings:
+  id: 'views_block:thumbnailslider-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

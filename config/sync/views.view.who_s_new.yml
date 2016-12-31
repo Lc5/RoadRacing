@@ -1,15 +1,13 @@
-uuid: 20b2bcd7-8b3f-4742-902a-c95b1a394c11
-langcode: pl
+uuid: b902683e-c527-4718-ad11-27a889252468
+langcode: en
 status: true
 dependencies:
   module:
     - user
-_core:
-  default_config_hash: o_8fSWHZOVIbydZACGsSX09DtuJhqkRmNOzcVj-4bQI
 id: who_s_new
-label: 'Nowi użytkownicy'
+label: 'Who''s new'
 module: user
-description: 'Prezentuje listę najnowszych użytkowników na stronie.'
+description: 'Shows a list of the newest user accounts on the site.'
 tag: default
 base_table: users_field_data
 base_field: uid
@@ -18,7 +16,7 @@ display:
   default:
     display_plugin: default
     id: default
-    display_title: Główny
+    display_title: Master
     position: 0
     display_options:
       access:
@@ -39,13 +37,13 @@ display:
       exposed_form:
         type: basic
         options:
-          submit_button: Zastosuj
+          submit_button: Apply
           reset_button: false
-          reset_button_label: Resetuj
-          exposed_sorts_label: 'Sortuj po'
+          reset_button_label: Reset
+          exposed_sorts_label: 'Sort by'
           expose_sort_order: true
-          sort_asc_label: Rosnąco
-          sort_desc_label: Malejąco
+          sort_asc_label: Asc
+          sort_desc_label: Desc
       pager:
         type: some
         options:
@@ -160,7 +158,7 @@ display:
           plugin_id: date
           entity_type: user
           entity_field: created
-      title: 'Nowi użytkownicy'
+      title: 'Who''s new'
       header: {  }
       footer: {  }
       empty: {  }
@@ -177,12 +175,12 @@ display:
   block_1:
     display_plugin: block
     id: block_1
-    display_title: 'Nowi użytkownicy'
+    display_title: 'Who''s new'
     position: 1
     display_options:
-      display_description: 'Lista nowych użytkowników'
-      block_description: 'Nowi użytkownicy'
-      block_category: Użytkownik
+      display_description: 'A list of new users'
+      block_description: 'Who''s new'
+      block_category: User
       display_extenders: {  }
     cache_metadata:
       contexts:

@@ -1,0 +1,14 @@
+uuid: aa6beb05-b94a-403b-86f9-f8772085ea55
+langcode: en
+status: true
+dependencies: {  }
+name: highlight_news
+label: 'Highlight News (1110x450)'
+effects:
+  3eb6d455-5d07-47c3-b020-f965275cf58e:
+    uuid: 3eb6d455-5d07-47c3-b020-f965275cf58e
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 1110
+      height: 450

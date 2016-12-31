@@ -1,5 +1,5 @@
-uuid: b24bba50-8cc0-477a-be91-9e8cfb985a80
-langcode: pl
+uuid: 9e24244b-56c9-4017-942a-f2d6e55bee39
+langcode: en
 status: true
 dependencies:
   config:
@@ -7,8 +7,6 @@ dependencies:
     - field.field.comment.comment.comment_body
   module:
     - text
-_core:
-  default_config_hash: 1yBeJcGufCbnbSolmaYgTIXZWYUaO7kw6xszGA8TYs8
 id: comment.comment.default
 targetEntityType: comment
 bundle: comment
@@ -22,5 +20,7 @@ content:
     third_party_settings: {  }
   links:
     weight: 100
+    settings: {  }
+    third_party_settings: {  }
 hidden:
   langcode: true

@@ -1,11 +1,9 @@
-uuid: c4e7d20b-b6df-4b68-8c55-99e3da44cff9
-langcode: pl
+uuid: 2e5a9e91-4271-474b-a3d5-fc58c3d6f9cc
+langcode: en
 status: true
 dependencies:
   theme:
     - seven
-_core:
-  default_config_hash: ddy1OsBbWxjwEI8VL1viD4I69qcLHOkul4BxbTqLBTs
 id: seven_primary_local_tasks
 theme: seven
 region: header
@@ -14,7 +12,7 @@ provider: null
 plugin: local_tasks_block
 settings:
   id: local_tasks_block
-  label: 'Karty podstawowe'
+  label: 'Primary tabs'
   provider: core
   label_display: '0'
   primary: true

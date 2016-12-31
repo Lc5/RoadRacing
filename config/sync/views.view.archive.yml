@@ -1,5 +1,5 @@
-uuid: 0365df59-ca4a-4906-9734-81564c99537b
-langcode: pl
+uuid: e3bdebf6-a4f4-40cc-8aa3-7550b3ca0dd9
+langcode: en
 status: false
 dependencies:
   config:
@@ -7,12 +7,10 @@ dependencies:
   module:
     - node
     - user
-_core:
-  default_config_hash: SRH1EhxAiIRj01P9xYv0h_LfIfWxjll0Yq-eDfjziFI
 id: archive
-label: Archiwizuj
+label: Archive
 module: node
-description: 'Cała zawartość wg miesiąca.'
+description: 'All content, by month.'
 tag: default
 base_table: node_field_data
 base_field: nid
@@ -20,7 +18,7 @@ core: '8'
 display:
   default:
     id: default
-    display_title: Główny
+    display_title: Master
     display_plugin: default
     position: 0
     display_options:
@@ -32,7 +30,7 @@ display:
           distinct: false
           replica: false
           query_tags: {  }
-      title: 'Archiwum miesięczne'
+      title: 'Monthly archive'
       access:
         type: perm
         options:
@@ -43,13 +41,13 @@ display:
       exposed_form:
         type: basic
         options:
-          submit_button: Zastosuj
+          submit_button: Apply
           reset_button: false
-          reset_button_label: Resetuj
-          exposed_sorts_label: 'Sortuj po'
+          reset_button_label: Reset
+          exposed_sorts_label: 'Sort by'
           expose_sort_order: true
-          sort_asc_label: Rosnąco
-          sort_desc_label: Malejąco
+          sort_asc_label: Asc
+          sort_desc_label: Desc
       pager:
         type: mini
         options:
@@ -59,12 +57,12 @@ display:
           total_pages: 0
           expose:
             items_per_page: false
-            items_per_page_label: 'Elementów na stronę'
+            items_per_page_label: 'Items per page'
             items_per_page_options: '5, 10, 25, 50'
             items_per_page_options_all: false
-            items_per_page_options_all_label: '- Wszystko -'
+            items_per_page_options_all_label: '- All -'
             offset: false
-            offset_label: Przesunięcie
+            offset_label: Offset
           tags:
             previous: ‹‹
             next: ››
@@ -184,7 +182,7 @@ display:
       tags: {  }
   block_1:
     id: block_1
-    display_title: Blok
+    display_title: Block
     display_plugin: block
     position: 1
     display_options:
@@ -223,7 +221,7 @@ display:
       tags: {  }
   page_1:
     id: page_1
-    display_title: Strona
+    display_title: Page
     display_plugin: page
     position: 2
     display_options:
@@ -232,6 +230,9 @@ display:
         options: {  }
       path: archive
       display_extenders: {  }
+      menu:
+        enabled: true
+        expanded: false
     cache_metadata:
       contexts:
         - 'languages:language_interface'

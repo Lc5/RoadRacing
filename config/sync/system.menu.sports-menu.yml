@@ -1,0 +1,8 @@
+uuid: 7134d674-d166-4931-9c08-abbfa2823531
+langcode: en
+status: true
+dependencies: {  }
+id: sports-menu
+label: 'Sports menu'
+description: 'Sports menu'
+locked: false

@@ -1,13 +1,11 @@
-uuid: aa98a100-76b0-4d44-9974-47ba88ee192b
-langcode: pl
+uuid: 7c856423-1325-429f-9e97-1cd05b7a5fd8
+langcode: en
 status: true
 dependencies:
   module:
     - comment
-_core:
-  default_config_hash: f6w_Pd30AyyDIoMkD4QpPMM2-I8FTEHICchFVOpjiCI
 id: comment_publish_action
-label: 'Opublikuj komentarz'
+label: 'Publish comment'
 type: comment
 plugin: comment_publish_action
 configuration: {  }

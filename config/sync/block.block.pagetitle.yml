@@ -1,0 +1,25 @@
+uuid: 19b1467e-da31-4401-9b23-3f9ab0f3f7cb
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - magazine
+id: pagetitle
+theme: magazine
+region: content
+weight: -29
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: "/rugby-union\r\n<front>"
+    negate: true
+    context_mapping: {  }

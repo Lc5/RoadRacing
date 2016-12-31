@@ -1,13 +1,11 @@
-uuid: fcce3385-8c5b-4a86-98d8-093a74b83c46
-langcode: pl
+uuid: 520985d2-064f-44f3-91d2-d94d60f7084e
+langcode: en
 status: true
 dependencies:
   module:
     - node
-_core:
-  default_config_hash: lDM9mvIGAu8Sw8rt-uCO4Sr7yX5VPrDPxYcawkbKd6k
 id: node_make_unsticky_action
-label: 'Odklej wpis'
+label: 'Make content unsticky'
 type: node
 plugin: node_make_unsticky_action
 configuration: {  }

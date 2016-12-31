@@ -1,0 +1,14 @@
+uuid: 18b8171c-7ebd-4f67-ac2d-59aeaacb33ab
+langcode: en
+status: true
+dependencies: {  }
+name: sport_medium
+label: 'Sport Medium (480x298)'
+effects:
+  ee349484-0171-4810-8275-f6d0fa0961e7:
+    uuid: ee349484-0171-4810-8275-f6d0fa0961e7
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 480
+      height: 298

@@ -1,13 +1,11 @@
-uuid: 5f1e5786-eee0-443d-a27f-12c9a7bf2361
-langcode: pl
+uuid: d2e8cfde-a91c-4393-8b79-b0d03317f43e
+langcode: en
 status: true
 dependencies:
   module:
     - system
   theme:
     - bartik
-_core:
-  default_config_hash: NDwadleLD3YVSbDUaakxyYZyINYtkFtOVGShfq4kWy8
 id: bartik_branding
 theme: bartik
 region: header

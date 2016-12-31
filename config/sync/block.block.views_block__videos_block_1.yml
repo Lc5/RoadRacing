@@ -1,0 +1,30 @@
+uuid: 1208444d-0445-4f2e-a0e9-28f87bc2ba61
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.videos
+  module:
+    - system
+    - views
+  theme:
+    - magazine
+id: views_block__videos_block_1
+theme: magazine
+region: panel_fourth
+weight: -17
+provider: null
+plugin: 'views_block:videos-block_1'
+settings:
+  id: 'views_block:videos-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: "<front>\r\n/category/*\r\n/football\r\n/golf\r\n/rugby-union"
+    negate: false
+    context_mapping: {  }

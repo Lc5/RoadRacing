@@ -1,0 +1,22 @@
+uuid: e7e8f491-3212-4b41-9c50-65189cbefb84
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.bet_odds
+  module:
+    - text
+id: node.bet_odds.body
+field_name: body
+entity_type: node
+bundle: bet_odds
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

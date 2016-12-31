@@ -1,13 +1,11 @@
-uuid: c11f9279-ab03-4fd0-9d2e-360c8d34e17a
-langcode: pl
+uuid: 51b084b8-4270-494e-8b53-6e8acc346003
+langcode: en
 status: true
 dependencies:
   module:
     - system
   theme:
     - bartik
-_core:
-  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
 id: bartik_messages
 theme: bartik
 region: highlighted
@@ -16,7 +14,7 @@ provider: null
 plugin: system_messages_block
 settings:
   id: system_messages_block
-  label: 'Wiadomości statusu'
+  label: 'Status messages'
   provider: system
   label_display: '0'
 visibility: {  }

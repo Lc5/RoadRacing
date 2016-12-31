@@ -1,0 +1,30 @@
+uuid: 893b0db9-88fc-4fca-8fa0-5b05d742523c
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.recent_posts
+  module:
+    - system
+    - views
+  theme:
+    - magazine
+id: views_block__recent_posts_block_1
+theme: magazine
+region: sidebar_second
+weight: -21
+provider: null
+plugin: 'views_block:recent_posts-block_1'
+settings:
+  id: 'views_block:recent_posts-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: "/category/*\r\n/gallery-row\r\n/golf\r\n/football\r\n/rugby-union"
+    negate: false
+    context_mapping: {  }

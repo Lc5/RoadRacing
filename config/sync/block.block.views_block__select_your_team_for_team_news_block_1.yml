@@ -1,0 +1,30 @@
+uuid: 7e18dff3-8330-441f-84fd-ef83996829b4
+langcode: en
+status: false
+dependencies:
+  config:
+    - views.view.select_your_team_for_team_news
+  module:
+    - system
+    - views
+  theme:
+    - magazine
+id: views_block__select_your_team_for_team_news_block_1
+theme: magazine
+region: '-1'
+weight: -16
+provider: null
+plugin: 'views_block:select_your_team_for_team_news-block_1'
+settings:
+  id: 'views_block:select_your_team_for_team_news-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

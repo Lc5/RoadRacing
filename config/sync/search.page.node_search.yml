@@ -1,13 +1,11 @@
-uuid: dfa52f77-f6ad-4885-92c0-1b4471e05f7d
-langcode: pl
+uuid: e00daadb-5746-4dfa-8672-f67688dbd38b
+langcode: en
 status: true
 dependencies:
   module:
     - node
-_core:
-  default_config_hash: 97tvtzGOa8_flb22CzSjgtm_YkiGMHvEBO-6q2K9V_U
 id: node_search
-label: Zawartość
+label: Content
 path: node
 weight: -10
 plugin: node_search

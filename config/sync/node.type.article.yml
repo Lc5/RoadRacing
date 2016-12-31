@@ -1,13 +1,11 @@
-uuid: dc8a0586-d5a2-4a98-a134-4513ef12501a
-langcode: pl
+uuid: f227ddab-2d67-496b-a7df-f56c1c8cf106
+langcode: en
 status: true
 dependencies: {  }
-_core:
-  default_config_hash: AeW1SEDgb1OTQACAWGhzvMknMYAJlcZu0jljfeU3oso
-name: Artykuł
+name: Article
 type: article
-description: 'Użyj <em>artykułów</em> dla dynamicznych treści, takich jak newsy, przegląd prasy lub wpisy na blogu.'
+description: 'Use <em>articles</em> for time-sensitive content like news, press releases or blog posts.'
 help: ''
-new_revision: true
+new_revision: false
 preview_mode: 1
 display_submitted: true

@@ -1,0 +1,68 @@
+uuid: f6a05bbe-b2fd-41b6-b886-73dc095eb4f3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.bet_odds.body
+    - field.field.node.bet_odds.field_away
+    - field.field.node.bet_odds.field_category
+    - field.field.node.bet_odds.field_draw
+    - field.field.node.bet_odds.field_home
+    - node.type.bet_odds
+  module:
+    - text
+    - user
+id: node.bet_odds.default
+targetEntityType: node
+bundle: bet_odds
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 4
+    settings: {  }
+    third_party_settings: {  }
+  field_away:
+    weight: 3
+    label: above
+    settings:
+      thousand_separator: ' '
+      prefix_suffix: true
+      decimal_separator: .
+      scale: 2
+    third_party_settings: {  }
+    type: number_decimal
+  field_category:
+    weight: 0
+    label: inline
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+  field_draw:
+    weight: 2
+    label: above
+    settings:
+      thousand_separator: ' '
+      prefix_suffix: true
+      decimal_separator: .
+      scale: 2
+    third_party_settings: {  }
+    type: number_decimal
+  field_home:
+    weight: 1
+    label: above
+    settings:
+      thousand_separator: ' '
+      prefix_suffix: true
+      decimal_separator: .
+      scale: 2
+    third_party_settings: {  }
+    type: number_decimal
+  links:
+    weight: 5
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  langcode: true

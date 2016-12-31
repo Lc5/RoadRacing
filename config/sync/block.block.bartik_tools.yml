@@ -1,5 +1,5 @@
-uuid: 289bad22-a16c-4133-90d1-3172e99ac185
-langcode: pl
+uuid: 5b7b683e-15cf-482f-9393-5259275688a2
+langcode: en
 status: true
 dependencies:
   config:
@@ -8,8 +8,6 @@ dependencies:
     - system
   theme:
     - bartik
-_core:
-  default_config_hash: NeHSoqm4XFqA7_0bDmR429ZZQt3LRbZMNRJTMsFyOfI
 id: bartik_tools
 theme: bartik
 region: sidebar_first
@@ -18,7 +16,7 @@ provider: null
 plugin: 'system_menu_block:tools'
 settings:
   id: 'system_menu_block:tools'
-  label: Narzędzia
+  label: Tools
   provider: system
   label_display: visible
   level: 1

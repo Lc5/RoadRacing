@@ -1,16 +1,14 @@
-uuid: 68f52cf4-fb1b-4fc2-86a9-9ba59ea64346
-langcode: pl
+uuid: d2755863-ffa2-43d1-b47b-61619ef3b5e7
+langcode: en
 status: true
 dependencies:
   module:
     - node
     - user
-_core:
-  default_config_hash: tDcmzGfShE0XJbfwJzyA6lJTUYC6X4iVu887dgoFfDg
 id: content_recent
-label: 'Ostatnie treści'
+label: 'Recent content'
 module: node
-description: 'Ostatnio dodana zawartość.'
+description: 'Recent content.'
 tag: default
 base_table: node_field_data
 base_field: nid
@@ -19,7 +17,7 @@ display:
   default:
     display_plugin: default
     id: default
-    display_title: Główny
+    display_title: Master
     position: 0
     display_options:
       access:
@@ -40,13 +38,13 @@ display:
       exposed_form:
         type: basic
         options:
-          submit_button: Zastosuj
+          submit_button: Apply
           reset_button: false
-          reset_button_label: Resetuj
-          exposed_sorts_label: 'Sortuj po'
+          reset_button_label: Reset
+          exposed_sorts_label: 'Sort by'
           expose_sort_order: true
-          sort_asc_label: Rosnąco
-          sort_desc_label: Malejąco
+          sort_asc_label: Asc
+          sort_desc_label: Desc
       pager:
         type: some
         options:
@@ -258,7 +256,7 @@ display:
           entity_type: node
           entity_field: changed
           plugin_id: date
-      title: 'Ostatnie treści'
+      title: 'Recent content'
       header: {  }
       footer: {  }
       empty:
@@ -271,7 +269,7 @@ display:
           admin_label: ''
           empty: true
           tokenize: false
-          content: 'Brak zawartości.'
+          content: 'No content available.'
           plugin_id: text_custom
       relationships:
         uid:
@@ -289,7 +287,7 @@ display:
       display_extenders: {  }
       use_more: false
       use_more_always: false
-      use_more_text: Więcej
+      use_more_text: More
       link_url: ''
       link_display: '0'
     cache_metadata:
@@ -304,7 +302,7 @@ display:
   block_1:
     display_plugin: block
     id: block_1
-    display_title: Blok
+    display_title: Block
     position: 1
     display_options:
       display_extenders: {  }

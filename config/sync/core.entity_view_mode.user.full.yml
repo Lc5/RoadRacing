@@ -1,12 +1,10 @@
-uuid: 1f8756cd-fb10-4791-b353-c474d93ae485
-langcode: pl
+uuid: 087ee9b2-24db-4ca4-9ef2-3ea87b53b5b5
+langcode: en
 status: false
 dependencies:
   module:
     - user
-_core:
-  default_config_hash: mQIF_foYjmnVSr9MpcD4CTaJE_FpO1AyDd_DskztGhM
 id: user.full
-label: 'Konto użytkownika'
+label: 'User account'
 targetEntityType: user
 cache: true

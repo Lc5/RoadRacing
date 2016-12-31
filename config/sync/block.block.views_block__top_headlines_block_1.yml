@@ -1,0 +1,30 @@
+uuid: ecce5802-b6b1-446b-ac7e-7d799dccde0a
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.top_headlines
+  module:
+    - system
+    - views
+  theme:
+    - magazine
+id: views_block__top_headlines_block_1
+theme: magazine
+region: sidebar_first
+weight: -23
+provider: null
+plugin: 'views_block:top_headlines-block_1'
+settings:
+  id: 'views_block:top_headlines-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: "<front>\r\n/category/swimming\r\n/swimming"
+    negate: false
+    context_mapping: {  }

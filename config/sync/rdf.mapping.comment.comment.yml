@@ -1,13 +1,11 @@
-uuid: 0f8e1154-9dda-42b4-9f95-1edbd2201e05
-langcode: pl
+uuid: 15eb4008-50d5-444c-b614-59c42c6eb7f2
+langcode: en
 status: true
 dependencies:
   config:
     - comment.type.comment
   module:
     - comment
-_core:
-  default_config_hash: uETe6XupRGKDForx2MpY0pMOEu6CzGgdCAZZOKkbgmk
 id: comment.comment
 targetEntityType: comment
 bundle: comment

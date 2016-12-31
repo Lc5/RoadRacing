@@ -1,0 +1,30 @@
+uuid: a555783c-26b1-4208-aff5-1fcec18d1c20
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.frontpage
+  module:
+    - system
+    - views
+  theme:
+    - magazine
+id: views_block__frontpage_block_1
+theme: magazine
+region: content
+weight: -27
+provider: null
+plugin: 'views_block:frontpage-block_1'
+settings:
+  id: 'views_block:frontpage-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: "/category/golf\r\n/category/tennis\r\n/golf"
+    negate: false
+    context_mapping: {  }

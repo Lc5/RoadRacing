@@ -1,0 +1,16 @@
+uuid: eecc13c6-8da6-4de9-a949-de776011d529
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.bet_odds
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+id: node.bet_odds
+target_entity_type_id: node
+target_bundle: bet_odds
+default_langcode: site_default
+language_alterable: true

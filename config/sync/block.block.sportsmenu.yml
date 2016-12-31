@@ -1,0 +1,24 @@
+uuid: b2c7410a-9dd4-4322-bea1-e4a2ae63f920
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.sports-menu
+  module:
+    - system
+  theme:
+    - magazine
+id: sportsmenu
+theme: magazine
+region: sports_menu
+weight: -29
+provider: null
+plugin: 'system_menu_block:sports-menu'
+settings:
+  id: 'system_menu_block:sports-menu'
+  label: 'Sports menu'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+visibility: {  }

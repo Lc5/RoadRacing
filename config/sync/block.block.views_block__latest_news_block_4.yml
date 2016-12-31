@@ -1,0 +1,30 @@
+uuid: 58190dcf-14a5-431e-a64b-3a140b39138c
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.latest_news
+  module:
+    - system
+    - views
+  theme:
+    - magazine
+id: views_block__latest_news_block_4
+theme: magazine
+region: content
+weight: -16
+provider: null
+plugin: 'views_block:latest_news-block_4'
+settings:
+  id: 'views_block:latest_news-block_4'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: /category/football
+    negate: false
+    context_mapping: {  }

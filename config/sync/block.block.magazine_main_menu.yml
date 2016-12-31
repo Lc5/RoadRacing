@@ -1,5 +1,5 @@
-uuid: 2f31b916-b2ed-4e00-a7ff-4c329e9f4797
-langcode: pl
+uuid: 7d249b62-afb9-4799-a05b-77ab5d1bdd8e
+langcode: en
 status: true
 dependencies:
   config:
@@ -8,8 +8,6 @@ dependencies:
     - system
   theme:
     - magazine
-_core:
-  default_config_hash: rx9IrdDv7Ldc4kpalZAxdhIPZfYIeOMh1N-qKoQZwHo
 id: magazine_main_menu
 theme: magazine
 region: primary_menu
@@ -18,7 +16,7 @@ provider: null
 plugin: 'system_menu_block:main'
 settings:
   id: 'system_menu_block:main'
-  label: 'Główna nawigacja'
+  label: 'Main navigation'
   provider: system
   label_display: '0'
   level: 1

@@ -1,0 +1,23 @@
+uuid: 1f31c899-836d-4ad8-a6eb-c6a697deb8d1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_home
+    - node.type.bet_odds
+id: node.bet_odds.field_home
+field_name: field_home
+entity_type: node
+bundle: bet_odds
+label: Home
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: float

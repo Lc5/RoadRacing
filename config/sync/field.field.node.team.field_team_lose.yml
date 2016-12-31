@@ -1,0 +1,25 @@
+uuid: eb99f367-8405-442d-9951-9a696fb2d18d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_team_lose
+    - node.type.team
+id: node.team.field_team_lose
+field_name: field_team_lose
+entity_type: node
+bundle: team
+label: Lose
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

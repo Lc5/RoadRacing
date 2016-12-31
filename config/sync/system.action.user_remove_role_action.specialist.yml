@@ -1,0 +1,14 @@
+uuid: 77409b90-2233-4d8a-9591-71de095d1c7e
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.specialist
+  module:
+    - user
+id: user_remove_role_action.specialist
+label: 'Remove the specialist role from the selected users'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: specialist

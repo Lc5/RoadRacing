@@ -1,13 +1,11 @@
-uuid: 17c993e9-86bc-4119-a08b-8cbcd5905fbd
-langcode: pl
+uuid: 5eaa2213-ed3e-4457-a106-bf1789f2b3e6
+langcode: en
 status: true
 dependencies:
   module:
     - node
-_core:
-  default_config_hash: U9HspszLxcw6pZmRacFa6yDbbheyMN-We4fPbrWWHGg
 id: node_save_action
-label: 'Zapisz zawartość'
+label: 'Save content'
 type: node
 plugin: node_save_action
 configuration: {  }

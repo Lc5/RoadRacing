@@ -1,0 +1,27 @@
+uuid: 9cdaa423-b06d-4a4d-979d-fcb943f4afb0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_team
+    - node.type.blogs
+    - taxonomy.vocabulary.team
+id: node.blogs.field_team
+field_name: field_team
+entity_type: node
+bundle: blogs
+label: Team
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      team: team
+    sort:
+      field: _none
+    auto_create: false
+field_type: entity_reference

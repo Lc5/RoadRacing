@@ -1,0 +1,27 @@
+uuid: 4b25f154-fc74-4c6d-8751-23ff1bb681ab
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_leagues
+    - node.type.team
+    - taxonomy.vocabulary.leagues
+id: node.team.field_leagues
+field_name: field_leagues
+entity_type: node
+bundle: team
+label: Leagues
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      leagues: leagues
+    sort:
+      field: _none
+    auto_create: false
+field_type: entity_reference

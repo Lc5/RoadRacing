@@ -1,0 +1,20 @@
+uuid: e6593455-fd2b-4744-9ec1-ef522ef85555
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.blogs
+  module:
+    - path
+id: node.blogs.path
+field_name: path
+entity_type: node
+bundle: blogs
+label: 'URL alias'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

@@ -1,0 +1,33 @@
+uuid: 6643c4e2-f635-47ae-b65f-6124db9b5d2b
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.bbc_tweets.body
+    - field.field.node.bbc_tweets.field_html_title
+    - field.field.node.bbc_tweets.field_image
+    - field.field.node.bbc_tweets.field_show_images
+    - node.type.bbc_tweets
+  module:
+    - text
+    - user
+id: node.bbc_tweets.teaser
+targetEntityType: node
+bundle: bbc_tweets
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+  links:
+    weight: 100
+hidden:
+  field_html_title: true
+  field_image: true
+  field_show_images: true
+  langcode: true

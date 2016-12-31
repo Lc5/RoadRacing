@@ -1,0 +1,31 @@
+uuid: 6d0e199c-ebed-416c-9209-a1332d520b8d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.team.field_image
+    - taxonomy.vocabulary.team
+  module:
+    - image
+    - text
+id: taxonomy_term.team.default
+targetEntityType: taxonomy_term
+bundle: team
+mode: default
+content:
+  description:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+  field_image:
+    weight: 1
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+hidden:
+  langcode: true

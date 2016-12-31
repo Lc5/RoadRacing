@@ -1,0 +1,30 @@
+uuid: d182d734-0c2c-4919-a0d9-25ed836f90cf
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.top_headlines
+  module:
+    - system
+    - views
+  theme:
+    - magazine
+id: views_block__top_headlines_block_2_2
+theme: magazine
+region: content
+weight: -23
+provider: null
+plugin: 'views_block:top_headlines-block_2'
+settings:
+  id: 'views_block:top_headlines-block_2'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: /rugby-union
+    negate: false
+    context_mapping: {  }

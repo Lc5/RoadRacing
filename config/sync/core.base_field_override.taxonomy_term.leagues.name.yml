@@ -1,0 +1,18 @@
+uuid: fc6d904a-8f09-4d8e-9e17-f18be5ede2d2
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.leagues
+id: taxonomy_term.leagues.name
+field_name: name
+entity_type: taxonomy_term
+bundle: leagues
+label: Name
+description: 'The term name.'
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

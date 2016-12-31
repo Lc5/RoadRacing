@@ -1,10 +1,8 @@
-uuid: e303770a-0c74-4dc0-bc8a-08d552db8476
-langcode: pl
+uuid: d2db25ec-f8ce-490e-9341-1718e10b63e8
+langcode: en
 status: true
 dependencies: {  }
-_core:
-  default_config_hash: 7yrlW5z9zdg2eBucB2GPqXKSMQfH9lSRSO4DbWF7AFc
 id: footer
-label: Stopka
-description: 'Odnośniki dotyczące informacji o stronie'
+label: Footer
+description: 'Site information links'
 locked: true

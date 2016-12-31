@@ -1,15 +1,13 @@
-uuid: 7a1f7c44-4875-476f-a048-dceee5c92401
-langcode: pl
+uuid: 4bdbb3ed-d80d-482d-a4bc-81451863ffb0
+langcode: en
 status: true
 dependencies:
   theme:
     - magazine
-_core:
-  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
 id: magazine_local_actions
 theme: magazine
 region: content
-weight: -20
+weight: -18
 provider: null
 plugin: local_actions_block
 settings:

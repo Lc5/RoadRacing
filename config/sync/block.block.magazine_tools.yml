@@ -1,6 +1,6 @@
-uuid: d40972d9-dc0d-4740-86fb-003fa83f84a3
-langcode: pl
-status: true
+uuid: b7d23c0e-8f75-4af0-8e2a-14aa769ed59a
+langcode: en
+status: false
 dependencies:
   config:
     - system.menu.tools
@@ -8,17 +8,15 @@ dependencies:
     - system
   theme:
     - magazine
-_core:
-  default_config_hash: NeHSoqm4XFqA7_0bDmR429ZZQt3LRbZMNRJTMsFyOfI
 id: magazine_tools
 theme: magazine
-region: sidebar_first
-weight: 0
+region: '-1'
+weight: -11
 provider: null
 plugin: 'system_menu_block:tools'
 settings:
   id: 'system_menu_block:tools'
-  label: Narzędzia
+  label: Tools
   provider: system
   label_display: visible
   level: 1

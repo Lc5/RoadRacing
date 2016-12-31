@@ -1,0 +1,30 @@
+uuid: e93a21ca-608a-4abe-9e06-c3087be313d2
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.recent_updated
+  module:
+    - system
+    - views
+  theme:
+    - magazine
+id: views_block__recent_updated_block_2
+theme: magazine
+region: content
+weight: -20
+provider: null
+plugin: 'views_block:recent_updated-block_2'
+settings:
+  id: 'views_block:recent_updated-block_2'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

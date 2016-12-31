@@ -1,5 +1,5 @@
-uuid: 9ea46f24-d0c6-4aca-9a62-6b1b3b8b9091
-langcode: pl
+uuid: 87b349fc-1e90-442b-8577-9670bf02d0cc
+langcode: en
 status: true
 dependencies:
   config:
@@ -7,13 +7,11 @@ dependencies:
     - node.type.page
   module:
     - text
-_core:
-  default_config_hash: rUop-8b6hvxxDYbv-KobTfNIBNbPY9qOPl8f6kBNSpw
 id: node.page.body
 field_name: body
 entity_type: node
 bundle: page
-label: Treść
+label: Body
 description: ''
 required: false
 translatable: true

@@ -1,0 +1,30 @@
+uuid: f76f4f83-0f7a-4dfe-875f-98a0faa375b9
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.recent_updated
+  module:
+    - system
+    - views
+  theme:
+    - magazine
+id: views_block__recent_updated_block_5
+theme: magazine
+region: sidebar_second
+weight: -18
+provider: null
+plugin: 'views_block:recent_updated-block_5'
+settings:
+  id: 'views_block:recent_updated-block_5'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: /blogs
+    negate: false
+    context_mapping: {  }

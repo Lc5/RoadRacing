@@ -1,0 +1,15 @@
+uuid: 93bd39b4-65e0-4945-b5cb-49fac5075bb6
+langcode: en
+status: true
+dependencies: {  }
+id: specialist
+label: specialist
+weight: 3
+is_admin: null
+permissions:
+  - 'create article content'
+  - 'delete own article content'
+  - 'edit own article content'
+  - 'create blogs content'
+  - 'delete own blogs content'
+  - 'edit own blogs content'
