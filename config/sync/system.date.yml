@@ -1,8 +1,8 @@
 country:
-  default: TH
+  default: PL
 first_day: 1
 timezone:
-  default: Asia/Bangkok
+  default: Europe/Warsaw
   user:
     configurable: true
     warn: false

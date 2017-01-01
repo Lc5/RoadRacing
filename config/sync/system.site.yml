@@ -1,6 +1,6 @@
 uuid: 0b563ebf-8a76-4d4d-9bcd-cd86e3a348a2
-name: Magazine
-mail: admin@lvh.me
+name: 'Road racing'
+mail: lukasz.krzyszczak@gmail.com
 slogan: ''
 page:
   403: ''
@@ -10,3 +10,4 @@ admin_compact_mode: false
 weight_select_max: 100
 langcode: en
 default_langcode: en
+mail_notification: ''
