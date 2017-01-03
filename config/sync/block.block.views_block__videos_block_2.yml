@@ -12,7 +12,7 @@ dependencies:
 id: views_block__videos_block_2
 theme: magazine
 region: sidebar_first
-weight: -29
+weight: -28
 provider: null
 plugin: 'views_block:videos-block_2'
 settings:

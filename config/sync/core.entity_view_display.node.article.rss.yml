@@ -10,7 +10,6 @@ dependencies:
     - field.field.node.article.field_image
     - field.field.node.article.field_slideshow
     - field.field.node.article.field_tags
-    - field.field.node.article.field_team
     - node.type.article
   module:
     - user
@@ -28,5 +27,4 @@ hidden:
   field_image: true
   field_slideshow: true
   field_tags: true
-  field_team: true
   langcode: true

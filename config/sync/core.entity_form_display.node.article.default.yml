@@ -9,7 +9,6 @@ dependencies:
     - field.field.node.article.field_image
     - field.field.node.article.field_slideshow
     - field.field.node.article.field_tags
-    - field.field.node.article.field_team
     - image.style.thumbnail
     - node.type.article
   module:
@@ -67,11 +66,6 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-  field_team:
-    weight: 7
-    settings: {  }
-    third_party_settings: {  }
-    type: options_select
   langcode:
     type: language_select
     weight: 2

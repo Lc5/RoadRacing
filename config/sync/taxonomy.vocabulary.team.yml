@@ -1,9 +1,0 @@
-uuid: bc54bc54-5c4f-47a8-86bd-6767dffa79d6
-langcode: en
-status: true
-dependencies: {  }
-name: Team
-vid: team
-description: ''
-hierarchy: 0
-weight: 0

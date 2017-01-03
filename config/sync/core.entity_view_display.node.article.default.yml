@@ -3,13 +3,13 @@ langcode: en
 status: true
 dependencies:
   config:
+    - core.entity_view_display.comment.comment.default
     - field.field.node.article.body
     - field.field.node.article.comment
     - field.field.node.article.field_category
     - field.field.node.article.field_image
     - field.field.node.article.field_slideshow
     - field.field.node.article.field_tags
-    - field.field.node.article.field_team
     - image.style.large
     - node.type.article
   module:
@@ -58,13 +58,6 @@ content:
     settings:
       link: true
     third_party_settings: {  }
-  field_team:
-    weight: 2
-    label: inline
-    settings:
-      link: false
-    third_party_settings: {  }
-    type: entity_reference_label
 hidden:
   field_slideshow: true
   langcode: true

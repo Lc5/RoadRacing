@@ -15,7 +15,7 @@ dependencies:
     - text
     - user
 id: bbc_tweets
-label: 'BBC Tweets'
+label: Tweets
 module: views
 description: ''
 tag: ''
@@ -356,7 +356,7 @@ display:
           expose:
             label: ''
           granularity: second
-      title: 'BBC Tweets'
+      title: Tweets
       header: {  }
       footer: {  }
       empty: {  }
@@ -378,12 +378,12 @@ display:
   block_1:
     display_plugin: block
     id: block_1
-    display_title: 'BBC Tweets'
+    display_title: Tweets
     position: 1
     display_options:
       display_extenders: {  }
       display_description: ''
-      block_description: 'BBC Tweets'
+      block_description: Tweets
       css_class: wp-horizonal-list-thumb
       defaults:
         css_class: false

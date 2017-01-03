@@ -1,6 +1,6 @@
 uuid: a1c3e95e-1ba7-4f0c-81ab-308bcdf711bf
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - views.view.bbc_tweets
@@ -10,8 +10,8 @@ dependencies:
     - magazine
 id: views_block__bbc_tweets_block_1
 theme: magazine
-region: panel_fifth_5
-weight: -15
+region: '-1'
+weight: -23
 provider: null
 plugin: 'views_block:bbc_tweets-block_1'
 settings:

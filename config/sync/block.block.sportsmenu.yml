@@ -11,7 +11,7 @@ dependencies:
 id: sportsmenu
 theme: magazine
 region: sports_menu
-weight: -29
+weight: -28
 provider: null
 plugin: 'system_menu_block:sports-menu'
 settings:

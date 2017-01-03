@@ -1,8 +1,0 @@
-uuid: 9b8a7943-ffe6-4ac4-a0fa-20185a83834a
-langcode: en
-status: true
-dependencies: {  }
-id: bet-odds
-label: Bet/Odds
-description: ''
-locked: false
