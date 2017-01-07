@@ -2420,7 +2420,7 @@ a.btn-btt:hover, a.btn-btt:active, a.btn-btt:focus {
   width: 100%;
 }
 .slideshow .flex-direction-nav a:hover, .slideshow .flex-direction-nav a:focus {
-  background: rgba(235, 106, 20, 0.95);
+  background: #ef1c07;
 }
 .slideshow .flex-direction-nav a.flex-next {
   right: 30px;
