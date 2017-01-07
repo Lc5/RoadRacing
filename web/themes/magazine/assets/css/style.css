@@ -65,7 +65,7 @@ a {
   outline: none;
 }
 a:hover, a:focus {
-  color: #eb6a14;
+  color: #ef1c07;
   outline: none;
   text-decoration: none;
 }
@@ -124,7 +124,7 @@ iframe {
   position: relative;
 }
 .wp-special-button > li {
-  background-color: #2caaa6;
+  background-color: #294f9d;
   cursor: pointer;
   display: block;
   float: left;
@@ -135,7 +135,7 @@ iframe {
   width: 30px;
 }
 .wp-special-button > li:hover, .wp-special-button > li:focus {
-  background-color: #eb6a14;
+  background-color: #ef1c07;
 }
 .wp-special-button > li:hover a, .wp-special-button > li:hover a:hover, .wp-special-button > li:hover a:focus, .wp-special-button > li:focus a, .wp-special-button > li:focus a:hover, .wp-special-button > li:focus a:focus {
   color: #fff;
@@ -208,7 +208,7 @@ iframe {
     background: none;
   }
   .primary-menu ul.menu li.menu-item--active-trail a {
-    color: #2caaa6;
+    color: #294f9d;
   }
   .primary-menu ul.menu li a {
     color: #fff;
@@ -217,7 +217,7 @@ iframe {
     margin-left: 30px;
   }
   .primary-menu ul.menu li a:hover, .primary-menu ul.menu li a:focus, .primary-menu ul.menu li a.is-active {
-    color: #2caaa6;
+    color: #294f9d;
   }
 
   .menu--sports-menu {
@@ -236,7 +236,7 @@ iframe {
     white-space: nowrap;
   }
   .menu--sports-menu > ul.menu {
-    background-color: #eb6a14;
+    background-color: #ef1c07;
   }
   .menu--sports-menu > ul.menu:before, .menu--sports-menu > ul.menu:after {
     content: " ";
@@ -282,7 +282,7 @@ iframe {
     padding: 7px 0;
   }
   .menu--sports-menu > ul.menu .menu-item--expanded li a:hover, .menu--sports-menu > ul.menu .menu-item--expanded li a:focus, .menu--sports-menu > ul.menu .menu-item--expanded li a.is-active {
-    color: #2caaa6;
+    color: #294f9d;
   }
   .menu--sports-menu > ul.menu .menu-item--expanded li + li a {
     border-top: 1px solid #373737;
@@ -329,7 +329,7 @@ iframe {
   }
 
   .btn-close:hover, .btn-close:focus {
-    color: #2caaa6;
+    color: #294f9d;
   }
 
   .overlay {
@@ -358,11 +358,11 @@ iframe {
     color: #000;
   }
   #header a.navbar-toggle {
-    background-color: #2caaa6;
+    background-color: #294f9d;
     margin: 30px 10px 0 0;
   }
   #header a.navbar-toggle:hover, #header a.navbar-toggle:focus {
-    background-color: #eb6a14;
+    background-color: #ef1c07;
     color: #fff;
   }
   a.navbar-toggle .nc-icon-outline:before {
@@ -376,7 +376,7 @@ iframe {
   }
 
   #sports-menu-wrapper {
-    background-color: #eb6a14;
+    background-color: #ef1c07;
   }
 
   /* end nav */
@@ -434,7 +434,7 @@ iframe {
   #sports-menu.mobile-main-menu ul.menu li a:hover,
   #sports-menu.mobile-main-menu ul.menu li a:focus,
   #sports-menu.mobile-main-menu ul.menu li a.is-active {
-    color: #2caaa6;
+    color: #294f9d;
   }
   #primary-menu.mobile-main-menu ul.menu li a:hover:before, #primary-menu.mobile-main-menu ul.menu li a:focus:before,
   #sports-menu.mobile-main-menu ul.menu li a:hover:before,
@@ -514,7 +514,7 @@ iframe {
 }
 .footer a:hover, .footer a:focus, .footer a.is-active {
   background: none;
-  color: #2caaa6;
+  color: #294f9d;
 }
 .footer ul.menu {
   margin: 0;
@@ -534,10 +534,10 @@ iframe {
   margin-left: 20px;
 }
 .footer ul.menu a.is-active {
-  color: #2caaa6;
+  color: #294f9d;
 }
 .footer .block-system-powered-by-block .content a {
-  color: #2caaa6;
+  color: #294f9d;
 }
 .footer .block-system-powered-by-block .content a:hover, .footer .block-system-powered-by-block .content a:focus {
   color: #fff;
@@ -814,7 +814,7 @@ iframe {
 }
 
 .button--primary {
-  background-color: #2caaa6;
+  background-color: #294f9d;
 }
 .button--primary:hover {
   background-color: rgba(44, 170, 166, 0.5);
@@ -825,29 +825,29 @@ iframe {
   font-size: 0.85714em;
 }
 .views-field-view-node a, .more-link a {
-  background: #2caaa6;
+  background: #294f9d;
   color: #fff;
   display: inline-block;
   font-weight: 400;
   padding: 2px 8px 2px;
 }
 .views-field-view-node a:hover, .views-field-view-node a:focus, .more-link a:hover, .more-link a:focus {
-  background: #eb6a14;
+  background: #ef1c07;
 }
 
 .views-field-nothing a {
-  background: #2caaa6;
+  background: #294f9d;
   color: #fff;
   display: inline-block;
   font-weight: 400;
   padding: 2px 8px 2px;
 }
 .views-field-nothing a:hover, .views-field-nothing a:focus {
-  background: #eb6a14;
+  background: #ef1c07;
 }
 
 .views-field-changed, .views-field-created, .node__meta, .comment__meta, .search-result__info {
-  color: #eb6a14;
+  color: #ef1c07;
   display: block;
   font-size: 0.85714em;
   margin-bottom: 5px;
@@ -903,7 +903,7 @@ iframe {
   display: none;
 }
 .social-list a:hover, .social-list a:focus {
-  background-color: #2caaa6;
+  background-color: #294f9d;
   color: #fff;
 }
 .social-list a .icons:before {
@@ -947,7 +947,7 @@ a.btn-btt:after {
   width: 100%;
 }
 a.btn-btt:hover, a.btn-btt:active, a.btn-btt:focus {
-  background-color: #2caaa6;
+  background-color: #294f9d;
 }
 
 .node__content .field--type-image, .node__content .field--name-field-category, .node__content .field--name-field-video, .node__content .field--name-field-tags {
@@ -988,7 +988,7 @@ a.btn-btt:hover, a.btn-btt:active, a.btn-btt:focus {
 }
 
 .search-result__snippet strong {
-  color: #eb6a14;
+  color: #ef1c07;
 }
 
 /* Pager */
@@ -1017,12 +1017,12 @@ a.btn-btt:hover, a.btn-btt:active, a.btn-btt:focus {
 .pager li > a:hover,
 .pager li > a:focus {
   background-color: #fff;
-  border: 1px solid #2caaa6;
-  color: #2caaa6;
+  border: 1px solid #294f9d;
+  color: #294f9d;
 }
 .pager li.is-active a, .pager li.is-active span {
-  border: 1px solid #2caaa6;
-  color: #2caaa6;
+  border: 1px solid #294f9d;
+  color: #294f9d;
 }
 
 .pager__items {
@@ -1044,7 +1044,7 @@ a.btn-btt:hover, a.btn-btt:active, a.btn-btt:focus {
 }
 .wp-table-view table {
   width: 100%;
-  background-color: #2caaa6;
+  background-color: #294f9d;
 }
 .wp-table-view th {
   border-bottom: none;
@@ -1099,11 +1099,11 @@ a.btn-btt:hover, a.btn-btt:active, a.btn-btt:focus {
   color: #fff;
 }
 #block-userlogin .item-list a:hover, #block-userlogin .item-list a:focus {
-  color: #eb6a14;
+  color: #ef1c07;
 }
 
 .sidebar-first .block h2, .panel_first .block h2, .panel_third .block h2, .panel_fourth .block h2 {
-  border-color: #dedede #dedede #eb6a14 transparent;
+  border-color: #dedede #dedede #ef1c07 transparent;
   border-style: solid;
   border-width: 1px 1px 3px 0;
   font-family: "oregon_ldoregular", sans-serif;
@@ -1113,7 +1113,7 @@ a.btn-btt:hover, a.btn-btt:active, a.btn-btt:focus {
   position: relative;
 }
 .sidebar-first .block h2 span, .panel_first .block h2 span, .panel_third .block h2 span, .panel_fourth .block h2 span {
-  background: #eb6a14;
+  background: #ef1c07;
   color: #fff;
   display: inline-block;
   margin-top: -1px;
@@ -1125,7 +1125,7 @@ a.btn-btt:hover, a.btn-btt:active, a.btn-btt:focus {
 }
 .sidebar-first .block.wp-no-style-block h2 span, .panel_first .block.wp-no-style-block h2 span, .panel_third .block.wp-no-style-block h2 span, .panel_fourth .block.wp-no-style-block h2 span {
   background: none;
-  color: #eb6a14;
+  color: #ef1c07;
   padding: 0;
   margin-top: 0;
 }
@@ -1157,12 +1157,12 @@ a.btn-btt:hover, a.btn-btt:active, a.btn-btt:focus {
   left: 2px;
 }
 .sidebar ul.menu li a:hover:before, .sidebar ul.menu li a:focus:before {
-  border-right-color: #eb6a14;
+  border-right-color: #ef1c07;
 }
 
 /******/
 .block-views-blockpremier-league-block-1 .views-table {
-  background: #2caaa6;
+  background: #294f9d;
   color: #fff;
   width: 100%;
 }
@@ -1234,12 +1234,12 @@ a.btn-btt:hover, a.btn-btt:active, a.btn-btt:focus {
   font-family: "oregon_ldoregular", sans-serif;
 }
 .block-views-blockother-lastest-news-block-1 .item-list a:hover, .block-views-blockother-lastest-news-block-1 .item-list a:focus {
-  color: #eb6a14;
+  color: #ef1c07;
 }
 
 .sidebar-second h2 {
   border: none;
-  border-left: 5px solid #eb6a14;
+  border-left: 5px solid #ef1c07;
   color: #121212;
   font-size: 1.71429em;
   line-height: 1;
@@ -1267,13 +1267,13 @@ a.btn-btt:hover, a.btn-btt:active, a.btn-btt:focus {
 
 /* Trending View */
 .block-views-blocktrending-now-block-1, .block-views-blockbet-odds-block-1 {
-  border: 5px solid #eb6a14;
+  border: 5px solid #ef1c07;
   margin-top: 10px;
   padding: 0 30px 30px;
   text-align: center;
 }
 .block-views-blocktrending-now-block-1 h2, .block-views-blockbet-odds-block-1 h2 {
-  background-color: #eb6a14;
+  background-color: #ef1c07;
   border: none;
   color: #fff;
   font-family: "Roboto", sans-serif;
@@ -1293,7 +1293,7 @@ a.btn-btt:hover, a.btn-btt:active, a.btn-btt:focus {
   display: block;
 }
 .block-views-blocktrending-now-block-1 h2:before, .block-views-blockbet-odds-block-1 h2:before {
-  border-color: #eb6a14 transparent;
+  border-color: #ef1c07 transparent;
   border-style: solid solid none;
   border-width: 30px 92px 0;
   bottom: -30px;
@@ -1336,7 +1336,7 @@ a.btn-btt:hover, a.btn-btt:active, a.btn-btt:focus {
   padding: 40px 0 0;
 }
 .quote-custom-block blockquote:before, .quote-custom-block blockquote:after {
-  color: #eb6a14;
+  color: #ef1c07;
   font-size: 1.85714em;
   position: absolute;
   font-family: Tunga, sans-serif;
@@ -1373,7 +1373,7 @@ a.btn-btt:hover, a.btn-btt:active, a.btn-btt:focus {
   padding: 0 10px;
 }
 .wp-bet-odds .field-group-wrapper .field-content {
-  background-color: #eb6a14;
+  background-color: #ef1c07;
   color: #fff;
   font-size: 1.14286em;
   font-weight: 700;
@@ -1400,12 +1400,12 @@ a.btn-btt:hover, a.btn-btt:active, a.btn-btt:focus {
   padding: 10px 0;
 }
 .wp-bet-odds-main .views-field-field-category a {
-  color: #eb6a14;
+  color: #ef1c07;
   font-size: 1em;
   font-weight: 700;
 }
 .wp-bet-odds-main .views-field-field-category a:hover, .wp-bet-odds-main .views-field-field-category a:focus {
-  color: #2caaa6;
+  color: #294f9d;
 }
 @media (min-width: 320px) {
   .wp-bet-odds-main .views-field-changed {
@@ -1472,8 +1472,8 @@ a.btn-btt:hover, a.btn-btt:active, a.btn-btt:focus {
   margin: 0;
 }
 #search-block-form input.form-search {
-  background: #2caaa6;
-  border: 1px solid #2caaa6;
+  background: #294f9d;
+  border: 1px solid #294f9d;
   color: #fff;
   height: 30px;
   padding: 0;
@@ -1487,7 +1487,7 @@ a.btn-btt:hover, a.btn-btt:active, a.btn-btt:focus {
   z-index: 1;
 }
 #search-block-form .form-submit {
-  background-color: #2caaa6;
+  background-color: #294f9d;
   border: none;
   height: 30px;
   margin: 0;
@@ -1521,8 +1521,8 @@ a.btn-btt:hover, a.btn-btt:active, a.btn-btt:focus {
   background: none !important;
 }
 #search-block-form:hover input.form-search, #search-block-form:focus input.form-search {
-  background-color: #eb6a14;
-  border-color: #eb6a14;
+  background-color: #ef1c07;
+  border-color: #ef1c07;
   padding-left: 6px;
   text-indent: 5px;
   padding-right: 30px;
@@ -1676,7 +1676,7 @@ a.btn-btt:hover, a.btn-btt:active, a.btn-btt:focus {
   color: #fff;
 }
 .thumbslider-content .views-field-title a:hover, .thumbslider-content .views-field-title a:focus {
-  color: #eb6a14;
+  color: #ef1c07;
 }
 .thumbslider-content .views-field-body {
   font-size: 0.92857em;
@@ -1705,7 +1705,7 @@ a.btn-btt:hover, a.btn-btt:active, a.btn-btt:focus {
   width: 100%;
 }
 .jssora05l:hover, .jssora05l:focus, .jssora05r:hover, .jssora05r:focus {
-  background: #eb6a14;
+  background: #ef1c07;
 }
 
 .jssora05l:before {
@@ -1786,7 +1786,7 @@ a.btn-btt:hover, a.btn-btt:active, a.btn-btt:focus {
   color: #fff;
 }
 .thumbslider-content .views-field-title a:hover, .thumbslider-content .views-field-title a:focus {
-  color: #eb6a14;
+  color: #ef1c07;
 }
 .thumbslider-content .views-field-body {
   font-size: 0.92857em;
@@ -1815,7 +1815,7 @@ a.btn-btt:hover, a.btn-btt:active, a.btn-btt:focus {
   width: 100%;
 }
 .jssora05l:hover, .jssora05l:focus, .jssora05r:hover, .jssora05r:focus {
-  background: #eb6a14;
+  background: #ef1c07;
 }
 
 .jssora05l:before {
@@ -1874,7 +1874,7 @@ a.btn-btt:hover, a.btn-btt:active, a.btn-btt:focus {
   color: #121212;
 }
 .slick-slider .views-field-title a:hover, .slick-slider .views-field-title a:focus {
-  color: #eb6a14;
+  color: #ef1c07;
 }
 .slick-slider .views-field-field-category {
   font-size: 1.57143em;
@@ -1882,14 +1882,14 @@ a.btn-btt:hover, a.btn-btt:active, a.btn-btt:focus {
   line-height: 1;
 }
 .slick-slider .views-field-field-category .field-content {
-  border-left: 5px solid #2caaa6;
+  border-left: 5px solid #294f9d;
   padding-left: 10px;
 }
 .slick-slider .views-field-field-category a {
   color: #121212;
 }
 .slick-slider .views-field-field-category a:hover, .slick-slider .views-field-field-category a:focus {
-  color: #eb6a14;
+  color: #ef1c07;
 }
 .slick-slider .slick-list {
   margin: 0 -15px;
@@ -1921,7 +1921,7 @@ a.btn-btt:hover, a.btn-btt:active, a.btn-btt:focus {
   line-height: 40px;
 }
 .slick-slider .slick-prev:hover, .slick-slider .slick-prev:focus, .slick-slider .slick-next:hover, .slick-slider .slick-next:focus {
-  background: #eb6a14;
+  background: #ef1c07;
 }
 .slick-slider .slick-prev {
   right: 40px;
@@ -2014,7 +2014,7 @@ a.btn-btt:hover, a.btn-btt:active, a.btn-btt:focus {
   width: 40px;
 }
 .views-field-field-video a:hover:after {
-  background-color: #eb6a14;
+  background-color: #ef1c07;
 }
 
 .wp-videos-listing-view .views-row + .views-row {
@@ -2040,7 +2040,7 @@ a.btn-btt:hover, a.btn-btt:active, a.btn-btt:focus {
   z-index: 1;
 }
 .wp-videos-listing-view .views-field-title:hover {
-  background-color: #eb6a14;
+  background-color: #ef1c07;
 }
 .wp-videos-listing-view .views-field-title a {
   color: #fff;
@@ -2070,7 +2070,7 @@ a.btn-btt:hover, a.btn-btt:active, a.btn-btt:focus {
   color: #121212;
 }
 .wp-listing-view .views-field-title a:hover, .wp-listing-view .views-field-title a:focus {
-  color: #eb6a14;
+  color: #ef1c07;
 }
 
 /* Trending View */
@@ -2088,7 +2088,7 @@ a.btn-btt:hover, a.btn-btt:active, a.btn-btt:focus {
   color: #121212;
 }
 .wp-style-trending .views-field-title a:hover, .wp-style-trending .views-field-title a:focus {
-  color: #eb6a14;
+  color: #ef1c07;
 }
 .wp-style-trending .views-field-body {
   font-size: 0.92857em;
@@ -2101,7 +2101,7 @@ a.btn-btt:hover, a.btn-btt:active, a.btn-btt:focus {
 }
 .wp-style-trending .more-link a {
   background-color: transparent;
-  color: #eb6a14;
+  color: #ef1c07;
   font-size: 1.71429em;
 }
 .wp-style-trending .more-link a:hover, .wp-style-trending .more-link a:focus {
@@ -2137,7 +2137,7 @@ a.btn-btt:hover, a.btn-btt:active, a.btn-btt:focus {
   left: 2px;
 }
 .wp-listing-categories-view .item-list li a:hover:before, .wp-listing-categories-view .item-list li a:focus:before {
-  border-right-color: #eb6a14;
+  border-right-color: #ef1c07;
 }
 
 /* wp-listing-post-view */
@@ -2161,13 +2161,13 @@ a.btn-btt:hover, a.btn-btt:active, a.btn-btt:focus {
   margin-bottom: 5px;
 }
 .wp-listing-post-view .views-field-name a {
-  color: #eb6a14;
+  color: #ef1c07;
 }
 .wp-listing-post-view .views-field-field-description {
   color: #121212;
 }
 .wp-listing-post-view .views-field-created {
-  color: #eb6a14;
+  color: #ef1c07;
   font-size: 0.85714em;
   margin-top: 5px;
 }
@@ -2225,7 +2225,7 @@ a.btn-btt:hover, a.btn-btt:active, a.btn-btt:focus {
   z-index: 2;
 }
 .wp-gallery-view .views-field-field-images a:before {
-  background-color: #2caaa6;
+  background-color: #294f9d;
   content: "\e84c";
   font-size: 1.07143em;
   display: inline-block;
@@ -2253,7 +2253,7 @@ a.btn-btt:hover, a.btn-btt:active, a.btn-btt:focus {
 }
 .wp-gallery-view .views-field-field-images a:hover:before,
 .wp-gallery-view .views-field-field-video a:hover:after {
-  background-color: #eb6a14;
+  background-color: #ef1c07;
   opacity: 1;
   filter: alpha(opacity=100);
 }
@@ -2346,8 +2346,8 @@ a.btn-btt:hover, a.btn-btt:active, a.btn-btt:focus {
   padding: 10px;
 }
 .wp-tags a:hover, .wp-tags a:focus {
-  background-color: #eb6a14;
-  border-color: #eb6a14;
+  background-color: #ef1c07;
+  border-color: #ef1c07;
   color: #fff;
 }
 
@@ -2470,7 +2470,7 @@ a.btn-btt:hover, a.btn-btt:active, a.btn-btt:focus {
 
 .panel_fifth {
   background-color: #121212;
-  border-top: 10px solid #eb6a14;
+  border-top: 10px solid #ef1c07;
   font-size: 0.92857em;
   margin-top: -80px;
   padding-top: 120px;
@@ -2501,7 +2501,7 @@ a.btn-btt:hover, a.btn-btt:active, a.btn-btt:focus {
   color: #999;
 }
 .panel_fifth .item-list li a:hover, .panel_fifth .item-list li a:focus {
-  color: #2caaa6;
+  color: #294f9d;
 }
 
 @media (max-width: 1024px) and (min-width: 992px) {

@@ -31,12 +31,6 @@ function magazine_preprocess_page(&$variables) {
   }
 
   skmn_preprocess_page($variables);
-
-  //var_dump($variables);
-  
-  //$variables['logo'] = str_replace('.svg', '.png', $variables['logo']);
-  //print_r($variables);
-  //exit;
 }
 
 function magazine_form_system_theme_settings_alter(&$form, $form_state) {
