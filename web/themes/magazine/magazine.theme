@@ -22,17 +22,4 @@ function magazine_preprocess_page(&$variables) {
     $variables['attributes']['class'][] = 'layout-no-sidebars';
     $variables['page']['main_content_width'] = 12;    
   }
-
-  skmn_preprocess_page($variables);
-}
-
-function magazine_form_system_theme_settings_alter(&$form, $form_state) {
-  
-  skmn_form_system_theme_settings_alter($form, $form_state);
-}
-
-
-function magazine_form_system_theme_settings_submit($form, &$form_state) {
-  
-  skmn_form_system_theme_settings_submit($form, $form_state);
 }
