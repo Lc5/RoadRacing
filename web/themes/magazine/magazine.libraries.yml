@@ -1,15 +1,3 @@
-skins-menu:
-  version: 1.x
-
-  js:
-    assets/includes/skins-menu/skins_menu.js: {}
-
-  dependencies:
-    - core/jquery
-    - core/drupal
-    - core/drupalSettings
-
-
 global-styling:
   version: 8.0.0-rc1
   css:
