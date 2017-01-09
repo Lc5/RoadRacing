@@ -3,13 +3,6 @@
 use Drupal\Component\Utility\Xss;
 use Drupal\Core\Template\Attribute;
 
-$active_theme = \Drupal::theme()->getActiveTheme()->getName();
-include_once(drupal_get_path('theme', $active_theme) . '/assets/includes/skins-menu/skins_menu.inc');
-
-function magazine_preprocess_html(&$variables) {
-  skmn_preprocess_html($variables);
-}
-
 function magazine_preprocess_page(&$variables) {
   if (!empty($variables['page']['sidebar_first']) && !empty($variables['page']['sidebar_second'])) {
     $variables['attributes']['class'][] = 'layout-two-sidebars';
