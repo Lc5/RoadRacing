@@ -2,7 +2,10 @@ uuid: a35d8b2f-ecf7-4405-bec2-11beb082b627
 langcode: en
 status: true
 dependencies:
+  content:
+    - 'block_content:basic:a90704e5-38e3-40dd-9617-ec655bb4f118'
   module:
+    - block_content
     - system
   theme:
     - magazine

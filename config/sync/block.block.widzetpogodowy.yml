@@ -1,9 +1,9 @@
-uuid: d3a8892c-a840-4f1c-a3b0-5d2d0282d7b1
+uuid: 84683374-b7cc-448c-a23b-9f660459358a
 langcode: pl
 status: true
 dependencies:
   content:
-    - 'block_content:basic:0cdd8a26-9139-4d86-ba35-be079466cf27'
+    - 'block_content:basic:e635d023-a3b4-4316-9533-8d20e1171cfc'
   module:
     - block_content
   theme:
@@ -13,9 +13,9 @@ theme: magazine
 region: sidebar_first
 weight: -23
 provider: null
-plugin: 'block_content:0cdd8a26-9139-4d86-ba35-be079466cf27'
+plugin: 'block_content:e635d023-a3b4-4316-9533-8d20e1171cfc'
 settings:
-  id: 'block_content:0cdd8a26-9139-4d86-ba35-be079466cf27'
+  id: 'block_content:e635d023-a3b4-4316-9533-8d20e1171cfc'
   label: 'Widżet pogodowy'
   provider: block_content
   label_display: '0'
