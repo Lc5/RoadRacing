@@ -42,12 +42,12 @@
     <ul class="wp-special-button">
           {% if logged_in %}
             <li class="wp-user-profile">
-              <a href="user" class="wp-icon-user nc-icon-glyph users_single-03"></a>
+              <a href="{{ path('user.page') }}" class="wp-icon-user nc-icon-glyph users_single-03"></a>
             </li>
           {% endif %}
           <li class="wp-user">
             {% if logged_in %}
-            <a href="user/logout" class="wp-icon-user wp-icon-user-login nc-icon-mini arrows-1_log-out"></a>
+            <a href="{{ path('user.logout') }}" class="wp-icon-user wp-icon-user-login nc-icon-mini arrows-1_log-out"></a>
             {% else %}
               <i class="wp-icon-user wp-icon-user-login nc-icon-mini arrows-1_log-in"></i>
             {% endif %}
