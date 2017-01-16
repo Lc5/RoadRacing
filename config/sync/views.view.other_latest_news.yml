@@ -181,7 +181,7 @@ display:
           expose:
             label: ''
           granularity: second
-      title: 'Other Lastest News'
+      title: 'Inne nowe artykuły'
       header: {  }
       footer: {  }
       empty: {  }

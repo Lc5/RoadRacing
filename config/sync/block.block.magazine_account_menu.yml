@@ -11,7 +11,7 @@ dependencies:
 id: magazine_account_menu
 theme: magazine
 region: '-1'
-weight: -24
+weight: -19
 provider: null
 plugin: 'system_menu_block:account'
 settings:

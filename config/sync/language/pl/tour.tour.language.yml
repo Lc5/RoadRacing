@@ -1,0 +1,12 @@
+label: Język
+tips:
+  language-overview:
+    label: Języki
+  language-add:
+    label: 'Dodawanie języków'
+  language-reorder:
+    label: 'Uporządkowanie języków.'
+  language-default:
+    label: 'Ustaw jako język domyślny'
+  language-operations:
+    label: 'Modyfikacja języków'

@@ -1,0 +1,10 @@
+label: 'Edycja języków'
+tips:
+  language-edit-overview:
+    label: 'Edycja języków'
+  language-edit-langcode:
+    label: 'Kod języka'
+  language-edit-label:
+    label: 'Nazwa języka'
+  language-edit-direction:
+    label: 'Kierunek pisowni języka'

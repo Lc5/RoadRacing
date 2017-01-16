@@ -1,5 +1,5 @@
 uuid: fe408d75-0d64-4d39-badb-4d6c6817d6a1
-langcode: en
+langcode: pl
 status: true
 dependencies:
   config:
@@ -25,4 +25,5 @@ content:
     label: hidden
 hidden:
   field_description: true
+  langcode: true
   member_for: true

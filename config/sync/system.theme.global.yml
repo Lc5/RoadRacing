@@ -9,6 +9,7 @@ features:
   favicon: true
   node_user_picture: true
 logo:
-  path: ''
+  path: 'public://logo_5.png'
   url: ''
-  use_default: true
+  use_default: false
+langcode: pl

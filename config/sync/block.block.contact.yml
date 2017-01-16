@@ -12,7 +12,7 @@ dependencies:
 id: contact
 theme: magazine
 region: content
-weight: -26
+weight: -23
 provider: null
 plugin: 'block_content:ded580ae-7e75-4701-994f-6eafb8fe49c7'
 settings:

@@ -325,7 +325,7 @@ display:
           expose:
             label: ''
           granularity: second
-      title: 'Top Headlines'
+      title: 'Wyróżnione artykuły'
       header: {  }
       footer: {  }
       empty: {  }
@@ -533,10 +533,10 @@ display:
           empty_zero: false
           hide_alter_empty: true
           click_sort_column: value
-          type: timestamp_ago
+          type: timestamp
           settings:
-            date_format: medium
-            custom_date_format: ''
+            date_format: custom
+            custom_date_format: d.m.Y
             timezone: ''
           group_column: value
           group_columns: {  }

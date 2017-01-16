@@ -239,7 +239,7 @@ display:
           empty: false
           tokenize: false
           content:
-            value: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ullamcorper vel odio at rutrum. Etiam eleifend purus neque.'
+            value: ''
             format: basic_html
           plugin_id: text
       footer: {  }
@@ -265,18 +265,18 @@ display:
     position: 1
     display_options:
       display_extenders: {  }
-      path: gallery
+      path: galerie
       menu:
         type: normal
-        title: Gallery
-        description: Gallery
+        title: Galerie
+        description: Galerie
         parent: ''
         weight: -47
         context: '0'
         menu_name: main
         enabled: true
         expanded: false
-      title: Gallery
+      title: Galerie
       defaults:
         title: false
         filters: false
@@ -372,7 +372,7 @@ display:
         weight: -50
         context: '0'
         menu_name: main
-        enabled: true
+        enabled: false
         expanded: false
       style:
         type: default

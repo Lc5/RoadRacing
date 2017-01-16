@@ -11,7 +11,7 @@ dependencies:
 id: views_block__bbc_tweets_block_1
 theme: magazine
 region: '-1'
-weight: -23
+weight: -20
 provider: null
 plugin: 'views_block:bbc_tweets-block_1'
 settings:

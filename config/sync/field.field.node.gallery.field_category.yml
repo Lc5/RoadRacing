@@ -10,7 +10,7 @@ id: node.gallery.field_category
 field_name: field_category
 entity_type: node
 bundle: gallery
-label: Category
+label: Kategoria
 description: ''
 required: true
 translatable: true
@@ -24,4 +24,5 @@ settings:
     sort:
       field: _none
     auto_create: false
+    auto_create_bundle: ''
 field_type: entity_reference

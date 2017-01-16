@@ -10,7 +10,6 @@ dependencies:
     - field.field.node.video.field_video
     - node.type.video
   module:
-    - comment
     - text
     - user
     - video_embed_field
@@ -25,14 +24,6 @@ content:
     weight: 3
     settings: {  }
     third_party_settings: {  }
-  comment:
-    weight: 4
-    label: above
-    settings:
-      pager_id: 0
-      view_mode: default
-    third_party_settings: {  }
-    type: comment_default
   field_category:
     weight: 1
     label: inline
@@ -54,8 +45,10 @@ content:
       autoplay: false
       width: 854
       height: 480
+      responsive: true
     third_party_settings: {  }
     type: video_embed_field_video
 hidden:
+  comment: true
   langcode: true
   links: true

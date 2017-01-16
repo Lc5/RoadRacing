@@ -1,5 +1,5 @@
 uuid: 0ede55ae-ca2f-4895-bd95-7bb44363030a
-langcode: en
+langcode: pl
 status: true
 dependencies:
   config:
@@ -8,6 +8,7 @@ dependencies:
     - image.style.thumbnail
   module:
     - image
+    - path
     - text
     - user
 id: user.user.default
@@ -34,6 +35,11 @@ content:
     weight: 3
     settings: {  }
     third_party_settings: {  }
+  path:
+    type: path
+    weight: 30
+    settings: {  }
+    third_party_settings: {  }
   timezone:
     weight: 4
     settings: {  }
@@ -45,4 +51,5 @@ content:
       preview_image_style: thumbnail
     third_party_settings: {  }
     weight: 1
-hidden: {  }
+hidden:
+  langcode: true

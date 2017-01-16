@@ -275,7 +275,7 @@ display:
           expose:
             label: ''
           granularity: second
-      title: Videos
+      title: Video
       header: {  }
       footer: {  }
       empty: {  }

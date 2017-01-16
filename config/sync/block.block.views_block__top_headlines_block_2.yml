@@ -12,7 +12,7 @@ dependencies:
 id: views_block__top_headlines_block_2
 theme: magazine
 region: content
-weight: -21
+weight: -16
 provider: null
 plugin: 'views_block:top_headlines-block_2'
 settings:

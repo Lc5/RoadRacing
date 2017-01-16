@@ -1,5 +1,5 @@
 uuid: 315c8796-07c5-4c6d-ba72-f4501b23f6be
-langcode: en
+langcode: pl
 status: true
 dependencies: {  }
 name: 'Plain text'

@@ -11,7 +11,7 @@ dependencies:
 id: magazine_tools
 theme: magazine
 region: '-1'
-weight: -25
+weight: -21
 provider: null
 plugin: 'system_menu_block:tools'
 settings:

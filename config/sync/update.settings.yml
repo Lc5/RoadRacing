@@ -9,3 +9,4 @@ notification:
   emails:
     - you@yourdomain.com
   threshold: all
+langcode: pl

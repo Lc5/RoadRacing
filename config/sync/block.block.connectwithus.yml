@@ -11,7 +11,7 @@ dependencies:
 id: connectwithus
 theme: magazine
 region: panel_fifth_5
-weight: -28
+weight: -24
 provider: null
 plugin: 'block_content:e50db1b7-3678-4137-8ad1-a5ca58c27411'
 settings:

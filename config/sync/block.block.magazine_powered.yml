@@ -9,7 +9,7 @@ dependencies:
 id: magazine_powered
 theme: magazine
 region: '-1'
-weight: -27
+weight: -22
 provider: null
 plugin: system_powered_by_block
 settings:

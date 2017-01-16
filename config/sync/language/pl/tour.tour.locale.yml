@@ -1,0 +1,16 @@
+label: Tłumaczenie
+tips:
+  locale-overview:
+    label: 'Tłumaczenie interfejsu użytkownika'
+  locale-language:
+    label: 'Język tłumaczenia'
+  locale-search:
+    label: Szukaj
+  locale-filter:
+    label: 'Przefiltruj wyniki wyszukiwania'
+  locale-submit:
+    label: 'Zastosuj swoje kryteria wyszukiwania'
+  locale-translate:
+    label: Tłumaczenia
+  locale-validate:
+    label: 'Potwierdź tłumaczenie'

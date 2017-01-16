@@ -1,6 +1,6 @@
 uuid: c6667b95-6284-4694-9c4c-38ec91d41db7
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - taxonomy.vocabulary.category

@@ -531,7 +531,7 @@ display:
         weight: -48
         context: '0'
         menu_name: main
-        enabled: true
+        enabled: false
         expanded: false
     cache_metadata:
       max-age: -1

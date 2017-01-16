@@ -1,0 +1,23 @@
+uuid: 4dd24f81-9ae1-4b40-9a1b-950a2ab51f3f
+langcode: en
+status: true
+dependencies:
+  module:
+    - ctools
+    - taxonomy
+id: kategoria
+label: Kategoria
+type: 'canonical_entities:taxonomy_term'
+pattern: 'kategoria/[term:parents:join-path]/[term:name]'
+selection_criteria:
+  e7f7f0a0-51c8-433e-bb7a-2ff78e3279af:
+    id: 'entity_bundle:taxonomy_term'
+    bundles:
+      category: category
+    negate: false
+    context_mapping:
+      taxonomy_term: taxonomy_term
+    uuid: e7f7f0a0-51c8-433e-bb7a-2ff78e3279af
+selection_logic: and
+weight: -5
+relationships: {  }

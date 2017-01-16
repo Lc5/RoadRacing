@@ -3,3 +3,4 @@ access_log:
   max_lifetime: 259200
 count_content_views: 0
 display_max_age: 3600
+langcode: pl

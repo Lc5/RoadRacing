@@ -10,7 +10,6 @@ dependencies:
     - field.field.node.gallery.field_tags
     - node.type.gallery
   module:
-    - comment
     - image
     - text
     - user
@@ -25,14 +24,6 @@ content:
     weight: 1
     settings: {  }
     third_party_settings: {  }
-  comment:
-    weight: 4
-    label: above
-    settings:
-      pager_id: 0
-      view_mode: default
-    third_party_settings: {  }
-    type: comment_default
   field_category:
     weight: 2
     label: inline
@@ -56,5 +47,6 @@ content:
     third_party_settings: {  }
     type: entity_reference_label
 hidden:
+  comment: true
   langcode: true
   links: true

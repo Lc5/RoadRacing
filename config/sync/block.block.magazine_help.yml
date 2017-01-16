@@ -9,7 +9,7 @@ dependencies:
 id: magazine_help
 theme: magazine
 region: content
-weight: -19
+weight: -14
 provider: null
 plugin: help_block
 settings:

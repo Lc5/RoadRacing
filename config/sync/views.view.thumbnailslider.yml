@@ -186,7 +186,7 @@ display:
           expose:
             label: ''
           granularity: second
-      title: 'Highlight News'
+      title: 'Wyróżnione artykuły'
       header: {  }
       footer: {  }
       empty: {  }
@@ -309,7 +309,7 @@ display:
           type: timestamp
           settings:
             date_format: custom
-            custom_date_format: 'M d, Y h:ia'
+            custom_date_format: d.m.Y
             timezone: ''
           group_column: value
           group_columns: {  }
@@ -448,7 +448,7 @@ display:
           exclude: false
           alter:
             alter_text: true
-            text: "<div class=\"views-field views-field-view-node\">\n  <span class=\"field-content\"><a href=\"{{ path }}\">Full Story</a></span>\n</div>"
+            text: "<div class=\"views-field views-field-view-node\">\n  <span class=\"field-content\"><a href=\"{{ path }}\">Czytaj dalej</a></span>\n</div>"
             make_link: false
             path: '{{path}} '
             absolute: false

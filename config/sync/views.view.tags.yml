@@ -170,7 +170,7 @@ display:
           entity_field: langcode
           plugin_id: language
       sorts: {  }
-      title: Tags
+      title: Tagi
       header: {  }
       footer: {  }
       empty: {  }

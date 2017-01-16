@@ -1,0 +1,22 @@
+uuid: 68e5956c-fafb-43b8-b306-44be628e0e96
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: galeria
+label: Galeria
+type: 'canonical_entities:node'
+pattern: 'galeria/[node:title]'
+selection_criteria:
+  05150548-08b0-4dd1-a363-867127e88f8d:
+    id: node_type
+    bundles:
+      gallery: gallery
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 05150548-08b0-4dd1-a363-867127e88f8d
+selection_logic: and
+weight: -5
+relationships: {  }

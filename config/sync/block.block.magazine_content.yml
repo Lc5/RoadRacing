@@ -9,7 +9,7 @@ dependencies:
 id: magazine_content
 theme: magazine
 region: content
-weight: -24
+weight: -20
 provider: null
 plugin: system_main_block
 settings:

@@ -1,0 +1,22 @@
+uuid: 6f8ab3ae-8ab5-47d6-a45e-3935154e5714
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: artykul
+label: Artykuł
+type: 'canonical_entities:node'
+pattern: 'artykul/[node:title]'
+selection_criteria:
+  d8b244d3-2f59-4a99-a6e4-dc35b4dcd506:
+    id: node_type
+    bundles:
+      article: article
+    negate: false
+    context_mapping:
+      node: node
+    uuid: d8b244d3-2f59-4a99-a6e4-dc35b4dcd506
+selection_logic: and
+weight: -5
+relationships: {  }

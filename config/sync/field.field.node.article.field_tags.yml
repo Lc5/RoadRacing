@@ -1,5 +1,5 @@
 uuid: 9329a23b-ab6b-4954-bd75-fa0edb65242a
-langcode: en
+langcode: pl
 status: true
 dependencies:
   config:
@@ -10,7 +10,7 @@ id: node.article.field_tags
 field_name: field_tags
 entity_type: node
 bundle: article
-label: Tags
+label: Tagi
 description: 'Enter a comma-separated list. For example: Amsterdam, Mexico City, "Cleveland, Ohio"'
 required: false
 translatable: true
@@ -24,4 +24,5 @@ settings:
     sort:
       field: _none
     auto_create: true
+    auto_create_bundle: ''
 field_type: entity_reference

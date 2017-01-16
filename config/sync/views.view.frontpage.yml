@@ -1,5 +1,5 @@
 uuid: 946d0ea7-1b99-46e3-b371-7294e792235d
-langcode: en
+langcode: pl
 status: true
 dependencies:
   config:
@@ -9,8 +9,6 @@ dependencies:
     - field.storage.node.field_image
     - image.style.large
     - taxonomy.vocabulary.category
-  content:
-    - 'taxonomy_term:category:8cdf372c-195b-450d-a00f-63834d2f6dd4'
   module:
     - image
     - node
@@ -1193,7 +1191,7 @@ display:
           exclude: false
           alter:
             alter_text: true
-            text: "<div class=\"views-field views-field-view-node\">\n  <span class=\"field-content\"><a href=\"{{ path }}\">Full Story</a></span>\n</div>"
+            text: "<div class=\"views-field views-field-view-node\">\n  <span class=\"field-content\"><a href=\"{{ path }}\">Czytaj dalej</a></span>\n</div>"
             make_link: false
             path: '{{ path }} '
             absolute: false
