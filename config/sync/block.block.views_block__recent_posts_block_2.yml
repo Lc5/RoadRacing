@@ -12,7 +12,7 @@ dependencies:
 id: views_block__recent_posts_block_2
 theme: magazine
 region: sidebar_first
-weight: -24
+weight: -21
 provider: null
 plugin: 'views_block:recent_posts-block_2'
 settings:

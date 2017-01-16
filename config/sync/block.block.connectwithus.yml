@@ -2,10 +2,6 @@ uuid: e086e3cc-bb18-486d-8f9c-564a4a897957
 langcode: en
 status: true
 dependencies:
-  content:
-    - 'block_content:basic:e50db1b7-3678-4137-8ad1-a5ca58c27411'
-  module:
-    - block_content
   theme:
     - magazine
 id: connectwithus

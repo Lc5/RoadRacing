@@ -2,10 +2,6 @@ uuid: 4aee2982-2e50-42f5-9674-176c21ade49d
 langcode: en
 status: true
 dependencies:
-  content:
-    - 'block_content:basic:b3c1c6d8-fd6e-4178-9fd4-77ac2b4c7b51'
-  module:
-    - block_content
   theme:
     - magazine
 id: copyright

@@ -1,0 +1,25 @@
+uuid: d3a8892c-a840-4f1c-a3b0-5d2d0282d7b1
+langcode: pl
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:0cdd8a26-9139-4d86-ba35-be079466cf27'
+  module:
+    - block_content
+  theme:
+    - magazine
+id: widzetpogodowy
+theme: magazine
+region: sidebar_first
+weight: -23
+provider: null
+plugin: 'block_content:0cdd8a26-9139-4d86-ba35-be079466cf27'
+settings:
+  id: 'block_content:0cdd8a26-9139-4d86-ba35-be079466cf27'
+  label: 'Widżet pogodowy'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
