@@ -1,0 +1,25 @@
+uuid: 870a638d-5c4b-4a64-8f00-094042c84a1f
+langcode: pl
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:95a83013-fffd-402e-886a-297a594b552c'
+  module:
+    - block_content
+  theme:
+    - magazine
+id: sklep
+theme: magazine
+region: sidebar_first
+weight: -23
+provider: null
+plugin: 'block_content:95a83013-fffd-402e-886a-297a594b552c'
+settings:
+  id: 'block_content:95a83013-fffd-402e-886a-297a594b552c'
+  label: Sklep
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

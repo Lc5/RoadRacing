@@ -12,7 +12,7 @@ dependencies:
 id: views_block__other_latest_news_block_1
 theme: magazine
 region: sidebar_first
-weight: -18
+weight: -17
 provider: null
 plugin: 'views_block:other_latest_news-block_1'
 settings:

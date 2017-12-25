@@ -1,0 +1,25 @@
+uuid: 76e041d8-fb22-44b5-8183-90e54739cb32
+langcode: pl
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:4e68679a-d9bb-4994-b5f3-ae2d88166c4b'
+  module:
+    - block_content
+  theme:
+    - magazine
+id: treningkolarskiztomaszemkiendysiem
+theme: magazine
+region: over_content
+weight: -24
+provider: null
+plugin: 'block_content:4e68679a-d9bb-4994-b5f3-ae2d88166c4b'
+settings:
+  id: 'block_content:4e68679a-d9bb-4994-b5f3-ae2d88166c4b'
+  label: 'Trening Kolarski z Tomaszem Kiendysiem'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

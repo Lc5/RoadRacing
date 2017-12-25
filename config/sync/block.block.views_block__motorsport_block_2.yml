@@ -12,7 +12,7 @@ dependencies:
 id: views_block__motorsport_block_2
 theme: magazine
 region: content
-weight: -19
+weight: -21
 provider: null
 plugin: 'views_block:motorsport-block_2'
 settings:

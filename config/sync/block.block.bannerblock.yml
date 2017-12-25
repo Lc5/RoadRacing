@@ -12,7 +12,7 @@ dependencies:
 id: bannerblock
 theme: magazine
 region: banner
-weight: -21
+weight: -25
 provider: null
 plugin: 'block_content:a90704e5-38e3-40dd-9617-ec655bb4f118'
 settings:

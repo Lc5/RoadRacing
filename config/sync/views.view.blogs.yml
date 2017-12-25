@@ -12,7 +12,6 @@ dependencies:
     - image
     - node
     - text
-    - user
 id: blogs
 label: Blogs
 module: views
@@ -29,9 +28,8 @@ display:
     position: 0
     display_options:
       access:
-        type: perm
-        options:
-          perm: 'access content'
+        type: none
+        options: {  }
       cache:
         type: tag
         options: {  }
@@ -381,7 +379,7 @@ display:
           exclude: false
           alter:
             alter_text: true
-            text: "<div class=\"views-field views-field-view-node\">\n  <span class=\"field-content\"><a href=\"{{ path }}\">Full Story</a></span>\n</div>"
+            text: "<div class=\"views-field views-field-view-node\">\n  <span class=\"field-content\"><a href=\"{{ path }}\">Czytaj Dalej</a></span>\n</div>"
             make_link: false
             path: '{{ path }}'
             absolute: false
@@ -496,7 +494,7 @@ display:
           expose:
             label: ''
           granularity: second
-      title: Blogs
+      title: Blog
       header: {  }
       footer: {  }
       empty: {  }
@@ -511,7 +509,6 @@ display:
         - 'languages:language_interface'
         - url.query_args
         - 'user.node_grants:view'
-        - user.permissions
       tags:
         - 'config:field.storage.node.body'
         - 'config:field.storage.node.field_image'
@@ -522,17 +519,17 @@ display:
     position: 1
     display_options:
       display_extenders: {  }
-      path: blogs
+      path: blog
       menu:
         type: normal
-        title: Blogs
-        description: Blogs
+        title: Blog
+        description: Blog
+        expanded: false
         parent: ''
         weight: -48
         context: '0'
         menu_name: main
         enabled: false
-        expanded: false
     cache_metadata:
       max-age: -1
       contexts:
@@ -540,7 +537,6 @@ display:
         - 'languages:language_interface'
         - url.query_args
         - 'user.node_grants:view'
-        - user.permissions
       tags:
         - 'config:field.storage.node.body'
         - 'config:field.storage.node.field_image'

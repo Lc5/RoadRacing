@@ -7,7 +7,7 @@ dependencies:
 id: magazine_local_tasks
 theme: magazine
 region: content
-weight: -12
+weight: -14
 provider: null
 plugin: local_tasks_block
 settings:
